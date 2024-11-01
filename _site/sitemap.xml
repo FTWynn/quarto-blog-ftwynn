@@ -224,4 +224,16 @@
     <loc>https://www.ftwynn.com/me/index.html</loc>
     <lastmod>2024-11-01T14:35:44.110Z</lastmod>
   </url>
+  <url>
+    <loc>https://www.ftwynn.com/posts/creating-a-post-api-for-hugo/index.html</loc>
+    <lastmod>2024-11-01T14:53:58.742Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ftwynn.com/index.html</loc>
+    <lastmod>2024-10-31T20:11:16.854Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ftwynn.com/posts/cicd-on-hugo/index.html</loc>
+    <lastmod>2024-10-31T14:49:09.628Z</lastmod>
+  </url>
 </urlset>

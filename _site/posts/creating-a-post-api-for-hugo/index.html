@@ -104,6 +104,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="For the Wynn - Creating a POST API for Hugo">
+<meta property="og:description" content="Writing About Things… For the Wynn">
+<meta property="og:site_name" content="For the Wynn">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="For the Wynn - Creating a POST API for Hugo">
+<meta name="twitter:description" content="Writing About Things… For the Wynn">
+<meta name="twitter:creator" content="@ftwynn">
+<meta name="twitter:site" content="@ftwynn">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -198,7 +207,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="sketching-it-out" class="level2">
 <h2 class="anchored" data-anchor-id="sketching-it-out">Sketching It Out</h2>
-<p>The end state of this seemed pretty clear: I needed an api that would take a post, put a file in the repo, and then commit it, kicking off the build process I <a href="[relref []{.quarto-shortcode__-param data-is-shortcode=&quot;1&quot; data-value=&quot;cicd-on-hugo.md&quot; data-raw=&quot;&quot;cicd-on-hugo.md&quot;&quot;} ]{.quarto-shortcode__ data-is-shortcode=&quot;1&quot; data-raw=&quot;{{< relref &quot;cicd-on-hugo.md&quot; >}}&quot;}">established in a previous post</a>.</p>
+<p>The end state of this seemed pretty clear: I needed an api that would take a post, put a file in the repo, and then commit it, kicking off the build process I <a href="../../posts/cicd-on-hugo">established in a previous post</a>.</p>
 <p>An api on the source control side to add a file to a repo would’ve been great, but Cloud Source Repositories don’t seem to have that. So… dead end there.</p>
 <p>Running a server to do a git pull, commit, and push was an option… but it seemed overly cumbersome for the goal. Nevermind that I don’t really want to manage a whole server just for this, and the costs would break the current “willing to spend” budget of zero dollars.</p>
 <p><a href="https://cloud.google.com/functions/">Cloud Functions</a> fit the bill for the front-end API layer (and has a generous free tier), but there’s not an easy way to run the hugo or git commands from within node.</p>
@@ -419,7 +428,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("http:\/\/www\.ftwynn\.com");
+      var filterRegex = new RegExp("https:\/\/www\.ftwynn\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

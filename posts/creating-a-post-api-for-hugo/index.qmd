@@ -22,7 +22,7 @@ Second, I wanted to build an IndieWeb capable endpoint, and to my knowledge Stat
 
 ## Sketching It Out
 
-The end state of this seemed pretty clear: I needed an api that would take a post, put a file in the repo, and then commit it, kicking off the build process I [established in a previous post]({{< relref "cicd-on-hugo.md" >}}).
+The end state of this seemed pretty clear: I needed an api that would take a post, put a file in the repo, and then commit it, kicking off the build process I [established in a previous post](/posts/cicd-on-hugo).
 
 An api on the source control side to add a file to a repo would've been great, but Cloud Source Repositories don't seem to have that. So... dead end there.
 

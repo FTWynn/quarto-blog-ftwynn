@@ -6,14 +6,14 @@
       version="2.0">
 <channel>
 <title>For the Wynn</title>
-<link>http://www.ftwynn.com/</link>
-<atom:link href="http://www.ftwynn.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://www.ftwynn.com/</link>
+<atom:link href="https://www.ftwynn.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>Writing About Things... For the Wynn</description>
 <generator>quarto-1.4.554</generator>
 <lastBuildDate>Thu, 14 Mar 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>TestGuild DevOps Toolchain Podcast 2024-03</title>
-  <link>http://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/</link>
+  <link>https://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/</link>
   <description><![CDATA[ 
 
 
@@ -36,12 +36,12 @@
  ]]></description>
   <category>Technology</category>
   <category>Recordings</category>
-  <guid>http://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/</guid>
+  <guid>https://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/</guid>
   <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Cisco DevNet 2023-10</title>
-  <link>http://www.ftwynn.com/posts/Cisco-DevNet-2023-10/</link>
+  <link>https://www.ftwynn.com/posts/Cisco-DevNet-2023-10/</link>
   <description><![CDATA[ 
 
 
@@ -60,12 +60,12 @@
  ]]></description>
   <category>Technology</category>
   <category>Recordings</category>
-  <guid>http://www.ftwynn.com/posts/Cisco-DevNet-2023-10/</guid>
+  <guid>https://www.ftwynn.com/posts/Cisco-DevNet-2023-10/</guid>
   <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Evolution of Observability Practices 2023 10</title>
-  <link>http://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/</link>
+  <link>https://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/</link>
   <description><![CDATA[ 
 
 
@@ -85,12 +85,12 @@
  ]]></description>
   <category>Technology</category>
   <category>Recordings</category>
-  <guid>http://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/</guid>
+  <guid>https://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/</guid>
   <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Things Left Unimplemented… and I’m Unsure if I Ever Will</title>
-  <link>http://www.ftwynn.com/posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/</link>
+  <link>https://www.ftwynn.com/posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/</link>
   <description><![CDATA[ 
 
 
@@ -120,12 +120,12 @@
  ]]></description>
   <category>Personal Knowledge Management</category>
   <category>Building My BASB in Emacs</category>
-  <guid>http://www.ftwynn.com/posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/</guid>
+  <guid>https://www.ftwynn.com/posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/</guid>
   <pubDate>Fri, 16 Jun 2023 17:50:00 GMT</pubDate>
 </item>
 <item>
   <title>My BASB Implementation in Org Mode v2023-06</title>
-  <link>http://www.ftwynn.com/posts/my-basb-implementation-in-org-mode-v2023-06/</link>
+  <link>https://www.ftwynn.com/posts/my-basb-implementation-in-org-mode-v2023-06/</link>
   <description><![CDATA[ 
 
 
@@ -421,12 +421,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
  ]]></description>
   <category>Personal Knowledge Management</category>
   <category>Building My BASB in Emacs</category>
-  <guid>http://www.ftwynn.com/posts/my-basb-implementation-in-org-mode-v2023-06/</guid>
+  <guid>https://www.ftwynn.com/posts/my-basb-implementation-in-org-mode-v2023-06/</guid>
   <pubDate>Fri, 16 Jun 2023 17:45:00 GMT</pubDate>
 </item>
 <item>
   <title>What Makes Org Mode Hard for PKM</title>
-  <link>http://www.ftwynn.com/posts/what-makes-org-mode-hard-for-pkm/</link>
+  <link>https://www.ftwynn.com/posts/what-makes-org-mode-hard-for-pkm/</link>
   <description><![CDATA[ 
 
 
@@ -467,12 +467,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
  ]]></description>
   <category>Personal Knowledge Management</category>
   <category>Building My BASB in Emacs</category>
-  <guid>http://www.ftwynn.com/posts/what-makes-org-mode-hard-for-pkm/</guid>
+  <guid>https://www.ftwynn.com/posts/what-makes-org-mode-hard-for-pkm/</guid>
   <pubDate>Fri, 16 Jun 2023 17:40:00 GMT</pubDate>
 </item>
 <item>
   <title>Should You Choose Org Mode?</title>
-  <link>http://www.ftwynn.com/posts/should-you-choose-org-mode/</link>
+  <link>https://www.ftwynn.com/posts/should-you-choose-org-mode/</link>
   <description><![CDATA[ 
 
 
@@ -531,12 +531,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
  ]]></description>
   <category>Personal Knowledge Management</category>
   <category>Building My BASB in Emacs</category>
-  <guid>http://www.ftwynn.com/posts/should-you-choose-org-mode/</guid>
+  <guid>https://www.ftwynn.com/posts/should-you-choose-org-mode/</guid>
   <pubDate>Fri, 16 Jun 2023 17:35:00 GMT</pubDate>
 </item>
 <item>
   <title>My Path to Org Mode</title>
-  <link>http://www.ftwynn.com/posts/my-path-to-org-mode/</link>
+  <link>https://www.ftwynn.com/posts/my-path-to-org-mode/</link>
   <description><![CDATA[ 
 
 
@@ -593,12 +593,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
  ]]></description>
   <category>Personal Knowledge Management</category>
   <category>Building My BASB in Emacs</category>
-  <guid>http://www.ftwynn.com/posts/my-path-to-org-mode/</guid>
+  <guid>https://www.ftwynn.com/posts/my-path-to-org-mode/</guid>
   <pubDate>Fri, 16 Jun 2023 17:30:00 GMT</pubDate>
 </item>
 <item>
   <title>You Are Not Your Lowest Point</title>
-  <link>http://www.ftwynn.com/posts/you-are-not-your-lowest-point/</link>
+  <link>https://www.ftwynn.com/posts/you-are-not-your-lowest-point/</link>
   <description><![CDATA[ 
 
 
@@ -614,12 +614,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Philosophy</category>
-  <guid>http://www.ftwynn.com/posts/you-are-not-your-lowest-point/</guid>
+  <guid>https://www.ftwynn.com/posts/you-are-not-your-lowest-point/</guid>
   <pubDate>Wed, 08 Mar 2023 14:16:51 GMT</pubDate>
 </item>
 <item>
   <title>Abstinence is Not the Only Form of Self-Control</title>
-  <link>http://www.ftwynn.com/posts/abstinence-is-not-the-only-form-of-self-control/</link>
+  <link>https://www.ftwynn.com/posts/abstinence-is-not-the-only-form-of-self-control/</link>
   <description><![CDATA[ 
 
 
@@ -638,12 +638,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Philosophy</category>
-  <guid>http://www.ftwynn.com/posts/abstinence-is-not-the-only-form-of-self-control/</guid>
+  <guid>https://www.ftwynn.com/posts/abstinence-is-not-the-only-form-of-self-control/</guid>
   <pubDate>Mon, 06 Mar 2023 19:09:54 GMT</pubDate>
 </item>
 <item>
   <title>How My Stoic Practice Paid Off</title>
-  <link>http://www.ftwynn.com/posts/how-my-stoic-practice-paid-off/</link>
+  <link>https://www.ftwynn.com/posts/how-my-stoic-practice-paid-off/</link>
   <description><![CDATA[ 
 
 
@@ -694,12 +694,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Philosophy</category>
-  <guid>http://www.ftwynn.com/posts/how-my-stoic-practice-paid-off/</guid>
+  <guid>https://www.ftwynn.com/posts/how-my-stoic-practice-paid-off/</guid>
   <pubDate>Sat, 04 Mar 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Challenges Showing Text From a Simple JS Function in Logseq</title>
-  <link>http://www.ftwynn.com/posts/challenges-showing-text-from-a-simple-js-function-in-logseq/</link>
+  <link>https://www.ftwynn.com/posts/challenges-showing-text-from-a-simple-js-function-in-logseq/</link>
   <description><![CDATA[ 
 
 
@@ -759,12 +759,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
  ]]></description>
   <category>Technology</category>
   <category>Personal Knowledge Management</category>
-  <guid>http://www.ftwynn.com/posts/challenges-showing-text-from-a-simple-js-function-in-logseq/</guid>
+  <guid>https://www.ftwynn.com/posts/challenges-showing-text-from-a-simple-js-function-in-logseq/</guid>
   <pubDate>Fri, 03 Mar 2023 18:52:04 GMT</pubDate>
 </item>
 <item>
   <title>VSCode as an MD Editor</title>
-  <link>http://www.ftwynn.com/posts/vscode-as-md-editor/</link>
+  <link>https://www.ftwynn.com/posts/vscode-as-md-editor/</link>
   <description><![CDATA[ 
 
 
@@ -843,12 +843,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Technology</category>
-  <guid>http://www.ftwynn.com/posts/vscode-as-md-editor/</guid>
+  <guid>https://www.ftwynn.com/posts/vscode-as-md-editor/</guid>
   <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Unofficial Partner Podcast - Episode 288</title>
-  <link>http://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/</link>
+  <link>https://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/</link>
   <description><![CDATA[ 
 
 
@@ -872,12 +872,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
  ]]></description>
   <category>Games</category>
   <category>Recordings</category>
-  <guid>http://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/</guid>
+  <guid>https://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/</guid>
   <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>The Seasons of TODO Systems</title>
-  <link>http://www.ftwynn.com/posts/the_seasons_of_TODO_systems/</link>
+  <link>https://www.ftwynn.com/posts/the_seasons_of_TODO_systems/</link>
   <description><![CDATA[ 
 
 
@@ -895,12 +895,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Personal Knowledge Management</category>
-  <guid>http://www.ftwynn.com/posts/the_seasons_of_TODO_systems/</guid>
+  <guid>https://www.ftwynn.com/posts/the_seasons_of_TODO_systems/</guid>
   <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>What the DnD Community Needs in Light of the OGL and ORC</title>
-  <link>http://www.ftwynn.com/posts/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/</link>
+  <link>https://www.ftwynn.com/posts/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/</link>
   <description><![CDATA[ 
 
 
@@ -963,12 +963,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Tabletop Role Playing Games</category>
-  <guid>http://www.ftwynn.com/posts/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/</guid>
+  <guid>https://www.ftwynn.com/posts/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/</guid>
   <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Dimension 20 - Neverafter - First Impressions</title>
-  <link>http://www.ftwynn.com/posts/dimension-20-neverafter-first-impressions/</link>
+  <link>https://www.ftwynn.com/posts/dimension-20-neverafter-first-impressions/</link>
   <description><![CDATA[ 
 
 
@@ -999,12 +999,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Tabletop Role Playing Games</category>
-  <guid>http://www.ftwynn.com/posts/dimension-20-neverafter-first-impressions/</guid>
+  <guid>https://www.ftwynn.com/posts/dimension-20-neverafter-first-impressions/</guid>
   <pubDate>Thu, 05 Jan 2023 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Build Inclusive Online Communities at Scale With Advanced Language AI 2022-12</title>
-  <link>http://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/</link>
+  <link>https://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/</link>
   <description><![CDATA[ 
 
 
@@ -1024,12 +1024,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Games</category>
   <category>Technology</category>
   <category>Recordings</category>
-  <guid>http://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/</guid>
+  <guid>https://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/</guid>
   <pubDate>Wed, 14 Dec 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title>First Thoughts on Pokemon Unite</title>
-  <link>http://www.ftwynn.com/posts/first-thoughts-on-pokemon-unite/</link>
+  <link>https://www.ftwynn.com/posts/first-thoughts-on-pokemon-unite/</link>
   <description><![CDATA[ 
 
 
@@ -1121,12 +1121,12 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Games</category>
-  <guid>http://www.ftwynn.com/posts/first-thoughts-on-pokemon-unite/</guid>
+  <guid>https://www.ftwynn.com/posts/first-thoughts-on-pokemon-unite/</guid>
   <pubDate>Sat, 24 Jul 2021 06:55:48 GMT</pubDate>
 </item>
 <item>
   <title>Being the worst at Obsidian can make you better than you’ve ever been</title>
-  <link>http://www.ftwynn.com/posts/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/</link>
+  <link>https://www.ftwynn.com/posts/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/</link>
   <description><![CDATA[ 
 
 
@@ -1151,7 +1151,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
  ]]></description>
   <category>Personal Knowledge Management</category>
-  <guid>http://www.ftwynn.com/posts/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/</guid>
+  <guid>https://www.ftwynn.com/posts/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/</guid>
   <pubDate>Sat, 17 Jul 2021 16:58:03 GMT</pubDate>
 </item>
 </channel>
