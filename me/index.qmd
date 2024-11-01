@@ -1,6 +1,6 @@
 ---
 title: "David Wynn"
-image: DW_Avatar2.webp
+image: DW_Professional.webp
 about:
   template: jolla
   links:
@@ -33,7 +33,7 @@ People <> Machine Liaison | Organization Builder
 
 
 <div style="display:none">
-    <img class="u-photo" src="/DW_Avatar2.webp" alt="A picture of me looking goofy" style="height: 200px; width: 200px;"/>
+    <img class="u-photo" src="DW_Professional.webp" alt="A picture of me looking goofy" style="height: 200px; width: 200px;"/>
 
     <p>Below is a little information about <a href="http://www.ftwynn.com/me" class="url u-url" rel="me">me</a>, all machine readable (assuming it supports reading h-cards).</p>
 
