@@ -1,0 +1,78 @@
+---
+title: Challenges Showing Text From a Simple JS Function in Logseq
+slug: challenges-showing-text-from-a-simple-js-function-in-logseq
+date: 2023-03-03T18:52:04.600Z
+categories:
+  - Technology
+  - Personal Knowledge Management
+description: ""
+summary: ""
+aliases:
+  - /challenges-showing-text-from-a-simple-js-function-in-logseq
+---
+
+There are some open source projects that are plain, simple, and describe well what they do. `curl` is the classic example (along with most Linux utilities), but [File Converter](https://file-converter.org/) is another. It does what it does, it doesn't do what it doesn't. 
+
+And then, there is Logseq.
+
+All I wanted to do is dynamically create some text from a javascript function that's different every day. I *feel* this is doable in there somewhere, but I'm absolutely stumped trying to connect the dots from A to B to make it happen.
+
+<!-- more -->
+
+Let's consider the options:
+
+## Option 1: Use Templates
+
+The templating language in Logseq is pretty solid. I'm a particularly heavy user when it comes to creating my morning, evening, weekly, and monthly journal prompts. 
+
+But that was also what led me to my problem. I have a list of morning Journal prompts, one for each of the 366 days (don't forget Leap Day) of the year. I'm always open to the best way to get this list in various tools, but the most universal path seems to be through a Javascript function. Either I host it locally, or set up a Cloud Function to return the correct prompt each day.
+
+But in Logseq's templating language there is no meaningful way to do a `select` or `case` or any other user defined function that I could find.
+
+So... we explore.
+
+## Option 2: Use Plugins
+
+Plugins are the typical first place a user looks when looking for enhanced functionality like this. So I did a little digging and came up with two options.
+
+### Smartblocks
+
+[Smartblocks](https://github.com/sawhney17/logseq-smartblocks) seems like it *might* be able to make this work.
+
+There's an `if` clause it adds to templates that might suffice if I was willing to retool my JS function into this altered templating language. However, I think I would have to shove them all into the same block, and I'm pretty sure Logseq gets unhappy with blocks beyond a certain size.
+
+Plus, I would have to maintain two sets of prompt "functions" if I found any typos, which somehow keep cropping up in this giant JSON object I keep around.
+
+### Smart Typing
+
+[Smart Typing](https://github.com/sethyuan/logseq-plugin-smart-typing) seems like it should be able to handle this... but ultimately I couldn't figure it out. 
+
+Even with an example of text replacement in gif form right in the docs, I couldn't figure out how the trigger worked. The function never seemed to fire. 
+
+Plus it started to screw up normal typing after a Logseq restart. Maybe function size was another hidden problem? Maybe I needed to register the function somehow? Maybe there were more instructions in the Chinese docs I couldn't read?
+
+I can't say for sure, so I searched on.
+
+## Option 3: Use `custom.js`
+
+Logseq has the ability to add in native Javascript from a `custom.js` file in the logseq directory. 
+
+... I couldn't find any official documentation for it at all. 
+
+Most of the examples in the forums are people manipulating other behavior of the app rather than adding simple strings. Clearly there's some sort of merging between DOM and data that needs to happen... but I couldn't find a full explainer anywhere that would shed any light on it.
+
+Which meant it was time to...
+
+## Option 4: Give Up and Use an `iframe`
+
+I already have a simple html page with a working prompt. Why not just embed it in an `iframe` and copy + paste the output into Logseq?
+
+Definitely not what I would consider ideal, but given that previously I had to bounce around between different windows (and even workspaces on Chromebook... don't get me started) to get the prompt previously, this is at least a meaningful improvement.
+
+## My Wish: More Logseq Docs on the Fiddly Bits!
+
+I see all over the forums for Logseq users to avoid the fiddly parts and to stick with the simple tools. It's excellent advice, and echoes words I'm currently writing for other posts about Advanced Queries and Solutioning in Logseq. 
+
+... but the Docs on how to use things which visibly pop up in menus should exist *somewhere*. Otherwise you get semi-capable users like myself wandering around lost for way longer than necessary, only to fallback on a non-ideal solution.
+
+If anyone has any other ideas (or can point to docs I missed), shoot me an email below!

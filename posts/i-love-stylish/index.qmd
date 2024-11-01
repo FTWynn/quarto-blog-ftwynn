@@ -1,0 +1,43 @@
+---
+slug: "i-love-stylish"
+aliases: 
+- /i-love-stylish
+date: 2020-05-18T02:26:18Z
+title: "I Love Stylish"
+categories:
+- "Technology"
+---
+
+For those that might not have heard of it, [Stylish](https://en.wikipedia.org/wiki/Stylish) is an amazing little extension that let's you add your own custom CSS on top of any website. That might sound dorky and not very useful at a first glance, but I wanted to highlight just two things I've done as part of my BASB journey thus far that I've found _very_ satisfying. 
+
+<!--more-->
+
+I've probably on this a bit more than normal because I've been stuck on a Chromebook for 3 months and counting due to COVID, but as they say, necessity is the mother of invention!
+
+## Stylish Let's Me Make Small UI Changes That Work for Me
+
+I'm using Todoist for my task tracking, and I'm experimenting with a number of different ways to organize things.
+
+I set up one filter in particular to track the outcomes of my projects, but the project names were being pretty consistently truncated, which I didn't like. 
+
+![Short Todoist Example](https://i.snap.as/AnbnIW2.png)
+
+Bummer. 
+
+But with a little help from the inspector, I could narrow down to exactly that span and change it's width. Presto change-o:
+
+![Long Todoist Example](https://i.snap.as/t2x0GMC.png)
+
+That's actually the only Stylish change I have for Todoist right now, and even though it seems small, it makes me feel very grateful for the ability to have a little more control over it.
+
+## Stylish Let's Me Solarize Everything
+
+In the other case the customization gets a bit more... intense. I have [two](https://userstyles.org/styles/182873/evernote-solarized) [styles](https://userstyles.org/styles/144975/littleoutliner-solarized-dark) on [userstyles.org](https://userstyles.org/) and both do the same thing: apply a [solarized](https://ethanschoonover.com/solarized/) color set to the largely text entry focused the websites for [Evernote](https://www.evernote.com/client/web) and [Dave Winer's Little Outliner](http://littleoutliner.com/).
+
+![Evernote Example](https://i.snap.as/zpIPDth.png)
+
+Aside from the benefit of less eye strain, what's fun about this is that it feels like I'm getting away with something. 
+
+I _know_ the web designers didn't pick Solarized as a color palette, but I can _make_ it happen. I can tinker and tweak things, all while only affecting my machine (in a safe way as well). 
+
+While it may not be a great formal introduction to programming, it's a great introduction to the hacker's spirit, and Stylish makes it possible.

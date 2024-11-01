@@ -1,0 +1,246 @@
+/*-- scss:defaults --*/
+
+/* Modus Vivendi Colors */
+$modus-bg-main: #000000; /* background */
+$modus-bg-dim: #1e1e1e;  /* code block background */
+$modus-fg-main: #ffffff; /* text */
+$modus-fg-dim: #989898;
+$modus-fg-alt: #c6daff;
+$modus-bg-active: #535353;
+$modus-bg-inactive: #303030;
+$modus-border: #646464;
+$modus-red: #ff5f59;
+$modus-red-warmer: #ff6b55;
+$modus-red-cooler: #ff7f9f;
+$modus-red-faint: #ff9580; /* h6 */
+$modus-red-intense: #ff5f5f;
+$modus-green: #44bc44;
+$modus-green-warmer: #70b900;
+$modus-green-cooler: #00c06f;
+$modus-green-faint: #88ca9f; /* h5 */
+$modus-green-intense: #44df44;
+$modus-yellow: #d0bc00;
+$modus-yellow-warmer: #fec43f;
+$modus-yellow-cooler: #dfaf7a;
+$modus-yellow-faint: #d2b580; /* h2 */
+$modus-yellow-intense: #efef00;
+$modus-blue: #2fafff;
+$modus-blue-warmer: #79a8ff;
+$modus-blue-cooler: #00bcff;
+$modus-blue-faint: #82b0ec; /* h3, a */
+$modus-blue-intense: #338fff; /* a:hover */
+$modus-magenta: #feacd0; /* h4 */
+$modus-magenta-warmer: #f78fe7;
+$modus-magenta-cooler: #b6a0ff;
+$modus-magenta-faint: #caa6df;
+$modus-magenta-intense: #ff66ff;
+$modus-cyan: #00d3d0;
+$modus-cyan-warmer: #4ae2f0;
+$modus-cyan-cooler: #6ae4b9;
+$modus-cyan-faint: #9ac8e0;
+$modus-cyan-intense: #00eff0;
+$modus-rust: #db7b5f;
+$modus-gold: #c0965b;
+$modus-olive: #9cbd6f;
+$modus-slate: #76afbf;
+$modus-indigo: #9099d9;
+$modus-maroon: #cf7fa7;
+$modus-pink: #d09dc0;
+$modus-bg-red-intense: #9d1f1f;
+$modus-bg-green-intense: #2f822f;
+$modus-bg-yellow-intense: #7a6100;
+$modus-bg-blue-intense: #1640b0;
+$modus-bg-magenta-intense: #7030af;
+$modus-bg-cyan-intense: #2266ae;
+$modus-bg-red-subtle: #620f2a;
+$modus-bg-green-subtle: #00422a;
+$modus-bg-yellow-subtle: #4a4000;
+$modus-bg-blue-subtle: #242679;
+$modus-bg-magenta-subtle: #552f5f;
+$modus-bg-cyan-subtle: #004065;
+$modus-bg-red-nuanced: #2c0614;
+$modus-bg-green-nuanced: #001904;
+$modus-bg-yellow-nuanced: #221000;
+$modus-bg-blue-nuanced: #0f0e39;
+$modus-bg-magenta-nuanced: #230631;
+$modus-bg-cyan-nuanced: #041529;
+$modus-bg-graph-red-0: #b52c2c;
+$modus-bg-graph-red-1: #702020;
+$modus-bg-graph-green-0: #4fd100;
+$modus-bg-graph-green-1: #007800;
+$modus-bg-graph-yellow-0: #f1e00a;
+$modus-bg-graph-yellow-1: #b08600;
+$modus-bg-graph-blue-0: #2fafef;
+$modus-bg-graph-blue-1: #1f2f8f;
+$modus-bg-graph-magenta-0: #bf94fe;
+$modus-bg-graph-magenta-1: #5f509f;
+$modus-bg-graph-cyan-0: #47dfea;
+$modus-bg-graph-cyan-1: #00808f;
+$modus-bg-completion: #2f447f;
+$modus-bg-hover: #004f70;
+$modus-bg-hover-secondary: #654a39;
+$modus-bg-hl-line: #2f3849;
+$modus-bg-paren-match: #2f7f9f;
+$modus-bg-paren-expression: #453040;
+$modus-bg-region: #5c5c5c;
+$modus-bg-region-subtle: #4f1c2f;
+$modus-bg-char-0: #0050af;
+$modus-bg-char-1: #7f1f7f;
+$modus-bg-char-2: #625a00;
+$modus-bg-mode-line-active: #505050;
+$modus-fg-mode-line-active: #ffffff;
+$modus-border-mode-line-active: #959595;
+$modus-bg-mode-line-inactive: #2d2d2d;
+$modus-fg-mode-line-inactive: #969696;
+$modus-border-mode-line-inactive: #606060;
+$modus-modeline-err: #ffa9bf;
+$modus-modeline-warning: #dfcf43;
+$modus-modeline-info: #9fefff;
+$modus-bg-tab-bar: #313131;
+$modus-bg-tab-current: #000000;
+$modus-bg-tab-other: #545454;
+$modus-bg-added: #00381f;
+$modus-bg-added-faint: #002910;
+$modus-bg-added-refine: #034f2f;
+$modus-bg-added-intense: #237f3f;
+$modus-fg-added: #a0e0a0;
+$modus-fg-added-intense: #80e080;
+$modus-bg-changed: #363300;
+$modus-bg-changed-faint: #2a1f00;
+$modus-bg-changed-refine: #4a4a00;
+$modus-bg-changed-intense: #8a7a00;
+$modus-fg-changed: #efef80;
+$modus-fg-changed-intense: #c0b05f;
+$modus-bg-removed: #4f1119;
+$modus-bg-removed-faint: #380a0f;
+$modus-bg-removed-refine: #781a1f;
+$modus-bg-removed-intense: #b81a1f;
+$modus-fg-removed: #ffbfbf;
+$modus-fg-removed-intense: #ff9095;
+
+// Onto the Bootstrap Variables
+
+// Replacing Accent Colors
+$primary: $modus-bg-cyan-nuanced;
+$secondary: $modus-bg-inactive;
+$success: $modus-bg-green-subtle;
+$info: $modus-bg-cyan-intense;
+$warning: $modus-bg-yellow-intense;
+
+
+// Colors
+$body-bg: $modus-bg-main;
+$body-color: $modus-fg-main;
+$link-color: $modus-blue-faint;
+//$input-bg: ;
+//$popover-bg: ;
+
+// Fonts
+$font-family-sans-serif: "Fira Sans", system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif;
+$font-family-monospace: "Fira Mono", "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-size-root: 1.3rem;
+$font-weight-base: 300;
+
+//$global-font-family: "Fira Sans", system-ui, -apple-system, Segoe UI, Roboto, Emoji, Helvetica, Arial, sans-serif;
+//$code-font-family: "Fira Mono", "Source Code Pro", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+//$font-size: 1.2rem;
+/*letter-spacing: .03rem;
+    word-spacing: 0.05rem;
+    line-height: 140%;*/
+
+// Inline Code
+$code-bg: $modus-bg-magenta-nuanced;
+$code-color: $modus-fg-main;
+
+// Code Blocks
+//$code-block-bg: $modus-bg-dim; //Not working yet
+//$code-block-bg: $modus-bg-inactive;
+$code-block-border-left: true;
+
+// Block Quotes
+
+
+// Navbar
+$navbar-padding-y: 1rem * .25;
+
+// Call outs
+$callout-color-note: $modus-bg-cyan-subtle;
+$callout-color-tip: $modus-bg-green-subtle;
+$callout-color-caution: $modus-bg-yellow-subtle;
+$callout-color-warning: $modus-bg-yellow-intense;
+$callout-color-important: $modus-bg-red-subtle;
+
+
+// =================
+/*-- scss:rules --*/
+// =================
+
+@import 'https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200;1,300;1,400;1,700&display=swap';
+@import 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Mono:wght@400;500;700&display=swap';
+
+// Getting my purples on the Blockquotes
+blockquote {
+    background-color: $modus-bg-magenta-nuanced; 
+    border-left: 5px solid $modus-bg-magenta-subtle;
+}
+
+// Removing color from Titles, which makes it a bit clearer what's the nav and what isn't
+div.quarto-title-banner {
+    padding: 1rem 0 0 0;
+    margin: 0;
+    background-color: $modus-bg-main;
+}
+
+// Direct Import
+/*
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    font-weight: 700;
+    //margin-top: 3rem;
+    //margin-bottom: 1.5rem;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word; 
+}*/
+
+
+//Getting the right colors on the headings
+h1 {
+    color: $modus-fg-main;
+}
+
+h2 {
+    color: $modus-yellow-faint;
+}
+
+h3 {
+    color: $modus-blue-faint;
+}
+
+h4 {
+    color: $modus-magenta;
+}
+
+h5 {
+    color: $modus-green-faint;
+}
+
+h6 {
+    color: $modus-red-faint;
+}
+
+/*
+a {
+    color: var(--modus-blue-faint);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--modus-blue-intense);
+}
+
+p.categoryParagraph {
+    margin: 0px;
+}
+*/

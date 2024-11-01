@@ -1,0 +1,39 @@
+---
+slug: "basb-observations-deadlines-for-projects-seem-weirdly-unhelpful"
+aliases: 
+- /basb-observations-deadlines-for-projects-seem-weirdly-unhelpful
+date: 2020-07-25T22:10:40Z
+title: "BASB Observations: Deadlines for Projects Seem Weirdly Unhelpful"
+categories:
+- "Personal Knowledge Management"
+---
+
+As I'm working on integrating BASB more and more in my life, I'm noticing that I'm handling the tasks alright, but the deadlines on projects seem artificial and surprising when they come up.
+<!--more-->
+I find that trying to manage lots of smaller projects (which I think is the intent of BASB) means that there are lots of deadlines which I somehow am supposed to care about, which I can't really bring myself to do. It's different when the deadline is a real hard stop, but that's rarely the case for the projects I'm currently pursuing.
+
+As such, I think I'm going to shake up the TODO tracking into a more Kanban flow, focusing on a firmer Work In Progress limit, forcing some prioritization. We'll see if the projects take care of themselves beyond that.
+
+I was going to jump to a real Kanban tool to do this, but Todoist already has all my tasks and is almost set up for this anyway, so I'm trying that implementation this week.
+
+## New setup
+
+1.  Tasks are in Todoist in various projects
+2.  A filter brings in the things scheduled for today (and limits my daily tasks to the ones coming up within 3 hours)
+3. I use a CSS trick to hide everything in this list past the 5th item, so I'm only focusing on those things (which should be the due and high priority items)
+
+### Current Today Filter:
+
+`((overdue | due before: +3 hours) & (#Daily Habits | #Repeated Tasks)) | ((overdue | due today) & ! (#Daily Habits | #Repeated Tasks) )`
+
+Interpreted left to right: 
+
+Give me anything in my Daily Habits or Repeated Tasks lists that's overdue or coming up in 3 hours, and give me anything due today or earlier that's not in those projects.
+
+### CSS Trick for Work in Progress Limit
+
+`.task_list_item:nth-of-type(1n+6) {
+    display: none !important;
+}`
+
+It's a weird notation in CSS. You need to change the 6 to 1+whatever limit number you want.

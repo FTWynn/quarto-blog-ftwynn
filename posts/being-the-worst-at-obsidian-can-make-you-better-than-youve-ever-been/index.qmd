@@ -1,0 +1,35 @@
+---
+slug: "being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been"
+aliases: 
+- /being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been
+date: 2021-07-17T16:58:03Z
+title: "Being the worst at Obsidian can make you better than you've ever been"
+categories:
+- "Personal Knowledge Management"
+---
+
+As I was working on puling together a weekly review for myself and exploring what a CRM in Obsidian might look like, I had a realization that I think is worth repeating:
+
+Being "bad" in Obsidian and doing something "wrong" is the *correct* way to go about things.
+
+<!--more-->
+
+There are many systems out there that are more opinionated than what is essentially a wiki. There are plenty of project/productivity/graph drawing/etc tools that are all more specialized at what they do and can put prettier UI's on things with more one-click buttons. 
+
+But the hidden value of doing something poorly in Obsidian, rather than the default way somewhere else, is that *you* get to make it just what you want.
+
+Take CRM. Dave Sivers in his book `Your Music and Your People` doesn't even talk about using an app, but just calls it a database that you should use to help stay connected to people. What's a better people database than one that matches exactly what you want to capture?
+
+Sure Obsidian does some things better than others. Fields are easy. Tags are easy. Journaling is easy. TODOs are easy. Connections are easy. Updates are... just as tedious as other systems. While on the other hand its connections to social and ability to mail merge are definitely lacking.
+
+But you know what? You probably don't need most of that stuff.
+
+Starting from a blank text file forces *you* to pick the most important things first. That in itself is already key. Without toying with a few ideas on your own first, you might gravitate toward the prettiest or most/least expensive tool, even if it's not right for you.
+
+The plugin ecosystem gives you a tremendous leg up for specifics, but an Obsidian plugin will never beat a polished alternative at that use case. The Tasks plugin will never be Todoist. This is a *good* thing. 
+
+The rough edges are your personal feedback for knowing what's working and what isn't. Treasure that feedback.
+
+Once you dive into the mindset that being bad (or at least *starting* bad) is the point, there's a lot of power that's unlocked to you.
+
+Dive in, do something poorly, then tweak. It's more fun, and more effective than aiming for perfection from the outset.

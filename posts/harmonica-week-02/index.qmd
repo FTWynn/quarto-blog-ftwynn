@@ -1,0 +1,23 @@
+---
+slug: "harmonica-week-02"
+aliases: 
+- /harmonica-week-02
+date: 2020-08-02T05:01:44Z
+title: "Harmonica Week 02"
+categories:
+- "Music"
+---
+
+Another week in the books!
+<!--more-->
+Not too much change on the lesson plan front. bluesharmonica.com has some very thorough early lesson stuff... So I've been integrating those exercises into my normal practice alongside my song of choice. I haven't learned a skill through drills in a while, and it's actually kind of refreshing.
+
+I added the [Titanic theme](https://www.harptabs.com/song.php?ID=4519) to the list of songs to practice, largely because it's got a lot of lower notes. I can tell that one of the notes in the harp tab is wrong, but it's good enough to practice with.
+
+I've been working in particular on my hand grip (which finally started feeling right in my hands) and _not_ articulating every note. I had already picked up a habit to put a `kah` on every note, which seemed to work well at first, but I think it was acting as a mini reset between notes. So the melody was clean, but I was missing some flow. It's been frustrating to regress in my song while switching to minimal articulation, but I see the value in getting that extra expression from note to note. So... back to the suck we go!
+
+I've also started the music theory lesson, which culminates in enabling transposition of music. I could breeze through most of the basics since I had some background on trumpet and choir when I was young, but the step by step to transposing music for harmonica is hugely valuable to me. I'm toying with different tools to make this easy on the computer, including [everyone piano](https://www.everyonepiano.com/), [MuseScore](https://musescore.org/en) (and the harmonica tab plugin), [the online tone generator](https://www.szynalski.com/tone-generator/), and even more on my phone for metronome and pitch checking. I've started playing Final Fantasy VII remake, so it think those themes will by high on my list to transpose and learn.
+
+I recognize that I'm starting to get the basics of [Rainbow Connection](https://www.harptabs.com/song.php?ID=699) down, and I'll want to start integrating other harmonica techniques to see how to be more expressive. They may come with time, but I'm being mindful of what the next limiting factors are.
+
+Onward and upward! Hopefully FFVII remake won't crowd out too much of my harmonica time.

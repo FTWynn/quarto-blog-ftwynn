@@ -1,0 +1,55 @@
+---
+title: "David Wynn"
+image: DW_Avatar2.webp
+about:
+  template: jolla
+  links:
+    - text: "Now"
+      icon: watch
+      href: /now
+    - text: "Blog"
+      icon: pencil-square
+      href: /
+    - text: LinkedIn
+      icon: linkedin
+      href: https://linkedin.com/DavidBWynn
+    - text: GitHub
+      icon: github
+      href: https://github.com/FTWynn
+    - text: Mastodon
+      icon: mastodon
+      href: https://fosstodon.org/@FTWynn
+    - icon: twitter-x
+      href: https://x.com/FTWynn
+
+---
+
+People <> Machine Liaison | Organization Builder
+
+```{=html}
+<div class="h-card" style="display:none">
+
+
+
+
+<div style="display:none">
+    <img class="u-photo" src="/DW_Avatar2.webp" alt="A picture of me looking goofy" style="height: 200px; width: 200px;"/>
+
+    <p>Below is a little information about <a href="http://www.ftwynn.com/me" class="url u-url" rel="me">me</a>, all machine readable (assuming it supports reading h-cards).</p>
+
+    <p class="p-note">I like working with technology and people... and I spend most of my time trying to bridge the gap between them. Sometimes that means explaining the potential of different technologies, while other times it means tinkering with prototypes and half-baked ideas. Other times I can be found reading about various non-fiction topics, hanging out with my family, dabbling in creative projects of my own, or just playing video games.</p>
+
+
+    <ul>
+    <li>Name: <span class="p-name">David Wynn</span></li>
+    <li><a href="https://twitter.com/FTWynn" target="_blank" rel="me">Twitter</a></li>
+    <li><a rel="me" href="https://fosstodon.org/@FTWynn">Mastodon</a></li>
+    <li><a href="https://facebook.com/DavidBwynn" target="_blank" rel="me">Facebook</a></li>
+    <li><a href="https://www.linkedin.com/in/DavidBWynn" target="_blank" rel="me">LinkedIn</a></li>
+    <li><a href="https://github.com/FTWynn" target="_blank" rel="me">Github</a></li>
+    </ul>
+</div>
+
+
+</div>
+```

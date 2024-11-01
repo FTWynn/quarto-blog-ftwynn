@@ -1,0 +1,66 @@
+---
+slug: "making-harmonica-tabs-the-easiest-way-ive-found-so-far"
+aliases: 
+- /making-harmonica-tabs-the-easiest-way-ive-found-so-far
+date: 2020-08-06T19:33:38Z
+title: "Making Harmonica Tabs: The Easiest Way I've Found So Far"
+categories:
+- "Music"
+---
+
+As I've been learning harmonica, one of the fun things that I've tried my hand at a few times is transposing music I like into harmonica tabs. Going the traditional music theory route was fun for a few rounds, but then the tedium started to set in, and I wanted to find other ways of doing it. 
+
+Enter, [MuseScore](https://musescore.org/en).
+<!--more-->
+I didn't see any explicit tutorials on how to do this out there, so I figured I would write down the steps I've found to make it as simple as possible.
+
+At a high level:
+
+1. Put the music into [MuseScore](https://musescore.org/en)
+2. Transpose the key if necessary / desired
+3. Use the [Harmonica Tablature](https://musescore.org/en/project/harmonica-tablature-harp) plugin to generate the tab
+4. Look over to see if any octaves need adjustment 
+5. If necessary, clear out the tabs and re-run the plugin after adjusting the octave
+
+To the details!
+
+## Step 1 - Put the Music into [MuseScore](https://musescore.org/en)
+
+There's no magic to this step. If you're lucky enough to find the  song you want already transcribed on [the community](https://musescore.com/) (and have a subscription), then you're ahead of the game. Otherwise you'll need to put it in the program note by note, either with the mouse or a MIDI device. I've used the mouse 100% of the time so far.
+
+This part is still a bit tedious, but it'll be worth it, I promise!
+
+## Step 2 - Transpose the Key if Necessary / Desired
+
+Most of the music I'm interested in wasn't written for harmonica. So when I'm done transcribing it, it's usually in a key I don't have a harp for... given my glorious collection of exactly two diatonic harmonicas.
+
+This isn't *necessarily* a problem, because one of diatonic harmonicas' strengths is that once you get a tab in one key, it's the same for all diatonic harmonicas. The key transposition is already done for you inside the harp... once you have the first tab.
+
+So while it's not usually necessary, you can transpose the music you have in MuseScore before generating the tab. 
+
+`Ctrl + A to select the whole piece
+Tools... Transpose... [Choose a key of choice]`
+
+So far I've only used this to get out of octave trouble (further detailed below), but if you'd just prefer to have the music in the key of your harmonica first, you can do that as well.
+
+## Step 3 - Use the [Harmonica Tablature](https://musescore.org/en/project/harmonica-tablature-harp) plugin to generate the tabs
+
+So this plugin is very basic, simply giving you the holes for the harp key you pick that match the notes that are in MuseScore. This is powerful, but also lets you shoot yourself in the foot if you're not mindful.
+
+It's powerful because it's position agnostic. Pick the key of harmonica the piece is in, and BAM, you've got a first position tab that works on any diatonic. Pick a harmonica key that you know can play the displayed key in second position? You're good to go.
+
+Pick a harmonica key that matches your harp but has no relation to the key onscreen? Well... then you might have a weird time, getting tons of funky draws, overblows, and missing notes in the tab.
+
+First position is the easiest to adjust to. Just match the harp key in the plugin to the key of the music when running it. You can use the generated tabs on a different harp later and it will sound fine, just transposed to a different key.
+
+## Step 4 (& 5) - Make Sure No Octaves Need Adjustment, and Re-Run the Plugin if Need Be
+
+As mentioned in the last section, the plugin will just throw an X in your tab if the note can't be found on the harp. I find this most often when a section dips too far below what the harp can offer.
+
+You can highlight just a section of the music in [MuseScore](https://musescore.org/en) (or the whole piece with `Ctrl + A`), and transpose the notes up (`Tools... Transpose... Up`), and you'll get the higher octave. 
+
+Clear out the old tab (`Ctrl + Z` for undo is easiest, or left click a tab number, and right click `Select... All Similar Elements` and Delete). Then re-run the plugin to see what you get.
+
+## Conclusion
+
+Hopefully that helps some aspiring harmonica tabulators. I'll be sure to update this post with anything new I come across as I continue the journey, but I think using [MuseScore](https://musescore.org/en) as a bridge into getting more harmonica tabs out there is a big win for everyone.

@@ -1,0 +1,27 @@
+---
+slug: "hidden-ui-elements-are-bad"
+aliases: 
+- /hidden-ui-elements-are-bad
+date: 2021-06-17T17:31:02Z
+title: "Hidden UI Elements are Bad"
+categories:
+- "Technology"
+---
+
+I would like to start by saying that minimal design is a good thing. Clutter is objectively bad, and it takes a lot of _really difficult_ work to cram a lot of capability into a smaller and smaller UI surface. I am completely acknowledging that.
+
+That said, some gestures on the iPhone can go screw themselves.
+
+In particular, whoever decided that `swipe up from the bottom but not too much` was a good idea should be publicly shamed.
+
+Again, I understand the need to fit more functionality into a less space. If they break down the swipe up gesture into `a little` and `a lot` variants, you get two functions for the price of one. It makes sense... *on paper*.
+
+But in reality? When I'm switching phones and trying to figure out what the distances are on all these swipes? It's really terrible.
+
+On top of that, the animation for `close an app` looks *awfully similar* to the end of the animation for `dismiss the app carousel`. Given that they both use the same overloaded swipe up gesture it's just... incredibly uncomfortable not knowing what happens when I stutteringly swipe up, which happens from time to time on the big phone screen.
+
+I wish they took Android's cue for the three buttons at the bottom. Then I would know when I'm summoning the carousel, and when I'm not. Calling in a HUD also gives you a lot more options to make features visible when needed, rather than overloading a fixed set of UI options.
+
+I know Android implemented a similar semi-swipe up an OS update or two ago, but I immediately found a way to get the buttons back. No such luck for customization on Apple. 
+
+Apple keeps trimming UI elements to the point where functionality is now *ambiguously hidden* instead of just *out of the way*. To me, that seems like a bad line to cross.

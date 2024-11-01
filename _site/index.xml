@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>For the Wynn</title>
+<link>http://www.ftwynn.com/</link>
+<atom:link href="http://www.ftwynn.com/index.xml" rel="self" type="application/rss+xml"/>
+<description>Writing About Things... For the Wynn</description>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Thu, 14 Mar 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>TestGuild DevOps Toolchain Podcast 2024-03</title>
+  <link>http://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/TG3brHrLeO0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="episode-description" class="level2">
+<h2 class="anchored" data-anchor-id="episode-description">Episode Description</h2>
+<p>Today, we’re diving deep into the world of observability with David Wynn, a solution architect and expert with a 15-year tenure in cloud services and observability, particularly in the gaming industry. In this episode, we’re peeling back the layers of observability, differentiating it from traditional monitoring, and exploring the transformative role of AI in DevSecOps.</p>
+<p>David will enlighten you on starting with observability by centralizing logs, utilizing tools from Datadog to Edge Delta, and the dynamic need to make sense of complex systems through outputs.</p>
+<p>We also delve into how observability is evolving with the rise of microservices and distributed systems, holding an in-depth discussion about the pillars of observability—logs, metrics, and tracing—and the indispensable role of tools like OpenTelemetry.</p>
+<p>David shares anecdotes from his time in the gaming industry, shedding light on the nuances of observability infrastructure within different types of games and how it goes beyond keeping tabs on system statuses, aiming for a comprehensive comprehension of system activities.</p>
+<p>Furthermore, we’ll discuss the ‘shift left’ approach and the advent of AI in enhancing observability tactics.</p>
+<p>So, buckle up for a riveting conversation, whether you’re an SRE, a DevOps specialist, or just intrigued by the intersections of AI and system observability.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Technology</category>
+  <category>Recordings</category>
+  <guid>http://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/</guid>
+  <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Cisco DevNet 2023-10</title>
+  <link>http://www.ftwynn.com/posts/Cisco-DevNet-2023-10/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/XzcpxOOqXfU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="episode-description" class="level2">
+<h2 class="anchored" data-anchor-id="episode-description">Episode Description</h2>
+<p>More data does not mean better observability! Mel Delgado (Developer Advocate, DevNet) and David Wynn of EdgeDelta explore how to optimize, transform and customize MELT data at the edge before sending it to your observability platform such as AppDynamics, and many more.</p>
+<p>0:00 Introduction 0:36 Learn more about EdgeDelta and it’s capabilities 1:39 Customize and transform data in flight before sending it to your observability platform 2:10 Demo of EdgeDelta agent on Kubernetes 2:30 Demo of EdgeDelta agent on Mac, collecting syslog data from Cisco ISR 1100 and listening to UDP and TCP ports 3:13 How to prevent the melt down of too much MELT Data 3:50 Demo of pipelines functionality - providing data plane view or control plane view for agents 5:28 See how you can extract metrics from devices that are not natively instrumented for it. 5:40 See how you can convert log-based data into metrics and just sending that to your FSO platform 6:25 Leverage the power of support for many different inputs to consistently categorize and label data before sending it to one or many observability destinations</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Technology</category>
+  <category>Recordings</category>
+  <guid>http://www.ftwynn.com/posts/Cisco-DevNet-2023-10/</guid>
+  <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Evolution of Observability Practices 2023 10</title>
+  <link>http://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zSeKL2-_sVg" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>OpenTelemetry has greatly impacted the observability landscape over the past few years. While it introduces an open standard for telemetry generation and collection, what is actually improving the lives of o11y teams?</p>
+<p>Join us for an in-depth chat with guests David Wynn, Austin Parker, Vijay Samuel, Nočnica Mellifera, and Iris Dyrmishi on the idea of how we can evolve existing observability practices into something even better than what we have now.</p>
+<p>#observability #OTel #o11y #opentelemetry #yttech #otelenduserworkinggroup #otelEUWG</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Technology</category>
+  <category>Recordings</category>
+  <guid>http://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/</guid>
+  <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Things Left Unimplemented… and I’m Unsure if I Ever Will</title>
+  <link>http://www.ftwynn.com/posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Having been around the PKM block a few times, I’ve gone snipe hunting once or twice in the PKM space. Here are some pitfalls I’ve found.</p>
+<section id="importing-readwise-into-basb" class="level2">
+<h2 class="anchored" data-anchor-id="importing-readwise-into-basb">Importing Readwise Into BASB</h2>
+<p>In the past, I’ve included importing Readwise comments in my implementations of BASB.</p>
+<p>It was often a pain to set up, created a lot of name conflicts when searching (which might be valuable to some, but wasn’t to me), had occasional problems with unsupported characters, and generally just didn’t give me anything useful. With Logseq, I actually was running a separate instance of Obsidian because the Readwise plugin there worked and LogSeq’s didn’t. What a mess.</p>
+<p>It did help when I was tinkering with a more formal Zettelkasten implementation, but beyond that… not so much.</p>
+<p>Speaking of Zettelkasten…</p>
+</section>
+<section id="implementing-zettelkasten" class="level2">
+<h2 class="anchored" data-anchor-id="implementing-zettelkasten">Implementing Zettelkasten</h2>
+<p>I’ve alluded to this a few times, but I’ll be more explicit here.</p>
+<p>I’m very intrigued by the Zettelkasten community and approach. It feels like there are some good ideas in there.</p>
+<p>However, it also seems very clearly tailored for <em>jobs where creating new, original knowledge is your goal and the thing that makes you successful</em>… aka. Academia. For almost every other job in existence, remixing knowledge that already exists, or coming up with better implementations of current approaches, or just driving toward clarity instead of entropy are <strong>FAR</strong> better ways to spend your time and energy.</p>
+<p>There is very real overhead in trying to make a Zettelkasten work. And to use it well, it gets <em>more</em> difficult to traverse through as it grows, <em>by design</em>. After all, if you’re trying to knock a bunch of these notes together to spur new ideas, that’s an exponentially growing number of collisions you’re aiming for. In creating novel knowledge, you want that. In a world with deadlines, that’s friction that just isn’t needed.</p>
+<p>So, even though org-roam talks a big game about Zettelkasten, I find it much more useful as a general ID linker tool than that.</p>
+<p>The one possible personal exception I might tinker with someday is a personal philosophical/religious Zettelkasten. That’s a pretty unique domain where thoughts from your own mind disproportionately matter, and connecting them together might yield meaning in and of itself. We’ll see if I ever get around to that.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Personal Knowledge Management</category>
+  <category>Building My BASB in Emacs</category>
+  <guid>http://www.ftwynn.com/posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/</guid>
+  <pubDate>Fri, 16 Jun 2023 17:50:00 GMT</pubDate>
+</item>
+<item>
+  <title>My BASB Implementation in Org Mode v2023-06</title>
+  <link>http://www.ftwynn.com/posts/my-basb-implementation-in-org-mode-v2023-06/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>The meat and potatoes of the series! The stuff you’ve probably been waiting for!</p>
+<p>Rather than dump the entirety of my init folder on you, I’ve opted to give a more narrative explanation of how the system came to be. If you are unclear about anything, please reach out on the socials and I’ll do my best to clarify.</p>
+<blockquote class="blockquote">
+<p>Reminder: I use the term BASB to refer to the solution we’re building in Org.</p>
+</blockquote>
+<p>I’m sure I’ll update this page more than a few times, but expect I’ll write a new version after enough time passes.</p>
+<section id="global-configurations" class="level2">
+<h2 class="anchored" data-anchor-id="global-configurations">Global Configurations</h2>
+<p>There aren’t that many global configurations I want to call out at the top. Generally, I write my init file in org, add packages and comments that I want to try, and add in commands I want to keep handy to my general.el keymap.</p>
+<p>That said, there is one thing I want to encourage anyone considering org to take a look at: you should reverse the insert order of headings so that new entries come in at the top… a “reverse cron” approach to insertion if you will… rather than the default of appending to the bottom.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode lisp code-with-copy"><code class="sourceCode commonlisp"><span id="cb1-1">(<span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">setq</span> org-reverse-note-order <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">t</span>)</span></code></pre></div>
+<p>I’ve found that this approach leverages the fact that we tend to want more recent things more at hand than older things. Plus if you stick wth the system for a while, appending to the bottom often entails a lot of scrolling.</p>
+<p>Your mileage may vary, but worth noting.</p>
+</section>
+<section id="basb-beginning-with-the-end-in-mind" class="level2">
+<h2 class="anchored" data-anchor-id="basb-beginning-with-the-end-in-mind">BASB: Beginning with the End in Mind</h2>
+<p>I find that the nature of BASB creation inclines people to focus <em>on the BASB</em> as the target output. But that’s of course, not the real goal. The <em>real</em> goal is to figure out what <em>other</em> stuff this new tool/practice enables. Keeping that in mind, I find I can’t talk about the thing without talking about what I use it for and want from it first.</p>
+<p>As such, I will walk my setup through each of the target use cases I aim to solve. I’m sure it will evolve as I add more, but the needs here are what drive the system, not the system driving my needs.</p>
+<section id="my-target-use-cases" class="level3">
+<h3 class="anchored" data-anchor-id="my-target-use-cases">My Target Use Cases</h3>
+<section id="journaling-and-regular-reviews" class="level4">
+<h4 class="anchored" data-anchor-id="journaling-and-regular-reviews">Journaling and Regular Reviews</h4>
+<p>This is the number one use case because creating a regular habit that uses the tool multiple times per day is key to really learning it. Journaling isn’t a technically complicated use case, just requiring some templates and a place to journal in the system that doesn’t require thinking about where the entry goes.</p>
+<p>I took a cursory glance through various options inside of org, and opted for using org-roam’s dailies to handle this. I’ve used diary mode in the past, but I liked org-roam’s capture system that was tied to it, so I went that direction. I also use org-roam for other things which I’ll describe later, so that was a reasonable fit.</p>
+<p>This does mean that I break my principal of <strong>a single org file</strong> almost immediately, since org-roam does separate daily files by default. However, experience has taught me that I never mess with these physical files themselves, so I think it’s fine. Putting journals in one file is also a surefire way of eventually causing a performance problem somewhere down the line. Might as well head that one off before we get there.</p>
+<p>Additionally, I keep all my templates as org files in a sub-directory, <code>~/org-roam-repo/templates</code>. I find using full org files much easier to visualize and edit rather than storing them as strings in my init file. I mean, I can only handle so many <code>\n</code>’s before my eyes cross… and I’m a person who <em>likes</em> regular expressions.</p>
+<p>This also shows the first example of my principle for subdirectory use in org:</p>
+<blockquote class="blockquote">
+<p>Prefer a flat, single directory where possible. Use sub-directories for <strong>programmatic</strong> separation of content as needed.</p>
+</blockquote>
+<p>In this case, having a single template directory (no files of which are included in the org-roam index) makes them easier to find, refer to, and keep out of the way of other files in BASB.</p>
+<p>The following templates apply to this use case:</p>
+<ul>
+<li>Morning Journal</li>
+<li>Evening Journal</li>
+<li>Weekly Journal</li>
+<li>Monthly Journal</li>
+<li>Interstitial Journal</li>
+</ul>
+<p>Daily notes themselves go in a special subdirectory, <code>~/org-roam-repo/journals</code>. The same reason as above applies, in that org-roam expects a directory to work with for journals, and I find separating them out is easier for various completion frameworks to handle rather than co-mingling them with other files. After all, today’s journal is very relevant. Tomorrow’s much less so. Even less before that. And on and on… No need to have all the clutter if I don’t need it.</p>
+<p>And with just that, we’ve got a perfectly serviceable digital journal that I can copy, paste, and link into/out of which I interact with each morning and night. Not bad for minimal effort (though I’ve implemented enough PKM’s to know this is an easy case).</p>
+<p>A huge but not-so-obvious reason we tackle this use case first, is that daily journals <em>create space for <strong>process</strong></em> that helps fill any gaps in the rest of our setup. With a simple checklist as part of my evening journal, I can remind myself to do all kinds of things at the end of the day.</p>
+<p>Maybe I need to do something manually for a half-baked process I didn’t finish. Maybe I need to reflect on if a piece of tagging overhead I added is still worth it. Maybe I need to scan Snipd for any useful clips rather than try to figure out a Rube Goldberg integration with it. Whatever the needs are, starting with journaling gives a regular means of repairing or revisiting any issues that might arise as we build out BASB.</p>
+</section>
+<section id="saving-notes-links-and-other-ideas" class="level4">
+<h4 class="anchored" data-anchor-id="saving-notes-links-and-other-ideas">Saving Notes, Links, and Other Ideas</h4>
+<!--list-separator-->
+<ul>
+<li><p>Capturing Notes</p>
+<p>For pretty much anything, from spur of the moment thoughts to taking my own notes on a meeting, I’ll fire up my Interstitial Journaling capture template and throw it in the Daily Note. The idea is to minimize the energy wasted around “where does this go?” Answer: The Daily Note. Done. I can refile it later, and if I don’t I can full-text search the directory.</p>
+<p>In fact, I do refile them later… during my evening journal. There’s a checklist item to review the non-journal entries and refile them to PARA. There aren’t usually very many, and org-refile makes it extremely easy to do.</p>
+<p>From time to time, I’ll take notes directly in a relevant PARA section. But often it Daily Note first, then refile.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Organizing notes</p>
+<p>Now we get back to the principle I mentioned earlier: putting everything in one org file. PARA is a great framework, so I have a file simple named PARA.org with Projects, Areas, Resources, and Archive as the top level headings. There are sub-bullets of all the things you might expect under those headings.</p>
+<p>To be clear, this is not the org-roam way, but it is the <em>org</em> way. This way we get to <em>earn</em> any complexity we add to the system. I keep all my notes for various things in that single file, and if it feels too unwieldy, then I’ll bud it off into it’s own org file.</p>
+<p>Having been through this before, I stubbed my favorite 9 or so Areas and Resources to start, and will let the rest grow over time. I give each heading I want to refile to an ID via a custom function I wrote (timestamp_heading) so I can use <code>org-roam-refile</code> to refile any other notes there. I also add a <code>Thoughts</code> sub-bullet under each and do the same, for any miscellaneous info I want to refile to the right Area without thinking about what subsection it should belong to.</p>
+<p>It might have been possible to use a many-file approach instead. With clever tagging or filing or something, I could have probably used <code>org-ql</code> to compile this PARA view from the bottom up. I opted not to do this because:</p>
+<ol type="1">
+<li>I couldn’t find an easy way to do it with a little Googling. Experience in emacs land tells me if a few Google searches don’t find what you’re after, then it will be much harder (though not impossible) to implement. Most people pick a relatively small number of org files if they aren’t going all in on org-roam or deft, so I think that’s fine to start. Even if I ultimately grow to have an org file per sub-Area, that list probably won’t be more than 20 or 30 files… maybe 100 in the long term.</li>
+<li>Tagging consistency is <em>really</em> hard, and really underestimated. Auto-complete is a huge help, but if I can just file something once, I’d rather do that than remember how to tag stuff over and over, especially in a distributed system. Inheritance with hierarchies is clear and easy to work with.</li>
+<li>Tagging is a great theoretical concept for Information Management, but that’s not what I want to spend time focusing on. If I can get to a 95% good enough solution with 5% of the effort, then I’ll do that. Or in another sense: if I can remove a small mental tax that I would pay every time I made a new note from now into the future, no matter how small, I think that’s probably a good call.</li>
+</ol>
+<p>Now, things do get a little sticky in a few places when we get to parts of this use case outside of text files on a single Linux desktop.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Mobile</p>
+<p>Ah mobile… a top request of many and a bane of many a PKM tool’s existence. I’ve personally used Obsidian and Logseq’s native Sync, as well as Roam when it was web based.</p>
+<p>In pretty much every case the experience is awful. Conflicts happen that you don’t expect, resolution flows are awkward, plugins kept getting weird for me (especially in Obsidian), and on and on…</p>
+<p>Emacs is <strong>not</strong> immune to these issues, but stepping on a few thorns in the past helps clarify exactly my priorities.</p>
+<p>First, I want to be able to capture ideas quickly on mobile, either mine or from another app. The fewer clicks the better, and if it works with the <code>Share with...</code> menu on Android even better.</p>
+<p>Second, I want to be able to <em>view</em> all my notes when I need them on the go.</p>
+<p>Notably, I don’t find editing the bigger system to be very important, because typing on mobile is terrible anyway. I would like to be able to see info about a contact before I jump into a meeting with them when I’m out and about, but I can capture any new info as a new note and refile it later.</p>
+<p>I solve these cases with a three-pronged approach on my Android phone.</p>
+<p>First, I need to get the files on my phone at all. Here, <a href="https://syncthing.net/">SyncThing</a> is the answer. It’s like Dropbox but one you run yourself with no server required. It’s easy enough to install on multiple machines (from Android to Linux to Windows to Mac), and does its job. I sync all of my org notes to the phone, though I have a sub-directory <code>mobile</code> for a few specific files I’ll cover in a second.</p>
+<p>Second, <a href="https://orgzly.com/">Orgzly</a> solves the capture use case wonderfully (along with TODOs, see below). It’s easy to capture notes via the widget, and the app is easy enough to understand. To minimize its impact on the broader PKM system, I only point it to the <code>mobile</code> sub-directory which contains three files: TODOs.org, Keep.org, and Contacts.org. Since I do edit these files on my PC, I have to be mindful about giving some sync time before jumping back onto my phone. My typical flow is to jot down things on mobile, then refile them at night. Very little goes the other way (except for TODOs). Keeping Orgzly’s impact to a few files also keeps it from overwriting files where I care about whitespace formatting, which I hear is a problem for others that have tried to be all in on Orgzly.</p>
+<p>I want to add, my first iteration of capture was to just <code>Share with...</code> to Google Keep and then copy those into BASB each night during the evening journal as a checklist item. The copying and pasting back and forth got annoying, and I find capturing straight to an org file from Orgzly lets me use one refile command at night to get it where it needs to go. So I switched… but that’s where the Keep.org namesake comes from.</p>
+<p>Third, for viewing all of my notes, I use <a href="https://orgro.org/">Orgro</a>, which is a much cleaner viewing experience than Orgzly since that’s all it does. This I can point to the whole org directory, find what I know is there, and get out again.</p>
+<p>This setup works most of the time, and it’s fairly straightforward for me to resolve conflicts when the arise via ediff (which is worth learning if you haven’t used it before). But, mobile is a pain point for everyone, and I personally believe the “need” for it is significantly overblown.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Pictures and Other Attachments</p>
+<p>While most of what I capture and deal with is text, I do keep a running doc of how I want to improve my dress style, with visual inspiration I pull from around the web. So I do need to meaningfully handle pictures. There are two options I see mentioned a lot around the web.</p>
+<p>The first is org-attach. There are a lot of cool things about org-attach. It isolates files in note specific directories. It has a link inference mechanism so your URI’s don’t get too long. It encourages using the <code>id</code> property, which we’re already using for org-roam.</p>
+<p>But…</p>
+<p>A big use case for BASB is the ability to pull together old work and remix it into something new. The actual link in the text, if copied, will change context when pulled into a project with a different ID. There are workarounds, but for my simple case, I think I’ll just link to the files in a directory outside the org folder on disk.</p>
+<p>I specifically have a different folder <em>outside</em> the org directory because I <em>don’t</em> want to sync a bunch of binary blobs to my phone. I suspect that folder could get large much faster than the org directory itself with modest use.</p>
+<p>As such, <code>org-download</code> is a good enough helper for the time being, with a prefix to the folder outside my main org folder. That directory is relative to $HOME, just like my main org folder, so as long as I can set $HOME (even on Windows), everything will find it just fine, and moving links around in org won’t matter.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Possible Enhancements</p>
+<p>To walk the path of emacs is to always be looking for things to be better. I have my eye on a few things for the future that I haven’t bothered to implement yet.</p>
+<ul>
+<li>Move the Archive to a separate file, for all the things that fall out of scope and shouldn’t show up as refile targets. I don’t imagine this would be necessary unless there are either a huge number of name conflicts, or if size really gets out of hand.</li>
+<li>I’m thinking about pulling Contacts out of the mobile folder and putting it in the root directory, as I put it in there before I found Orgro. I like that I can add to it in a pinch via Orgzly, but I’m very used to adding a new quick capture and refiling it later these day. I chalk this under “not bothering” for now.</li>
+<li>Try out Voit’s method of being completely filesystem agnostic: <a href="https://karl-voit.at/2022/02/10/lfile/" class="uri">https://karl-voit.at/2022/02/10/lfile/</a>. My concern here is that I regularly shift between all major OS’s, and this might not be so easy to achieve on Windows.</li>
+</ul></li>
+</ul>
+</section>
+<section id="projects" class="level4">
+<h4 class="anchored" data-anchor-id="projects">Projects</h4>
+<p>There are approximately a hundred different ways to model a project in Org mode. I’ve already iterated through a few approaches, but rather than catalog each one, I’ll just detail where I’ve landed for now.:</p>
+<ul>
+<li>A project is a headline with the tag <code>project</code> (set to not inherit in my init)</li>
+<li>The project itself has a deadline on the root node, which is the title of the project</li>
+<li>There are a lot of sub-headers I defined in a capture template to help the project stay contained and on track. I don’t use them every time, but it’s good to see a list on new project creation. Use can insert capture templates at point by preceding them with <code>C-0</code>, even if you’re using general.el</li>
+<li>Notes can be refiled in from elsewhere with org-roam-refile once I add an ID
+<ul>
+<li>For fleeting thoughts that are project specific, I’ll refile them into the project</li>
+<li>For things already in other places in BASB, I lean toward copying into the project, rather than a full refile</li>
+</ul></li>
+<li>Artifacts that live elsewhere like Google Docs and such are linked
+<ul>
+<li>For me, this happens very often, as no one else I work with uses emacs, org, and so on</li>
+<li>I tend to brainstorm in Org and then export out to other systems for collaboration</li>
+</ul></li>
+<li>When finished, the project is refiled to a <code>Completed Projects</code> section in the Area
+<ul>
+<li>I couldn’t figure out a good way to retain the category when Archiving them otherwise</li>
+<li>But also, reporting is a terrible use case to optimize for in general. I strive to <em>optimize for <strong>doing</strong>, not for reviewing</em></li>
+</ul></li>
+</ul>
+<p>This approach distributes all the projects in their various areas, but allows me to see any I’ve committed to through the agenda.</p>
+<p>The challenge I ran into next was what to do about the (rather large) pile of someday/maybe project ideas. Stored in their own Area and Resource sections, they seem too disparate and hard to visualize together. Stored in the projects section they could be prioritized, but would quickly get blurred into mush.</p>
+<p>Surely there was a way to keep the entries nestled in their Areas and to still see them fairly grouped together? Do I turn to alphapapa, his name be praised?</p>
+<p>In short, yes. Enter <code>org-ql</code>. While it seemed like overkill to figure out a view to pull all the projects together, this is a great tool to auto-group by category (which I’ve added to each Area) and see all the relevant info.</p>
+<p>TODOs for each project are kept somewhere under the project header. One section I use a lot that borrows from the BASB course is the <code>Intermedite Packets</code> section. Its headlines are like discrete sub-projects but with a more targeted focus to a discrete, deliverable unit of work. It helps a lot to crystalize a bigger project into smaller chunks. That said, I’ve noticed I have to be careful not to be too beholden to the list. Otherwise the uninformed me of the past might boss around current me into IP’s I discover aren’t the right things to do first once I get going.</p>
+<!--list-separator-->
+<ul>
+<li><p>Possible Enhancements</p>
+<ul>
+<li>Use org-transclude instead of copying in notes
+<ul>
+<li>I hear good things, and I doubt I would need the text directly in any exports, so it seems plausible</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="todos" class="level4">
+<h4 class="anchored" data-anchor-id="todos">TODOs</h4>
+<p>Hand in hand with projects, of course, is TODOs. Org supports these natively, so there isn’t too much to cover given the above, but I’ll call out the interesting pieces.</p>
+<p>The big trick is that TODOs.org is one of the three files I have Orgzly paying attention to on my phone. This lets me use the widget to see upcoming TODOs, capture them on the go, and get alerts on my phone base don the timestamps. I do add to and update TODOs from my desktop as well, so I need to be a little careful when syncing, but Nick Anderson <a href="https://cmdln.org/2023/03/25/how-i-org-in-2023/#fn:31">points to a way to use Tasker to kick off an Orgzly sync on screen wake</a>, and that’s pretty much kept everything running smoothly. Even if issues do pop up, it’s very easy in Orgzly to reset by force pushing or force pulling, depending on which is best.</p>
+<p>I do occasionally forget to save a file (particularly from the agenda), so I’ve added in auto-save for buffers that aren’t saved after 60 seconds.</p>
+<p>Most of my TODOs live in that file. However, I also keep TODOs in my projects as well. The PARA file is already in the org-agenda, so the only drawback is that those don’t sync to mobile. Currently, I’m ok with that, because if I’m being honest with myself, I don’t do that kind of work on my phone when I’m out and about. A key insight of David Allen’s Getting Things Done is that we do some things best at particular times and contexts. I find a lot of people in the PKM space try to stuff everything into mobile when they really won’t get much productive output from it. It’s a classic 80/20 issue. If there is a task I do want to stew on while I’m about, I can either find it in Orgro, or copy it into my TODOs.org file as a one-off, though that case so far has yet to actually happen.</p>
+</section>
+<section id="crm" class="level4">
+<h4 class="anchored" data-anchor-id="crm">CRM</h4>
+<p>Time for contacts!</p>
+<p>Now, unlike most people who get elbow deep in emacs land, I’m not interested in bringing everything under the sun into org mode. It could <em>theoretically</em> be useful to have all my contact data in one place, but Org mode doesn’t plug well into non-emacs systems. My email client is GMail. Google Contacts syncs to my phone without issue, and it’s nice to see names when people text me. I don’t really need to tinker with caldav and vcard import/export because those parts are working fine right now.</p>
+<p>What I do need from a CRM (contact relationship management system), is the following:</p>
+<ul>
+<li>A way to tell who I should reach out to and check in on (I am awful at this)</li>
+<li>A way to pull together notes on a specific person into one place from multiple meetings</li>
+<li>A way to view contact notes before talking to someone, with or without my laptop</li>
+</ul>
+<p>There is a contact management thing for org called <code>org-contacts</code>, but more than being under-documented, it doesn’t seem to help with my core user journeys above. I don’t really care (for now) about storing contact info in different ways. I don’t need it to play nice with mu4e or other emacs email clients. However, the idea of all the contacts in a single file does make sense to me in the vain of being as simple as possible.</p>
+<p>So, my current flow looks like this:</p>
+<ul>
+<li>Create a new entry in the contacts file from a template</li>
+<li>Refile them to a Tier in the Contacts.org file (some people should be contacted every 3 weeks, some every year, some in between)</li>
+<li>Reschedule the recurring TODO to follow up based on the Tier they’re in</li>
+<li>Watch the org agenda for when to follow up</li>
+<li>Take notes on meetings and communications as Interstitial Journal entries when they happen</li>
+<li>Refile those entries to the subheading <code>Timeline</code> in the contact and update the follow up TODO</li>
+</ul>
+<p>A lot of those edges are a bit manual and could go wrong, but for the contacts I care most about right now it’s working well enough.</p>
+<!--list-separator-->
+<ul>
+<li><p>Possible Enhancements</p>
+<ul>
+<li>Have the recurring timestamps be derived from the Tier the contacts are in, rather than setting them up manually
+<ul>
+<li>I go back and forth on this, as it’s also useful to set the follow up to a shorter period of time if needed. So I’ll leave it as is for now.</li>
+</ul></li>
+<li>Have the last touch timestamp update when I refile a note to its Timeline
+<ul>
+<li>The last touched timestamp is a holdover from Obsidian</li>
+<li>I haven’t written a report to see when I last talked to all my contacts, but when I do I’ll judge if this approach is better or if I can find the most recent inactive timestamp under a contact easily enough</li>
+</ul></li>
+<li>Have a way to surface contacts I’m meeting with next in a buffer of some kind
+<ul>
+<li>This involves bringing more scheduling info into Org, which I’m not inclined to do since Google Calendar is good enough for now</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="recipes" class="level4">
+<h4 class="anchored" data-anchor-id="recipes">Recipes</h4>
+<p>One of the things I’m working on in my life right now is cooking. I’m trying to get good at it both for fun and for feeding my family. The big key seems to be iteration, and iteration is best done with notes!</p>
+<p>I broke out recipes into its own file from the start, because I sensed it would be big and unwieldy from the start. The Top level headings are:</p>
+<ul>
+<li>Ideas to Try</li>
+<li>Breakfast</li>
+<li>Snacks</li>
+<li>Prep Staples</li>
+<li>Main Dishes</li>
+<li>Side Dishes</li>
+<li>Desserts</li>
+</ul>
+<p>Each Recipe is a heading in one of those groups with notes on the background and research, my own shorthand for the recipe, and a section for Experiments which are all preceded by a timestamp. Experiments all have sections for Notable changes, Results, and Things to Try Next Time.</p>
+</section>
+<section id="style-inspiration-and-thoughts" class="level4">
+<h4 class="anchored" data-anchor-id="style-inspiration-and-thoughts">Style Inspiration and Thoughts</h4>
+</section>
+<section id="stoicism" class="level4">
+<h4 class="anchored" data-anchor-id="stoicism">Stoicism</h4>
+<p>This is possibly the most undefined use case thus far.</p>
+</section>
+</section>
+</section>
+<section id="code-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="code-breakdown">CODE Breakdown</h2>
+<p>While I think the use case by use case breakdown is a better framing and more informative than purely looking at the CODE framework, I thought I would run through it here should there be any interest from the BASB community.</p>
+<section id="capture" class="level3">
+<h3 class="anchored" data-anchor-id="capture">Capture</h3>
+<p>Breaking down capture by type of information source:</p>
+<ul>
+<li>Books
+<ul>
+<li>Read on Kindle if possible and capture via Readwise</li>
+</ul></li>
+<li>Articles
+<ul>
+<li>Read through Readwise Reader and capture there</li>
+</ul></li>
+<li>Twitter/Mastodon
+<ul>
+<li>Usually capture a link on mobile via <code>Share with...</code> to Orgzly</li>
+<li>Refile and take notes as needed after Evening Journal</li>
+</ul></li>
+<li>YouTube Videos
+<ul>
+<li>I’ll generally take notes directly in emacs in an Interstitial Journal entry</li>
+<li>Then I’ll refile it where it should go</li>
+</ul></li>
+<li>Podcasts
+<ul>
+<li>Snipd is my podcast player, which allows for clipping</li>
+<li>I DO NOT use the Readwise export, because I find it too noisy</li>
+<li>Instead when I’m done with an episode, I’ll share the notes via Orgzly and think through those notes later in BASB</li>
+</ul></li>
+<li>Meeting Notes
+<ul>
+<li>Capture in an Interstitial Journal</li>
+<li>If part of a work meeting, refile to the right section there</li>
+<li>If part of a 1:1 personal contact meeting, refile to their Timeline section</li>
+</ul></li>
+<li>My Own Thoughts
+<ul>
+<li>Interstitial Journal or Orgzly entry, depending on if I’m out or at my desktop</li>
+<li>Refile as needed</li>
+</ul></li>
+</ul>
+</section>
+<section id="organize" class="level3">
+<h3 class="anchored" data-anchor-id="organize">Organize</h3>
+<p>This is mostly covered elsewhere, but I try to stick to one PARA file if possible, and bud off pieces that should be separated for programmatic reasons, or if I know they’ll be really hairy sections (work, Recipes, etc.).</p>
+<p>I do want to add that org-roam is amazing for being ID based, which allows for <em>incremental change</em> when using it. Other similar tools require going a bit more all in on their preferred file structure. I like that org-roam doesn’t.</p>
+</section>
+<section id="distill" class="level3">
+<h3 class="anchored" data-anchor-id="distill">Distill</h3>
+<p>I tend to blend some beliefs from Zettelkasten into this step, rather than adopt Tiago Forte’s approach wholesale.</p>
+<p>I don’t think highlighting is especially valuable as a practice, even when I was using Evernote. Even in an iterative fashion, I just found it didn’t resonate with me.</p>
+<p>That said, I <em>do</em> think that rephrasing in your own words is <strong>super</strong> valuable. The whole idea of fleeting notes &gt; literature notes &gt; permanent notes is leveraging the power of your own interpretation to make the information more yours. I don’t see a reason to put that step off like Tiago does.</p>
+<p>I’ll often use a <code>&lt;&lt;</code> to denote personal thoughts as opposed to a good-faith transcription of ideas when I’m taking notes. I might want to tinker with a personal summary at the top at some point… but in either case I wholly embrace getting to the part where I rephrase things, rather than waiting for multiple passes at the material.</p>
+</section>
+<section id="express" class="level3">
+<h3 class="anchored" data-anchor-id="express">Express</h3>
+<p>This is a tough area for me, but I’m working on a few avenues for it.</p>
+<p>First, there’s this blog! It took a while to get around to setting up ox-hugo, but now that I have I’m very happy with the outcome. I’m hoping more personal blog posts will be on the way.</p>
+<p>Second, part of my Stoic practice is to read r/Stoicism and respond to someone who’s asking a question every morning. I actually use the reddit app to scan the posts, but then I’ll use redigg to pull in the actual text and write a response in org mode. Then I’ll convert via blackfriday and paste it back to reddit. I’m hoping to add these posts to my own blog at some point, since I don’t like how siloed they are in reddit. The recent API fiasco might break this flow soon.</p>
+<p>Third, I’m working on a few work projects that involve research and expression. I won’t go into them much here, except to say I’m using all the techniques I’ve mentioned so far to try and build a better public understanding of Dynamic Observability.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Personal Knowledge Management</category>
+  <category>Building My BASB in Emacs</category>
+  <guid>http://www.ftwynn.com/posts/my-basb-implementation-in-org-mode-v2023-06/</guid>
+  <pubDate>Fri, 16 Jun 2023 17:45:00 GMT</pubDate>
+</item>
+<item>
+  <title>What Makes Org Mode Hard for PKM</title>
+  <link>http://www.ftwynn.com/posts/what-makes-org-mode-hard-for-pkm/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Spoiler alert, it’s NOT the parentheses.</p>
+<section id="why-basb-in-org-is-hard" class="level2">
+<h2 class="anchored" data-anchor-id="why-basb-in-org-is-hard">Why BASB in Org is Hard</h2>
+<p>The big thing that makes Org Mode difficult for PKM is the same thing that makes it strong: it’s flexibility. In particular, the concept of a <em>single note</em> from BASB when translated to Org Mode is… unclear! You could have it be a single file. Or a single headline. Or only some headlines, which you could delineate by property or by tag or by file. And you could blend all these approaches at the same time!</p>
+<p>What choice! What decision fatigue!</p>
+<p>So, what do you do? What principle do you organize around? Ease of filing? Ease of retrieval? Ease of iteration? Do you even <em>need</em> all these decisions to be made?</p>
+</section>
+<section id="thinking-from-others" class="level2">
+<h2 class="anchored" data-anchor-id="thinking-from-others">Thinking From Others</h2>
+<p>As I was thinking about this, Nick Milo’s advice about Maps of Content kept ringing in my ears.</p>
+<blockquote class="blockquote">
+<p>A Map of Content has to <em>earn</em> its existence. You shouldn’t just make one because you think you should.</p>
+</blockquote>
+<p>There are other classic quotes as well. Such as…</p>
+<blockquote class="blockquote">
+<p>A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: A complex system designed from scratch never works and cannot be made to work. You have to start over, beginning with a working simple system.</p>
+<ul>
+<li>John Gall</li>
+</ul>
+</blockquote>
+<p>I firmly believe in this in general, but especially for PKM. Most people who get into the discipline are too focused on the tools and not the real output the tools are supposed to enable. I remember looking at a Tana YouTube video on setting up a CRM. The video was a two hours long, and they hadn’t put a single entry into the system an hour in. ONLY structure.</p>
+<p>Dave Winer <a href="http://scripting.com/2017/05/09/rulesForStandardsmakers.html">found an analogous problem</a> for naming things in software, because naming things is a big source of wasted energy and effort in software development. His solution is great: always go with the worst name. Translated to PKM: solve any problem with the dumbest, brute force-est, most built-in solution first. Then solve it “correctly” later, <em>if you need to</em>. This keeps your focus on producing the valuable stuff that deserves your time and energy, instead of tinkering with things that <em>feel</em> like you’re being productive, but in truth are a fancy form of procrastination. Plus the dumber solution, the less mental overhead it takes to make it work, which is good for maintenance.</p>
+</section>
+<section id="my-solution" class="level2">
+<h2 class="anchored" data-anchor-id="my-solution">My Solution</h2>
+<p>So, with the permission to do dumb things first in mind, my suggestion to those thinking about Org mode is to start as simply as possible, which I interpret as starting with <strong>a single org file</strong>, and letting complexity earn itself as things develop.</p>
+<p>You’ll see this idea, as well as several exceptions I’ve already made, as I detail the system.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Personal Knowledge Management</category>
+  <category>Building My BASB in Emacs</category>
+  <guid>http://www.ftwynn.com/posts/what-makes-org-mode-hard-for-pkm/</guid>
+  <pubDate>Fri, 16 Jun 2023 17:40:00 GMT</pubDate>
+</item>
+<item>
+  <title>Should You Choose Org Mode?</title>
+  <link>http://www.ftwynn.com/posts/should-you-choose-org-mode/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>To those who are emacs and Org mode curious, I’d like to give you a few things to consider about emacs and org mode.</p>
+<p>Be mindful, there are some dangerous opinions below. You can reach out on the socials if you want to challenge me on them.</p>
+<section id="reasons-to-choose-emacs-plus-org" class="level2">
+<h2 class="anchored" data-anchor-id="reasons-to-choose-emacs-plus-org">Reasons to Choose Emacs + Org</h2>
+<section id="the-basics" class="level3">
+<h3 class="anchored" data-anchor-id="the-basics">The Basics</h3>
+<ul>
+<li>It’s open source in the truest sense of the word</li>
+<li>It works on plain text files, a format you can bet on for the next 50 years</li>
+<li>It’s flexible enough to handle everything from notes to contacts to recipes to journaling and beyond</li>
+<li>It’s extensible, in small ways and big ones</li>
+</ul>
+<p>For many (especially programmers), this might be enough. For those who know the PKM space, they might point out that LogSeq and Obsidian both fit most of these requirements. And they have mobile apps with sync services on top of that! Why shouldn’t you use them instead?</p>
+<p>Well… there are a few more reasons unique to org mode to consider.</p>
+</section>
+<section id="the-advanced" class="level3">
+<h3 class="anchored" data-anchor-id="the-advanced">The Advanced</h3>
+<ul>
+<li>You can change how almost <em>every single keystroke</em> in org mode works to suit your workflow best, and make them contextual so you can toggle those changes on and off</li>
+<li>New extensions with significant functionality (I use a package called org-roam, for example) are being published all the time. Emacs is a programmer’s editor after all, and programmers be promgrammin’. If there is a new paradigm that emerges in the PKM space, you can safely bet that it will make its way to Org mode in some fashion at some point (as with org-roam).</li>
+<li>Emacs has been around for 40+ years, and will probably be around for 40+ years more assuming <a href="https://en.wikipedia.org/wiki/Lindy_effect">the Lindy effect</a> holds. If longevity is important to you, you could do much worse than emacs + org mode</li>
+<li>As you understand yourself and how you like to work, emacs will flex with you over time in a way no other tool can. You design it as you go. You sit at the controls. There is no external group that may or may not implement what you want.</li>
+</ul>
+<p>You take on more responsibility when you choose emacs, but you take on more potential as well. It’s a powerful consideration that no other tool can offer.</p>
+</section>
+</section>
+<section id="reasons-to-not-choose-emacs-plus-org" class="level2">
+<h2 class="anchored" data-anchor-id="reasons-to-not-choose-emacs-plus-org">Reasons to NOT Choose Emacs + Org</h2>
+<section id="this-is-your-first-pkm" class="level3">
+<h3 class="anchored" data-anchor-id="this-is-your-first-pkm">This is Your First PKM</h3>
+<p>The path to emacs + org mode is one I would suggest almost exclusively to those on their second PKM tool or later. It is indescribably useful to have some first-hand experience of different ways to organize your thoughts, what your preferences are, and what your negotiables and non-negotiables are. Experience will be the best teacher for those things.</p>
+<p>Emacs will bend precisely to your will. The clearer your will is, the more you will get out of it.</p>
+</section>
+<section id="you-want-something-shiny" class="level3">
+<h3 class="anchored" data-anchor-id="you-want-something-shiny">You Want Something Shiny</h3>
+<p>There’s also a level of disillusionment that is useful for approaching org mode. It is not the shiniest tool. It is not the easiest tool. It is not the tool of the year in 2023 or beyond. The year of the Emacs Desktop is emphatically, <em>never</em> coming.</p>
+<p>But if you try a few PKM’s you’ll see just how much of the glitter fades away and how fast. Emacs will still be here when many have come and gone. If you learn it, so will your system.</p>
+</section>
+</section>
+<section id="the-hidden-benefit-of-emacs-plus-org" class="level2">
+<h2 class="anchored" data-anchor-id="the-hidden-benefit-of-emacs-plus-org">The Hidden Benefit of Emacs + Org</h2>
+<p>There’s one more thing I want to mention. Emacs is a “better than good enough… but not perfect” solution for the majority of PKM needs.</p>
+<p>This is important to take to heart, because once you realize perfecting specific features is not the true goal, you can let go of finding the “perfect” tool for any specific job. You can hack something together that just works for now and then <em>get back to making valuable stuff</em>.</p>
+<p>Emacs is text buffers all the way down, which is far from a perfect programming construct to work with… but it’s good enough to get most anything done. Even if you have to copy and paste something for the last mile instead of doing a fancy API integration, if it gets you back to focusing on what matters, <em>that’s</em> the real value of a PKM system.</p>
+<p>I don’t do everything in Emacs. I don’t do email or read news. Heck, I usually open VSCode to do any real programming. But I <em>love</em> that my PKM tool is emacs. Once you taste it’s power, I think you might too.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Personal Knowledge Management</category>
+  <category>Building My BASB in Emacs</category>
+  <guid>http://www.ftwynn.com/posts/should-you-choose-org-mode/</guid>
+  <pubDate>Fri, 16 Jun 2023 17:35:00 GMT</pubDate>
+</item>
+<item>
+  <title>My Path to Org Mode</title>
+  <link>http://www.ftwynn.com/posts/my-path-to-org-mode/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Since this isn’t my first attempt at working with a PKM tool, I thought I would kick off this series by recapping the tools I’ve used thus far.</p>
+<section id="pre-2020-dot-dot-dot-org-to-other-tools-to-org-again" class="level2">
+<h2 class="anchored" data-anchor-id="pre-2020-dot-dot-dot-org-to-other-tools-to-org-again">Pre-2020… Org to Other Tools to Org Again</h2>
+<p>My first attempt at using org mode was with a vanilla installation of emacs many many years ago… but it was a somewhat lackluster experience. In addition to having no idea what I was doing (and no community to ask for help), I insisted on using Org headlines as if Org was a pure outliner (with no folded text underneath headlines). A big mistake. That led to a few customizations to the <code>RET</code> key functions early on that hampered growing any functionality over time. Short term gains, long term pains.</p>
+<p>Following that I bounced through a number of other tools. I used Dave Winer’s Little Outliner (called Fargo at the time, if memory serves), a simple pile of Markdown Files (edited with Atom, when that editor was the bees knees), and even just Google Drive. Those all had their trade-offs, be it start times, connectivity issues, search-ability, or my own trust issues with how the files were kept.</p>
+<p>By the time I decided to give Org mode another try in 2019, Spacemacs had become popular, and was a tremendous improvement for me. The pop up keys were magical. Learning the vim keys was something I’d always wanted to do and was actually pretty fun. I had a journaling habit that solidified regular use, and things were humming along OK, even on my Chromebook.</p>
+<p>Sure, updates were… opaque. And I didn’t understand why things would break from time to time… And trying to learn what org could do, <em>and then</em> map it to the Spacemacs org layer was a bit of a maze… but it wasn’t too bad all in all.</p>
+<p>So, I was initially planning to keep using Org mode for my first BASB course (Cohort 10 in 2020).</p>
+</section>
+<section id="evernote" class="level2">
+<h2 class="anchored" data-anchor-id="evernote">Evernote</h2>
+<p>However, once the course began, I realized there would be a lot I would have to figure out about emacs that had nothing to do with PARA or CODE or any of the other core concepts being taught… mostly related to getting info into and out of the system. Mobile sync was challenging. Capturing from different info sources would require a lot of thought for each flow. I would have to keep grokking more and more elisp as I went.</p>
+<p>The 40 year old editor was fighting me instead of helping me.</p>
+<p>So, I hopped off of Emacs and went with the course’s default of Evernote. This was a great move. I unquestionably understood the concepts more deeply by using the tool they were built around. There was also the benefit of a slicker, web-based app since I happened to be trapped with only a Chromebook at the time. The Stylus extension let me at least change the color of the web app, and plenty of the tools were good enough, even if Evernote wasn’t programmable in any real sense.</p>
+<p>… but I could never shake the feeling that I was afraid of the files not being where I could see them on my hard drive. Like with pure Google Docs, internet connectivity occasionally proved to be a challenge. And having to look up a dynamic daily prompt elsewhere to copy and paste it into my morning journal got annoying.</p>
+<p>I wanted BASB to be <em>more</em>.</p>
+</section>
+<section id="obsidian" class="level2">
+<h2 class="anchored" data-anchor-id="obsidian">Obsidian</h2>
+<p>Then I heard about Obsidian, an up and coming tool that promised to let me see and keep my files, <em>and</em> do a bunch more than Evernote could.</p>
+<p>Obsidian proved to be a great choice, and the program has only gotten better with time. Journaling was easy. The community was great. I started following voices like Eleanor Konick and Nick Milo. I was introduced to (and then rejected) Zettelkasten as an organizing framework. It was a really fun time to get involved.</p>
+<p>But…. as I dug more and more into the tool I realized… I’m really an outliner kind of person at heart. It’s how I think, how I like features to be arranged, and how I like to navigate. There were a few Obsidian plugins to help make bulleted outlines more manageable, but the keyboard shortcuts did unexpected things sometimes, the display didn’t work well with certain themes, tiny plugins would conflict with each other… ultimately it felt a bit too uncoordinated for how I like to work. Even zooming into a section of a document outline was implemented as a plugin that…. usually worked. I didn’t like the idea that such key components of how I engaged with my ideas were dependent on some little plugins that might stop working any day in this rapidly developing product.</p>
+<p>So while it was thrilling watching the plugin ecosystem spring up, the frustration of having to continually rework them all as the app and API changed grew and grew. If I’d come to Obsidian a year or two later I might still be on it, but it just didn’t quite fit. The change was coming from outside of me, and it was hard to trust.</p>
+<p>I also found writing my own plugins to be incredibly frustrating. I could make a few things work with some very explicit examples, but it seemed harder than it should’ve been. And building on top of helper plugins led to even more rapid-change challenges.</p>
+<p>So I went in search of something where I wouldn’t be quite so plugin dependent.</p>
+</section>
+<section id="logseq" class="level2">
+<h2 class="anchored" data-anchor-id="logseq">LogSeq</h2>
+<p>Roam caught my eye for about half a minute, but the die hard fans turned me off of the approach. Anything that proudly called itself a cult was not for me. And again, web based, even in the fledgling mobile version.</p>
+<p>But then came LogSeq. A local-first, open source version of Roam. Some have quibbled with how the project is governed, which is fair, but I felt much more comfortable building on it than the other options. And hey look! It supports org files as well as markdown! What a fun throwback!</p>
+<p>All was well at first. It was nice to have a proper outliner at hand. It’s a more minimal experience than in Obsidian, but it also covered pretty much all the bases.</p>
+<p>… but then I noticed the performance started to <em>really</em> suck on long documents. I had to fold and unfold different headings just to move around efficiently. The query language was good, but I had a few cases for advanced queries where the documentation was absolutely non-existent. Once again, it felt like I was fighting the tool rather than working with it.</p>
+<p>I hit the final straw when I couldn’t for the life of me figure out how to display my “prompt of the day” in my morning journal from a list. It shouldn’t have been <em>that</em> hard. I had it in a cloud function. I had it in raw JS. I had it in an array. There were options! But again I just couldn’t figure out how to get through all the DOM layers to make it display as part of my morning template.</p>
+</section>
+<section id="emacs" class="level2">
+<h2 class="anchored" data-anchor-id="emacs">Emacs</h2>
+<p>Then, two things happened:</p>
+<ol type="1">
+<li>A few fortuitous blog posts came across my Mastodon feed talking about <a href="https://cmdln.org/2023/03/25/how-i-org-in-2023/">how they used org mode in 2023</a> (thanks Nick!)</li>
+<li>I found <a href="https://www.youtube.com/c/systemcrafters">System Crafters</a> doing the immeasurably valuable work of intelligibly walking through building an emacs config Emacs <em>from scratch</em> into something more like Spacemacs</li>
+</ol>
+<p>So, I decided it was time to return to the where I came from.</p>
+<p>In a sea of new tools, it was time again to bet on the one that’s been around the longest.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Personal Knowledge Management</category>
+  <category>Building My BASB in Emacs</category>
+  <guid>http://www.ftwynn.com/posts/my-path-to-org-mode/</guid>
+  <pubDate>Fri, 16 Jun 2023 17:30:00 GMT</pubDate>
+</item>
+<item>
+  <title>You Are Not Your Lowest Point</title>
+  <link>http://www.ftwynn.com/posts/you-are-not-your-lowest-point/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>You are not your lowest point.</p>
+<p>At any time, you can choose to change the path you’re on. Even right this second if you wish.</p>
+<p>You can’t change the past, but by the same token the past can’t dictate your next action. You do.</p>
+<p>Make it a good one.</p>
+
+
+
+ ]]></description>
+  <category>Philosophy</category>
+  <guid>http://www.ftwynn.com/posts/you-are-not-your-lowest-point/</guid>
+  <pubDate>Wed, 08 Mar 2023 14:16:51 GMT</pubDate>
+</item>
+<item>
+  <title>Abstinence is Not the Only Form of Self-Control</title>
+  <link>http://www.ftwynn.com/posts/abstinence-is-not-the-only-form-of-self-control/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>When it comes to the Stoic virtue of Self-Control, our minds often turn to its most harsh form.</p>
+<p>Abstain from this. Cut off that. Completely avoid this. Abandon that.</p>
+<p>Often this advice has its merits. However, for those of us just starting on the Stoic journey, or who are working our way back from very ingrained habits, it’s worth remembering that scaling is also a valid approach to self-control.</p>
+<p>Instead of binging on a whole pizza, take it down to half, or just a slice or two. Instead of a whole cake or pie, take one piece. Instead of a whole cookie, cut it in half. Instead of a whole bottle, just have a glass.</p>
+<p>This is <em>still progress</em>, especially if we reflect on: 1. What brought us to the moment where we want to indulge 2. How we feel while we’re in that moment</p>
+<p>There’s no need to feel like a failure because we don’t stop something all at once.</p>
+<p>Building the muscle of discipline takes time, and curbing our indulgences to less is <em>still strictly better</em> than letting them run amok, unchecked.</p>
+
+
+
+ ]]></description>
+  <category>Philosophy</category>
+  <guid>http://www.ftwynn.com/posts/abstinence-is-not-the-only-form-of-self-control/</guid>
+  <pubDate>Mon, 06 Mar 2023 19:09:54 GMT</pubDate>
+</item>
+<item>
+  <title>How My Stoic Practice Paid Off</title>
+  <link>http://www.ftwynn.com/posts/how-my-stoic-practice-paid-off/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I find that Stoicism is a great philosophy for times of crisis.</p>
+<p>If you’re under pressure, dealing with a lot of expectations from a lot of people, or generally just having a rough go of things, I find the tenets and practices of Stoicism to be empowering, practical, and very useful in moving your life to a better place.</p>
+<p>That said, many adopt Stoicism in good times, including me. So I wanted to tell the story of how my Stoic practice really helped in a recent time of crisis, in case others could benefit from it.</p>
+<!-- more -->
+<section id="a-different-sort-of-friday" class="level2">
+<h2 class="anchored" data-anchor-id="a-different-sort-of-friday">A Different Sort of Friday</h2>
+<p>A few weeks ago, my Friday didn’t <em>start</em> differently than any other. I got out of bed, downed a glass of water, and opened my Chromebook to start my morning journal.</p>
+<p>But something was a bit off.</p>
+<p>My work email, the first thing that pops up on my Chromebook, wasn’t working.</p>
+<p>That wasn’t an unprecedented problem. Usually the fix involved a combination of updating ChromeOS and refreshing various certificates. A quick check found no updates available, and I didn’t have my security key with me, so I decided to handle it later.</p>
+<p>So I opened up Logseq and started journaling.</p>
+<p>There’s a prompt in my morning journal layout that requires me to flip over to my browser for a daily thought. When I did so, my personal inbox flashed by, and something caught my eye. If I didn’t know better, I would’ve thought it was spam, but GMail is usually pretty good about filtering that out.</p>
+<blockquote class="blockquote">
+<p>Subject: Notice regarding your employment</p>
+</blockquote>
+<p>Hmm. Hmmmmm…</p>
+<p>That… didn’t look good.</p>
+<p>I was the only East Coast member of my team, and now being entirely cut out from every corporate communication avenue, I had no way official means to reach out to the West Coasters.</p>
+<p>So, I started texting the team’s numbers that I had on hand. I shot a LinkedIn message to my boss. I went upstairs to tell my wife. Then… there was nothing to do but wait.</p>
+<p>It wasn’t long before the news stories started coming across my feed. For the first time, Google was laying off 10% of their workforce. The company had killed and reorganized teams in the past (as well as products, <a href="https://killedbygoogle.com/">as everyone knows</a>), but this was Google’s first blanket layoff.</p>
+<p>… and I had drawn the short straw.</p>
+</section>
+<section id="stoicism-kicks-in" class="level2">
+<h2 class="anchored" data-anchor-id="stoicism-kicks-in">Stoicism Kicks In</h2>
+<p>As the reality of the events settled in, I had the distinct thought: “<em>This is what the practice is for.</em>”</p>
+<p>I’d seen being laid off in countless negative visualizations. I’d journaled about it in my monthly review over and over. I’d re-enforced the ideas around what is truly important and what I truly control over and over again.</p>
+<p>Now if I’m being honest, I hadn’t fully committed emotionally in those thought experiments. After all, Google had never done a layoff, and I knew from first-hand experience how hard it was to fire individuals. But even then, there was emotional muscle memory there.</p>
+<p>And I felt… much calmer than I expected. More importantly, I could explain why.</p>
+<p>Many of my friends in the same boat got angry for a number of reasons, whether transparency or fairness or abruptness or impersonal-ness… but I found myself focusing back on the things I could control in fairly short order.</p>
+<p>If “the obstacle <strong>is</strong> the way,” then there were opportunities to be found even here. I remembered that this situation is pretty similar to how Zeno started his journey in creating Stoicism. This has all happened before, if not specifically to me.</p>
+<p>The <a href="https://dokumen.pub/nero-emperor-of-rome.html">words of the Seneca</a> kept running through my head from when he was ordered to death. His companions wept for his fate, to which he replied, “where is your philosophy now?”</p>
+<p>Mine was right here. Right where I had been building it the whole time.</p>
+<p>So as surreal as it felt, once I finished reaching out to people, I went back to finish my journal, and start the day like any other.</p>
+</section>
+<section id="the-takeaway-practice-makes-permanent" class="level2">
+<h2 class="anchored" data-anchor-id="the-takeaway-practice-makes-permanent">The Takeaway: Practice Makes Permanent</h2>
+<p>I write this post to say to my fellow Stoics, continue your practice in easier times. Especially by building habits. Especially by journaling. Especially by taking to heart the parts that resonate with you.</p>
+<p>If you do that, then you’ll find just like I did, when life takes a negative turn for you, your practice will be there for you. Your routine will be there for you. It will be as solid as you make it, and you can lean on it for support.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Philosophy</category>
+  <guid>http://www.ftwynn.com/posts/how-my-stoic-practice-paid-off/</guid>
+  <pubDate>Sat, 04 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Challenges Showing Text From a Simple JS Function in Logseq</title>
+  <link>http://www.ftwynn.com/posts/challenges-showing-text-from-a-simple-js-function-in-logseq/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>There are some open source projects that are plain, simple, and describe well what they do. <code>curl</code> is the classic example (along with most Linux utilities), but <a href="https://file-converter.org/">File Converter</a> is another. It does what it does, it doesn’t do what it doesn’t.</p>
+<p>And then, there is Logseq.</p>
+<p>All I wanted to do is dynamically create some text from a javascript function that’s different every day. I <em>feel</em> this is doable in there somewhere, but I’m absolutely stumped trying to connect the dots from A to B to make it happen.</p>
+<!-- more -->
+<p>Let’s consider the options:</p>
+<section id="option-1-use-templates" class="level2">
+<h2 class="anchored" data-anchor-id="option-1-use-templates">Option 1: Use Templates</h2>
+<p>The templating language in Logseq is pretty solid. I’m a particularly heavy user when it comes to creating my morning, evening, weekly, and monthly journal prompts.</p>
+<p>But that was also what led me to my problem. I have a list of morning Journal prompts, one for each of the 366 days (don’t forget Leap Day) of the year. I’m always open to the best way to get this list in various tools, but the most universal path seems to be through a Javascript function. Either I host it locally, or set up a Cloud Function to return the correct prompt each day.</p>
+<p>But in Logseq’s templating language there is no meaningful way to do a <code>select</code> or <code>case</code> or any other user defined function that I could find.</p>
+<p>So… we explore.</p>
+</section>
+<section id="option-2-use-plugins" class="level2">
+<h2 class="anchored" data-anchor-id="option-2-use-plugins">Option 2: Use Plugins</h2>
+<p>Plugins are the typical first place a user looks when looking for enhanced functionality like this. So I did a little digging and came up with two options.</p>
+<section id="smartblocks" class="level3">
+<h3 class="anchored" data-anchor-id="smartblocks">Smartblocks</h3>
+<p><a href="https://github.com/sawhney17/logseq-smartblocks">Smartblocks</a> seems like it <em>might</em> be able to make this work.</p>
+<p>There’s an <code>if</code> clause it adds to templates that might suffice if I was willing to retool my JS function into this altered templating language. However, I think I would have to shove them all into the same block, and I’m pretty sure Logseq gets unhappy with blocks beyond a certain size.</p>
+<p>Plus, I would have to maintain two sets of prompt “functions” if I found any typos, which somehow keep cropping up in this giant JSON object I keep around.</p>
+</section>
+<section id="smart-typing" class="level3">
+<h3 class="anchored" data-anchor-id="smart-typing">Smart Typing</h3>
+<p><a href="https://github.com/sethyuan/logseq-plugin-smart-typing">Smart Typing</a> seems like it should be able to handle this… but ultimately I couldn’t figure it out.</p>
+<p>Even with an example of text replacement in gif form right in the docs, I couldn’t figure out how the trigger worked. The function never seemed to fire.</p>
+<p>Plus it started to screw up normal typing after a Logseq restart. Maybe function size was another hidden problem? Maybe I needed to register the function somehow? Maybe there were more instructions in the Chinese docs I couldn’t read?</p>
+<p>I can’t say for sure, so I searched on.</p>
+</section>
+</section>
+<section id="option-3-use-custom.js" class="level2">
+<h2 class="anchored" data-anchor-id="option-3-use-custom.js">Option 3: Use <code>custom.js</code></h2>
+<p>Logseq has the ability to add in native Javascript from a <code>custom.js</code> file in the logseq directory.</p>
+<p>… I couldn’t find any official documentation for it at all.</p>
+<p>Most of the examples in the forums are people manipulating other behavior of the app rather than adding simple strings. Clearly there’s some sort of merging between DOM and data that needs to happen… but I couldn’t find a full explainer anywhere that would shed any light on it.</p>
+<p>Which meant it was time to…</p>
+</section>
+<section id="option-4-give-up-and-use-an-iframe" class="level2">
+<h2 class="anchored" data-anchor-id="option-4-give-up-and-use-an-iframe">Option 4: Give Up and Use an <code>iframe</code></h2>
+<p>I already have a simple html page with a working prompt. Why not just embed it in an <code>iframe</code> and copy + paste the output into Logseq?</p>
+<p>Definitely not what I would consider ideal, but given that previously I had to bounce around between different windows (and even workspaces on Chromebook… don’t get me started) to get the prompt previously, this is at least a meaningful improvement.</p>
+</section>
+<section id="my-wish-more-logseq-docs-on-the-fiddly-bits" class="level2">
+<h2 class="anchored" data-anchor-id="my-wish-more-logseq-docs-on-the-fiddly-bits">My Wish: More Logseq Docs on the Fiddly Bits!</h2>
+<p>I see all over the forums for Logseq users to avoid the fiddly parts and to stick with the simple tools. It’s excellent advice, and echoes words I’m currently writing for other posts about Advanced Queries and Solutioning in Logseq.</p>
+<p>… but the Docs on how to use things which visibly pop up in menus should exist <em>somewhere</em>. Otherwise you get semi-capable users like myself wandering around lost for way longer than necessary, only to fallback on a non-ideal solution.</p>
+<p>If anyone has any other ideas (or can point to docs I missed), shoot me an email below!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Technology</category>
+  <category>Personal Knowledge Management</category>
+  <guid>http://www.ftwynn.com/posts/challenges-showing-text-from-a-simple-js-function-in-logseq/</guid>
+  <pubDate>Fri, 03 Mar 2023 18:52:04 GMT</pubDate>
+</item>
+<item>
+  <title>VSCode as an MD Editor</title>
+  <link>http://www.ftwynn.com/posts/vscode-as-md-editor/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>So <a href="https://fosstodon.org/@kev">Kev</a> <a href="https://kevquirk.com/my-static-site-workflow/">made a post</a> about how <a href="https://typora.io/">Typora</a> was the missing UI link in his static site blogging journey.</p>
+<p>https://kevquirk.com/my-static-site-workflow/</p>
+<p>It got me thinking… can’t <a href="https://code.visualstudio.com/">VSCode</a> do all that? Is that the linchpin I’ve been missing in my blogging workflow? Time to see if I can recreate his process and tweak it for myself!</p>
+<!--more-->
+<section id="replicating-success" class="level2">
+<h2 class="anchored" data-anchor-id="replicating-success">Replicating Success</h2>
+<section id="inserting-links-with-a-keyboard-shortcut" class="level3">
+<h3 class="anchored" data-anchor-id="inserting-links-with-a-keyboard-shortcut">Inserting links with a Keyboard Shortcut</h3>
+<p>To quote Kev’s steps:</p>
+<ol type="1">
+<li>Search for the post/page on my live site that I want to link to</li>
+<li>Copy the link to the post from the results</li>
+<li>Highlight the text I want to link to in Typora</li>
+<li>Hit ⌘ + K</li>
+</ol>
+<p>Assuming search is the easy part (the fallback is just DuckDuckGo with a <code>site:</code> param), the pasting with auto-formatting is the key part.</p>
+<p>For VSCode there’s a <a href="https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one">big extension</a> that does this, and a <a href="https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts">small one</a>. I installed the big one because it had more downloads. Looks good so far, even using the normal <code>ctrl + v</code> shortcut so I don’t have to think when pasting.</p>
+<p>I’ve found, even when just writing this post, this makes me much more generous with linking out to other sites when writing.</p>
+</section>
+<section id="previewing-posts" class="level3">
+<h3 class="anchored" data-anchor-id="previewing-posts">Previewing Posts</h3>
+<p>This one has two options in VSCode, but first, let’s recreate what’s working for Kev in Typora.</p>
+<p>VSCode allows you to style the built-in Markdown preview with either local css files or ones from any URL. I opted to make a new css file and add it to the repo so I could keep the local preview local.</p>
+<p>I discovered, like Kev did, it’s not really possible to entirely recreate the website (until I found something I’ll mention in a second), so some cherry picking was needed to recreate the style. Sadly, my site uses a bunch of scss, which the VSCode Markdown preview doesn’t support. So I went through my live website, inspecting the generated css rules and copying them into the new css file by hand. It only took a handful of stylings for <code>body</code>, <code>p</code>, <code>code</code>, <code>h2</code>, <code>h3</code>, and <code>blockquote</code> before I was basically there.</p>
+<p>But then… I found something truly impressive. Something at the bottom of the <a href="https://gohugo.io/tools/editors/#visual-studio-code">Hugo Editors documentation</a> that I wish I’d had for a while…</p>
+<p>https://frontmatter.codes/</p>
+<p>Oh. Ooooohhh…..</p>
+<p>That’s a whole CMS entirely implemented as an extension. It’s based on front matter (hence the name) and works with multiple static site generators. That’s… exactly what I’ve wanted but didn’t dare to hope for.</p>
+<p>In addition to easy buttons to start the local server, it will display the whole, live website in a VSCode preview window instead of a basic css approximation.</p>
+<p>To be fair, there is a downside. Namely, it doesn’t update as you type (only on save), and it remembers your scroll position rather than jumps to where the cursor is, but for all the extra CMS features (I can coherently keep draft posts in the repo now!), it seems like quite a bargain.</p>
+<p>You can also still use the built-in preview window if you prefer. No need to commit to one or the other.</p>
+</section>
+<section id="drag-and-drop-an-image-to-the-a-target-folder" class="level3">
+<h3 class="anchored" data-anchor-id="drag-and-drop-an-image-to-the-a-target-folder">Drag and Drop an Image to the a Target Folder</h3>
+<p>I’m afraid I might be stumped on the drag and drop piece in attempting to be 1 for 1 with Typora. No one seems to have made an extension that brings an image file <em>in</em> to the current project by dragging it into the editor window. Everything seems to add a link to wherever the file already is, local or URL. In that sense, you’d have to go to his old method of putting the file in the correct folder first.</p>
+<p>You can, however, open the media page in Front Matter and drag and drop it there. It’ll end up in the right folder, and you can even copy the relative URL from there. So it’s close… but not quite the same.</p>
+<p>Perhaps more interestingly, you can <a href="https://frontmatter.codes/docs/custom-actions#creating-a-media-script">run a script on the image folder</a> from Front Matter, potentially removing that optimization step through the context click entirely. The docs <a href="https://frontmatter.codes/docs/custom-actions#optimize-image-(media-file-script)">have an example</a> for just that.</p>
+<p>But rather than set that up, I found <a href="https://github.com/Tichau/FileConverter">File Converter</a> for doing context menu conversions which I installed with <a href="https://chocolatey.org/">Chocolatey</a>. If I find myself out and about away from my Windows machine, I don’t see a reason not to use <a href="https://cloudconvert.com/webp-converter">CloudConvert</a> on my Chromebook or Mac or otherwise in a pinch.</p>
+<p>Frankly, I don’t use a lot of images, and if I did I’d want to lean into object storage like Cloudflare’s R2 to serve them, which is not nearly so well integrated into VSCode. But that’s a project for another day. Maybe when I finally get around to that podcast I’ve been meaning to do and I don’t want 100’s of MBs of mp3 sitting in Github.</p>
+<p>There’s probably a way to auto-optimize any images dropped into a folder, which then rsync’s to the bucket… but no! Another day!</p>
+</section>
+<section id="publishing-with-a-single-command" class="level3">
+<h3 class="anchored" data-anchor-id="publishing-with-a-single-command">Publishing with a Single Command</h3>
+<p>I use Cloudflare Pages to host this website, which is an awesome product. I was on Google Cloud Storage for a while (as the archive shows), but the http serving there is a bit of an afterthought. Pages has a lot of nice quality of life features around https (and CNAME flattening if you use their DNS as well) that you’d have to build yourself on GCP or AWS. It’s clear that small, static-style apps is Cloudflare Pages’ target… and it works beautifully.</p>
+<p>In the case of my blog, it automatically pulls from the Github when I commit a post. So in VSCode I just push sync, and it’s done. Couldn’t be easier.</p>
+<p>Pages also stores several deployments back, so if anything gets broken, I can revert to an old version easily while I dig in and fix it.</p>
+</section>
+</section>
+<section id="free-extras-from-using-vscode" class="level2">
+<h2 class="anchored" data-anchor-id="free-extras-from-using-vscode">Free Extras from Using VSCode</h2>
+<section id="deep-git-integration" class="level3">
+<h3 class="anchored" data-anchor-id="deep-git-integration">Deep Git Integration</h3>
+<p>VSCode is a programmer’s editor, and naturally comes with all the git tools that you would expect tightly integrated into the GUI. Especially as I was selecting and tweaking my theme, I found it incredibly helpful to stage different files in different commits… because rolling back layout-breaking changes to my site shouldn’t require losing content commits as well.</p>
+</section>
+<section id="find-across-files-is-really-good" class="level3">
+<h3 class="anchored" data-anchor-id="find-across-files-is-really-good">Find Across Files is <em>Really</em> Good</h3>
+<p>I’m constantly looking for something in another file it seems, and VSCode is always there with just what I need. Never mind that it also makes search and replace with regex super easy, which I used to great effect recently when renaming some categories across all my posts.</p>
+</section>
+<section id="its-on-all-my-platforms" class="level3">
+<h3 class="anchored" data-anchor-id="its-on-all-my-platforms">It’s on All my Platforms</h3>
+<p>I mentioned it earlier, but I routinely rotate between Windows, Mac, Linux, and Chromebook as I move around… and VSCode is there for me on every platform. Coupled with Git push and pull, I’ve got a local environment where I can push new content no matter where I am. It’s great to be that flexible.</p>
+</section>
+</section>
+<section id="conclusion-its-viable" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-its-viable">Conclusion: It’s Viable!</h2>
+<p>I think the biggest weakness with the setup is the spell checking. It’s a touch hit or miss, missing some small words like “ot”. But overall, I’m more at home in a techy feeling editor anyway, and I hope Front Matter is enough to get Kev to reconsider his setup all over again. ;-)</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Technology</category>
+  <guid>http://www.ftwynn.com/posts/vscode-as-md-editor/</guid>
+  <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Unofficial Partner Podcast - Episode 288</title>
+  <link>http://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>https://www.unofficialpartner.com/podcast/episode/79186e46/up288-esport-economics-the-in-game-ad-market</p>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2vmoNf7iq7e7Vkx1lGZjic?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<section id="episode-description" class="level2">
+<h2 class="anchored" data-anchor-id="episode-description">Episode Description</h2>
+<p>The market for in-game advertising and sponsorship is valued at around $8billion, and is predicted to more than double by the end of the decade. The audience is young, affluent and increasingly diverse, so it’s unsurprising that big brand names are seeking ways in to this world, via the publishers of mobile and big box console game titles such as League of Legends, Call of Duty or FIFA.</p>
+<p>Great for brands, but what do gamers think of commercial messages gatecrashing their party?</p>
+<p>We asked today’s guests, Ryan Snyder and David Wynn.</p>
+<p>David is Head of Solutions Consulting at Google Cloud for Games and Ryan is Head of Esports and Games at Nielsen Sports.</p>
+<p>To help frame the conversation, we asked Ryan to commission a special Unofficial Partner research panel, using Nielsen’s Video Game Tracking survey, the premiere source for measuring consumer sentiment towards video game software on PC and console.</p>
+<p>Listen to the podcast for analysis of this data and other questions facing the commercial side of esports.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Games</category>
+  <category>Recordings</category>
+  <guid>http://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/</guid>
+  <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>The Seasons of TODO Systems</title>
+  <link>http://www.ftwynn.com/posts/the_seasons_of_TODO_systems/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>It’s funny how some TODO systems are better suited for certain times and situations than others.</p>
+<p>Once upon a time I had a TODO system in Todoist with recurring tasks, reminders, views that only showed the shortly upcoming important tasks… a very programmed system. I’d moved away from it because it began to feel stifling, settling on something that was more akin to software development with a backlog and flexible prioritizing based on regular reviews. Foolishly, I thought I’d <em>evolved</em> the system to something strictly better for me personally.</p>
+<p>But… then that system fell down. My life has been especially hectic lately with kids, holidays, and (I hope) an unusually high amount of illness and hospital visits. On a hunch, I reverted back to my more programmed Todoist approach (which was still there and humming, just a touch neglected), and I found it wonderful to have a system I didn’t need to think about, nagging me about doing basic things each day.</p>
+<p>So it has me thinking… maybe TODO systems come in seasons rather than a pure measure of fit to a person. Sometimes you need a more nagging system telling you what to do. Other times you might need to optimize flexibility or ease of idea capture. No system is wrong, just better suited to the situation <em>and timing</em> at hand.</p>
+<p>I’m sure it’s not a revolutionary insight, but it was a bit of a jarring thing to live through first hand.</p>
+<p>Maybe when things calm down a bit I’ll change systems again, but as a parent that’s putting all my energy into the day to day, a more micro-explicit system is working very well.</p>
+
+
+
+ ]]></description>
+  <category>Personal Knowledge Management</category>
+  <guid>http://www.ftwynn.com/posts/the_seasons_of_TODO_systems/</guid>
+  <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>What the DnD Community Needs in Light of the OGL and ORC</title>
+  <link>http://www.ftwynn.com/posts/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I’ve been following with interest all the drama around the leaked <a href="https://en.wikipedia.org/wiki/Open_Game_License">Open Gaming License</a> revision. Copyright is one of those things you never really shake once it’s touched your life, and as one that was deep into the Anime Music Video community around the time of Napster and all those (early?) copyright wars it’s interesting to see another round of this.</p>
+<p>What I’m struggling with this time, is why the wider DnD community, an incredibly sharp and creative group of people, seem absolutely determined to have a special license for themselves instead of building on the victories we won when <a href="https://www.ted.com/talks/lawrence_lessig_laws_that_choke_creativity?language=en">Lawrence Lessig</a> and <a href="http://www.locusmag.com/Features/2008/11/cory-doctorow-why-i-copyfight.html">Cory Doctorow</a> were fighting the good copyfight.</p>
+<section id="the-background" class="level2">
+<h2 class="anchored" data-anchor-id="the-background">The Background</h2>
+<p>For those that need a 30 second primer on the drama, here it is. The official publisher of what most people know as <code>Dungeons and Dragons</code> is Wizards of the Coast. Fundamentally, they publish books with rules, tables, flavor text, and art that describe how to play a collaborative improv game with dice. It’s been a niche hobby for almost 50 years now, but with the rise of Critical Role, Dimension 20, and other shows the game has been slowly creeping toward mainstream adoption.</p>
+<p>A big piece of making money in this business is the publishing of extra books that detail adventures <em>using</em> those core improv rules. To help facilitate this, with the third edition of the game, Wizards of the Coast (WotC) released the Open Gaming License in 2000. The stated goal was to allow non-WotC creators to write and publish these extra works that built on the rules DnD set forth without legal repurcussion.</p>
+<p>And it worked! There is <em>a lot</em> of DnD compatible content that has been written in the 20+ years since.</p>
+<p>But… a leaked revision of an update to the OGL shows that WotC seems to want to revoke the freedoms of the old license and introduce a new version that severely restricts what people can do with DnD moving forward. That’s <em>in addition</em> to paying WotC 30% of gross sales on whatever they sell.</p>
+</section>
+<section id="my-confusion" class="level2">
+<h2 class="anchored" data-anchor-id="my-confusion">My Confusion</h2>
+<p>It’s not at all unclear to me why WotC would do this. 30% seems to be the magic number that every app store has put into other industry’s CEO’s heads as a cut they should take, and hiring a non-fan as CEO in an intensely fan-driven business seems to invariably lead to these kinds of conflicts.</p>
+<p>It’s the community reaction that confuses me.</p>
+<p>Doctorow <a href="https://pluralistic.net/2023/01/12/beg-forgiveness-ask-permission/#whats-a-copyright-exception">published</a> a piece on the OGL recently (linking out to some great EFF writing too) that made, what I thought were incredibly important points. Namely:</p>
+<ul>
+<li>The OGL is not legally phrased to last forever (<code>perpetual licenses</code> vs.&nbsp;<code>irrevocable license</code>), no matter how much the DnD community (or its original creators) want it to be</li>
+<li>The OGL only allows for use of things that are not actually copyrightable anyway, and forbids things that are copyrightable… so there isn’t really much benefit to it</li>
+<li>The only exception is a few areas of text that can be copy/pasted that would’ve been an unclear legal battle at best without the license</li>
+<li>The community should consider battle tested open licenses like <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">the GPL</a> and <a href="https://creativecommons.org/licenses/">Creative Commons</a> rather than remaking their own license <em>again</em></li>
+</ul>
+<p>This all makes sense to me. In fact, several game systems such as <a href="https://evilhat.com/product/fate-core-system/">Fate Core</a> and <a href="https://dungeon-world.com/">Dungeon World</a> are <em>already</em> built on Creative Commons, which seems to prove the validity of the last point.</p>
+<p>However, a major publisher in the field, <a href="https://paizo.com/">Paizo</a> (they make [arguably] the biggest DnD alternative), <a href="https://paizo.com/community/blog/v5748dyo6si7v">announced</a> that they will invest their resources to make a new open gaming license, ORC.</p>
+<p>As much as I like the irreverent style of their announcement, some of their commentary is weird. For example:</p>
+<blockquote class="blockquote">
+<p>We believe that any interpretation that the OGL 1.0 or 1.0(a) were intended to be revocable or able to be deauthorized is incorrect, and with good reason. We were there.</p>
+</blockquote>
+<p>That’s all well and good… but that’s not what got written in the license. And insofar as that’s the agreed upon language, the intent doesn’t really matter.</p>
+<p>The community seems to be really in favor of Paizo’s approach, which to me, means the community is probably in need of some other things even more than a new license right now…</p>
+</section>
+<section id="what-the-dnd-community-really-needs-right-now" class="level2">
+<h2 class="anchored" data-anchor-id="what-the-dnd-community-really-needs-right-now">What the DnD Community <em>Really</em> Needs Right Now</h2>
+<section id="a-primer-on-copyright-basics-in-tabletop-role-playing-games-ttrpgs" class="level3">
+<h3 class="anchored" data-anchor-id="a-primer-on-copyright-basics-in-tabletop-role-playing-games-ttrpgs">A Primer on Copyright Basics in Tabletop Role Playing Games (TTRPGs)</h3>
+<p>We need an explicit conversation around copyright and trademark as applied to TTRPGs. Most systems and ideas <strong>are not</strong> copyrightable, no matter what anyone claims. The murky parts of the text that’s leftover need to be addressed in clear terms, so people understand that you can’t copy the spell and feat descriptions, but you can use the same titles (I suspect… but I am not a lawyer).</p>
+<p>This all probably needs to be explained in the context of bad actors too, if the foreshadowing from WotC is to be taken seriously. This is <em>not</em> unexplored territory in general, but it looks like it will be new to the TTRPG community</p>
+</section>
+<section id="a-centralized-explanation-of-licenses-in-ttrpgs" class="level3">
+<h3 class="anchored" data-anchor-id="a-centralized-explanation-of-licenses-in-ttrpgs">A Centralized Explanation of Licenses in TTRPGs</h3>
+<p>For software, there are <a href="https://opensource.org/licenses">centralized explainers</a> of all the different open licenses, explaining the different aspects of them that might not be apparent to a normal person reading them over. Even then, some licenses have more history that would be useful to highlight (“viral” licenses, etc.).</p>
+<p>It might be the case that TTRPGs can generally rally behind Creative Commons. It might be the case that certain publishers want to go their own way depending on their plans. Even in software there are multiple perfectly valid licenses, depending on the effect you want to achieve as a creator.</p>
+<p>Or maybe there’s an opening for dual licensing, which is common in the software world. In that case there’s a fairly open license that covers the community editions of projects, but an enterprise license that covers the paid, supported version. Perhaps a model like this would ease hobbyists’ worries while still forming good, solid relationships between publishers?</p>
+</section>
+</section>
+<section id="in-short" class="level2">
+<h2 class="anchored" data-anchor-id="in-short">In Short</h2>
+<p>If we can level up the community’s understanding of the law and make it clear what everyone’s options are, then hopefully we can take this bad situation WotC has created and turn it into an even more positive one. As the Stoics would say…</p>
+<blockquote class="blockquote">
+<p>The obstacle in the path becomes the path. Never forget, within every obstacle is an opportunity to improve our condition.<br>
+- Ryan Holiday</p>
+</blockquote>
+
+
+</section>
+
+ ]]></description>
+  <category>Tabletop Role Playing Games</category>
+  <guid>http://www.ftwynn.com/posts/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/</guid>
+  <pubDate>Fri, 13 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Dimension 20 - Neverafter - First Impressions</title>
+  <link>http://www.ftwynn.com/posts/dimension-20-neverafter-first-impressions/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>I must admit when I first saw the trailer for this season, I thought “hard pass for me… not into horror.” That said, I couldn’t avoid seeing a YouTube short about how episode 3 was as crazy as episode 2 of Fantasy High, so I figured I had to give it a shot. At <em>least</em> on 2x speed.</p>
+<p>So far, I’ve come to appreciate a few things I didn’t expect, and I wanted to jot them down for anyone else that might be on the fence about the series as well.</p>
+<p>I’m only up to episode 2, and I’ll leave out any real spoilers even then. So expect more posts as the series progresses. Also, sign up for Dropout if you haven’t already!</p>
+<section id="the-character-twists-are-fun" class="level2">
+<h2 class="anchored" data-anchor-id="the-character-twists-are-fun">The Character Twists are Fun</h2>
+<p>You probably gathered this from the trailer, but the twists on common fairy tales are definitely fun. Ally’s take on Mother Goose is really interesting. Shioban’s take on Sleeping Beauty is great. The Frog prince turning back into a frog is hilarious. If you like strong twists on classic tales like this, then you’re in the right place.</p>
+</section>
+<section id="gerard-is-amazing" class="level2">
+<h2 class="anchored" data-anchor-id="gerard-is-amazing">Gerard is Amazing</h2>
+<p>To fan boy for a moment, I think Murph playing Gerard is amazing. He’s striking a perfect balance between “everything is fine and I don’t want to rock the boat” and “I need to go fix things” in a way that I’ve seen few players do well. He’s also a very understated character, which is near and dear to my heart.</p>
+</section>
+<section id="im-suprisingly-hooked-by-the-setting" class="level2">
+<h2 class="anchored" data-anchor-id="im-suprisingly-hooked-by-the-setting">I’m Suprisingly Hooked by the Setting</h2>
+<p>Perhaps most surprisingly to me, I’m finding the horror element a really compelling setting. Not the body stuff or jump scares, which still isn’t for me, but the overarching sense of <em>dread</em> and the knife edge that the heroes are walking to try and save the world feels more real now than ever. Even moreso than in Unsleeping City Season 2, which I loved for a similar reason. The Big Bad here is less apathy, but more a sharp hopelessness surrounded by terror. It’s… surprising… how much I want to see what happens next.</p>
+</section>
+<section id="one-bummer-ally-seems-to-have-main-character-syndrome-again" class="level2">
+<h2 class="anchored" data-anchor-id="one-bummer-ally-seems-to-have-main-character-syndrome-again">One Bummer: Ally Seems to Have Main Character Syndrome <em>Again</em></h2>
+<p>Ally has done exceptionally well with Mother Goose in not playing the character too hard, but <em>again</em> they’re the only one holding the world saving item/prophecy. Share the love around the table!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Tabletop Role Playing Games</category>
+  <guid>http://www.ftwynn.com/posts/dimension-20-neverafter-first-impressions/</guid>
+  <pubDate>Thu, 05 Jan 2023 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Build Inclusive Online Communities at Scale With Advanced Language AI 2022-12</title>
+  <link>http://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>https://www.bigmarker.com/VentureBeat/Build-inclusive-online-communities-at-scale-with-advanced-language-AI</p>
+<section id="description" class="level2">
+<h2 class="anchored" data-anchor-id="description">Description</h2>
+<p>To create healthy online communities where people want to spend time, companies need better strategies for weeding out harmful posts. How do you break free of one-size-fits-all moderation techniques to stay ahead of harmful content and evolving language?</p>
+<p>Don’t miss this VB On-Demand event, where AI/ML experts from Cohere and Google Cloud get into the nitty gritty of managing user-generated content, from new innovations in natural language processing (NLP) models to state-of-the-art AI solutions. And you’ll learn how to build safer communities that thrive by addressing toxicity, reducing user churn, maintaining a good reputation – and how to scale moderation efforts without hiring more staff.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Games</category>
+  <category>Technology</category>
+  <category>Recordings</category>
+  <guid>http://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/</guid>
+  <pubDate>Wed, 14 Dec 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>First Thoughts on Pokemon Unite</title>
+  <link>http://www.ftwynn.com/posts/first-thoughts-on-pokemon-unite/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Getting into MOBA style games is a terrible habit, and no one should do it, ever.</p>
+<p>That said, as one who doesn’t take my own advice and who tried out the newly released <a href="https://unite.pokemon.com/en-us/">Pokemon MOBA</a> for a few hours today, I figured I would share my thoughts here.</p>
+<!--more-->
+<p>In short, there’s a lot that Pokemon Unite (PU) gets right. There’s also a lot that may or may not jive with fans of the genre. Let’s dive in.</p>
+<section id="the-good" class="level2">
+<h2 class="anchored" data-anchor-id="the-good">The Good</h2>
+<section id="the-matches-are-short" class="level3">
+<h3 class="anchored" data-anchor-id="the-matches-are-short">The Matches are Short</h3>
+<p>No surprise given the intent to port it to mobile and the targeting of a more casual fan base. As a busy dad, I approve of the 10 minute limit. The goal mechanic (as opposed to destroy the core mechanic) also gives some interesting strategic choices for who should dunk when. More on that later.</p>
+</section>
+<section id="the-controller-mapping-is-pretty-easy-to-grok" class="level3">
+<h3 class="anchored" data-anchor-id="the-controller-mapping-is-pretty-easy-to-grok">The Controller Mapping is Pretty Easy to Grok</h3>
+<p>As one who has spent more time trying to map a controller to Wild Rift both on an Android device and in BlueStacks than I would care to admit, I have to say PU does a great job of making the controls feel natural.</p>
+<p>That said, I can see some of the trade-offs they’ve made to get there. Only giving two abilities plus an ult means that a a single side of the controller shoulders handles most of the ability set. I’m sure it also affects ability design, with a preference given to AOE and auto-lock abilities over really tricky to time/aim abilities. I know I’ve been playing the starter set of pokemon so far, but I can’t imagine controller limitations not being a reality as they think through ability design.</p>
+</section>
+<section id="the-cosmetics-are-surprisingly-fun" class="level3">
+<h3 class="anchored" data-anchor-id="the-cosmetics-are-surprisingly-fun">The Cosmetics are Surprisingly Fun</h3>
+<p>I’m hit or miss when it comes to cosmetics, but the ones in PU are subtle while allowing for a surprisingly wide range of styles. It’s still very mapped to the Pokemon Trainer vibe, but you can tweak a lot of elements and have fun toying around with it. I’d be shocked if they didn’t enhance this more later.</p>
+<p>That said, the skins for the Pokemon themselves are all wonderful and I could see that being a big draw.</p>
+</section>
+<section id="mid-game-build-flexibility-is-handled-well" class="level3">
+<h3 class="anchored" data-anchor-id="mid-game-build-flexibility-is-handled-well">Mid-Game Build Flexibility is Handled Well</h3>
+<p>While the choices are small, the fact that you can tweak a character’s build mid game (especially for the “all-around” class) is a really cool thing. I could imagine this becoming important in climbing the ranked ladder, but more importantly it’s implemented in a very simple, clear way. Well done devs!</p>
+</section>
+</section>
+<section id="the-bad" class="level2">
+<h2 class="anchored" data-anchor-id="the-bad">The Bad</h2>
+<section id="theres-a-lot-of-button-mashing" class="level3">
+<h3 class="anchored" data-anchor-id="theres-a-lot-of-button-mashing">There’s a Lot of Button Mashing</h3>
+<p>Partly as a result of the focus on easy-to-use controller mechanics, the gameplay tends more toward button mashing than most MOBAs. Simply putting abilities on cool-down, instead of tying them to mana, compounds this factor. Now you’ve got three buttons to mash rapidly whenever a bad guy comes around (attack, ability 1, and ability 2).</p>
+<p>I suspect we won’t see any ability sets that get really interesting like in other MOBAs (multiple characters, ability modifiers, Abathur, etc) that normally go on the number row because… well… there isn’t one.</p>
+<p>It also limits how strategic fights can get, since the auto-targeting is going to be doing a lot of work.</p>
+</section>
+<section id="the-character-set-is-small" class="level3">
+<h3 class="anchored" data-anchor-id="the-character-set-is-small">The Character Set is Small</h3>
+<p>With only 20 pokemon, and 5 classes (with sub-categories like ranged/melee as well) there is a real feeling of not quite enough variety here at launch. I’m not sure how long it’ll take to crank out new characters, but for those who aren’t willing to shell out all the money upfront, character acquisition is slow, and makes character selection feel very limited for new players.</p>
+<p>That could be good if you’re new to the scene. I know I’ve complained a lot about learning 80+ characters when switching titles. But this roster just felt a little too small, even for me, an older hand at the genre.</p>
+</section>
+<section id="game-sense-is-in-short-supply" class="level3">
+<h3 class="anchored" data-anchor-id="game-sense-is-in-short-supply">Game Sense is in Short Supply</h3>
+<p>I know it’s day 2 of release, but it’s pretty clear that people working their way through the tutorial grind have no sense of MOBA strategy. I’ve seen tanks steal from carries (which matters a lot with individual leveling in PU). I’ve seen teammates walk obliviously by easy ganks. I’ve seen people take stupid goals, mis-understand score mechanics, and ignore group speed effects. The variance is <em>wide</em>.</p>
+<p>Maybe this will improve in ranked as part of the climb, but it’s rough starting out.</p>
+</section>
+<section id="targeting-is-tricky" class="level3">
+<h3 class="anchored" data-anchor-id="targeting-is-tricky">Targeting is Tricky</h3>
+<p>I mentioned this earlier, but targeting definitely takes some getting used to. It’s a bit like a console aim-assist in FPS games. You learn to work with it rather than against it. Because there’s a physical controller in my hand (and I’m not at my PC) I don’t miss being able to target with my mouse too badly, but I’m actively annoyed at skill shot moves instead of simply planning for them.</p>
+</section>
+</section>
+<section id="the-ugly" class="level2">
+<h2 class="anchored" data-anchor-id="the-ugly">The Ugly</h2>
+<section id="the-vibe-might-be-a-little-too-familiar" class="level3">
+<h3 class="anchored" data-anchor-id="the-vibe-might-be-a-little-too-familiar">The Vibe Might be a Little… <em>Too</em> Familiar</h3>
+<p>I’ve seen this homescreen before. I’ve seen this daily quest list. It’s got more polygons characters and less hand drawn art, but I’ve seen most of this before.</p>
+<p>My biggest concern is that it might get boring a bit quickly because of that. Ranked may prove to be a good experience, but I won’t know until I get out of Bronze (which there was <em>no</em> placement for… just start from the bottom).</p>
+<p>The tutorial climb to unlock active abilities is also proving to be pretty League-level long, which is weird given the number of games I’ve already played.</p>
+</section>
+<section id="there-is-some-pay-to-win" class="level3">
+<h3 class="anchored" data-anchor-id="there-is-some-pay-to-win">There is Some Pay to Win</h3>
+<p>There are caps on stat-enhancing items you can bring in, and at my current ELO jungle pathing is way more important than items, but this could definitely rub some people the wrong way.</p>
+</section>
+</section>
+<section id="wish-list" class="level2">
+<h2 class="anchored" data-anchor-id="wish-list">Wish List</h2>
+<section id="i-wish-i-could-tel-the-game-ive-played-dotaleaguehotsmlbbwild-rift-before" class="level3">
+<h3 class="anchored" data-anchor-id="i-wish-i-could-tel-the-game-ive-played-dotaleaguehotsmlbbwild-rift-before">I Wish I Could Tel the Game I’ve Played DOTA/League/HotS/MLBB/Wild Rift Before</h3>
+<p>I think about this with all the MOBAs, because I know very few players who are into just one. The tutorial phase (which I’m still climbing out of several hours in) is pretty long, and I wish I could give it a frame of reference so it would skip some of the basics and maybe highlight some key differences.</p>
+<p>Come from League? We only have one two lanes, one item, two abilities, and everything’s on cooldown. Coming from HotS? Levels are trakced per character, there are no creeps, and towers don’t shoot at anything.</p>
+<p>It boggles my mind that these games wouldn’t want to make it easy to switch between them.</p>
+</section>
+<section id="i-wish-i-could-buy-a-starter-pack" class="level3">
+<h3 class="anchored" data-anchor-id="i-wish-i-could-buy-a-starter-pack">I Wish I Could Buy a Starter Pack</h3>
+<p>And not just standard mobile currency stuff!</p>
+<p>Most MOBAs (admittedly once they have a bit larger roster) allow for purchasing a set of heroes to expand the diversity of the early experience. I like it because it let’s me put a little skin in the Free 2 Play game, and also expand the play styles I can tinker with right away.</p>
+<p>No such thing in PU. Hopefully that comes around soon. Even the ability to just buy 5 more Pokemon at a discount would be great.</p>
+</section>
+<section id="i-wish-there-were-more-maps" class="level3">
+<h3 class="anchored" data-anchor-id="i-wish-there-were-more-maps">I Wish There Were More Maps</h3>
+<p>They’ve eschewed the traditional DOTA/League map for one that’s much more HotS like. I hope they continue in this vein and really make the map another gameplay element to consider. You can see them starting this with the daily quick games, but even in standard and ranked there’s room for diversity among the jungle monsters, map layouts, and goal configurations.</p>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Games</category>
+  <guid>http://www.ftwynn.com/posts/first-thoughts-on-pokemon-unite/</guid>
+  <pubDate>Sat, 24 Jul 2021 06:55:48 GMT</pubDate>
+</item>
+<item>
+  <title>Being the worst at Obsidian can make you better than you’ve ever been</title>
+  <link>http://www.ftwynn.com/posts/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>As I was working on puling together a weekly review for myself and exploring what a CRM in Obsidian might look like, I had a realization that I think is worth repeating:</p>
+<p>Being “bad” in Obsidian and doing something “wrong” is the <em>correct</em> way to go about things.</p>
+<!--more-->
+<p>There are many systems out there that are more opinionated than what is essentially a wiki. There are plenty of project/productivity/graph drawing/etc tools that are all more specialized at what they do and can put prettier UI’s on things with more one-click buttons.</p>
+<p>But the hidden value of doing something poorly in Obsidian, rather than the default way somewhere else, is that <em>you</em> get to make it just what you want.</p>
+<p>Take CRM. Dave Sivers in his book <code>Your Music and Your People</code> doesn’t even talk about using an app, but just calls it a database that you should use to help stay connected to people. What’s a better people database than one that matches exactly what you want to capture?</p>
+<p>Sure Obsidian does some things better than others. Fields are easy. Tags are easy. Journaling is easy. TODOs are easy. Connections are easy. Updates are… just as tedious as other systems. While on the other hand its connections to social and ability to mail merge are definitely lacking.</p>
+<p>But you know what? You probably don’t need most of that stuff.</p>
+<p>Starting from a blank text file forces <em>you</em> to pick the most important things first. That in itself is already key. Without toying with a few ideas on your own first, you might gravitate toward the prettiest or most/least expensive tool, even if it’s not right for you.</p>
+<p>The plugin ecosystem gives you a tremendous leg up for specifics, but an Obsidian plugin will never beat a polished alternative at that use case. The Tasks plugin will never be Todoist. This is a <em>good</em> thing.</p>
+<p>The rough edges are your personal feedback for knowing what’s working and what isn’t. Treasure that feedback.</p>
+<p>Once you dive into the mindset that being bad (or at least <em>starting</em> bad) is the point, there’s a lot of power that’s unlocked to you.</p>
+<p>Dive in, do something poorly, then tweak. It’s more fun, and more effective than aiming for perfection from the outset.</p>
+
+
+
+ ]]></description>
+  <category>Personal Knowledge Management</category>
+  <guid>http://www.ftwynn.com/posts/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/</guid>
+  <pubDate>Sat, 17 Jul 2021 16:58:03 GMT</pubDate>
+</item>
+</channel>
+</rss>

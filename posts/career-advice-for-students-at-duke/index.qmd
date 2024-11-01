@@ -1,0 +1,126 @@
+---
+slug: "career-advice-for-students-at-duke"
+aliases: 
+- /career-advice-for-students-at-duke
+date: 2020-12-30T18:46:24Z
+date-modified: 2023-06-02
+title: "Career Advice for Students at Duke"
+---
+
+One of my favorite ways to contribute to Duke is by talking with current students about their future careers. I always felt a little underserved by the career center, which seemed to be captured by the consulting and iBanking recruiting process, so I offer a different perspective to current students whenever I can. After speaking with dozens of undergrads, I found I had more to say than could typically be talked through in one sitting. 
+
+So, I thought I would publish my thoughts here to make my advice available to anyone with the link. 
+
+I'll start with some common assumptions that need correcting, give my suggestions for how to build a career, and then give a brief recap of how mine has been going for reference.
+
+This advice is particularly targeted at Duke students, but hopefully there is enough here that students at other schools can apply it to their own situations as well.
+
+<!--more-->
+
+## Correcting Assumptions
+
+### Your Major Is NOT Your Destiny... in Most Jobs it Honestly Doesn't Matter
+
+A lot of students I talk to believe that their major dictates which job they can get. Or at least, it influences the choice to such a large degree that the major *essentially* dictates it. In my experience, this is nonsense.
+
+Of course, there are a handful of fields where your major does matter. Medicine, some flavors of hardcore engineering, etc... but this is *far more* the exception than the rule.
+
+I graduated with an Economics degree, which I did use in my first job as a econometrics forecaster... but no one else on my team had that major. When I got a job in Professional Services at a software company, we had people whose majors ranged from Chemical Engineering to Biomedical Engineering to Cognitive Science. "Are you good with computers and people? Welcome aboard!" The rest truly did not matter, and in many cases the diversity was an asset rather than a hurdle.
+
+So pick a major you like and that challenges you, rather than one that maps to any particular career in your head. Your enthusiasm and the learning/researching skills you acquire will be more important than anything else, regardless of subject matter.
+
+### There Are TONS of Great Jobs Out There That You Have No Idea Exist
+
+Building off the idea above, there are a *ginormous* number of jobs in the world (many many more jobs than majors by a giant multiple), and most of them you probably don't know about right now. 
+
+This cannot be overstated.
+
+Even if you think you did the homework, and "basically only these 2-3 jobs" amount to what you want, I can almost guarantee you missed *at least* several dozen entirely different careers in widely disparate fields.
+
+The job I fell in love with is one I never heard about at Duke, Sales Engineer. It requires being able to talk to people, as well as thinking through technical problems and presenting solutions persuasively. It's a great job for a number of reasons which I won't go into in this article, but to stress the point, the career center **never** brought it up. The Strong Interest Survey **never** talked about it. I only discovered it by walking past a random booth at the Stanford career fair, getting asked an odd question, and talking to a guy wearing Aviator sunglasses for 10 minutes.
+
+Unfortunately, there's no silver bullet for fixing this, but one thing that helps is thinking more about the skills and work that put you in flow state, *then* finding roles that need those skills. [Designing Your Work Life](https://designingyour.life/designing-your-new-work-life/) has some great exercises that walk through this if you want to dig deeper.
+
+Additionally, talk to as many real people as you can. The Alumni network is good for this, as are any regular humans you know in real life. Even if (and maybe especially if) someone's story doesn't seem interesting as a career, but it is strange, ask them about it. I have a friend who went from manufacturing microchips to designing toys to working on VR headsets and is now considering full time software engineering. Another went from physically prototyping other people's random pipe dream designs to designing new features for the iPhone to managing the ins and outs of supply chains to and from China. Another was doing Professional Services work at a growing startup, only to leave and start a company doing the *exact same work* for that company, but now under his own enterprise he could control.
+
+People do an insane number of different things. Get interested in their paths and start asking them about it.
+
+### Beware of the Consulting/iBanking Trap
+
+As an Econ major, the Consulting/iBanking recruiting was pervasive, and was also *an absolute trap*. Their pitch is refined, and targeted directly toward undergrads' fears. It goes like this:
+
+> Hey you! Are you smart and accomplished, but unsure about what you want to do with your life? Don't worry about it! If you take this job, you won't have to close any doors on *any* possibilities, because we work with all kinds of industries doing all kinds of smart stuff. Even more than you'd get if you picked just one industry! You'll get to talk to *important people* and they'll listen to you, because you're smart! You'll also get paid a bunch of money. Now we do work hard **and** play hard, but you're not afraid of working hard, right? Sign up right here!
+
+iBanking's pitch is a little less about influence and a little more "trade your health, sanity, and life force for money" but it's similar in its goal of selling you an easy choice with a flashing neon light pointing to the upsides and minimizing the very significant downsides.
+
+In both cases I want to say this: the life force trade-off of working yourself to burnout is not worth the money. When those companies say they work hard and play hard, they're leaning pretty heavily on the former to the point of non-existence of the latter. Or if it does exist, its with other people on the team who are trapped in the same work schedule and location as you are.
+
+By contrast, I got a 9-5 job out of college at UPS headquarters. I didn't know what to do with my free time... and it was great. I started dancing at a local studio, played a bunch of video games, and dug deeper in technology that I couldn't at work because my desktop was heavily locked down.
+
+One morning, I saw a friend who joined a consulting firm on the train. His head was hanging low and he looked barely awake when I recognized him. "Brian? Is that you? How're you doing man?" He bolted upright like I'd hit him with a cattle prod and mumbled that he was good but working hard. Almost all the consultants I've met were this tired, and the really insidious part is: once you get that tired, it gets hard to see a way out. Buy whatever sofa and bed you want, you won't feel rested until you quit. 
+
+There's a reason the people leave those industries in droves, and it's not because the new hires get what they need to be fulfilled humans. It's because they get completely depleted and realize this isn't how they want to live their life (more on that below).
+
+### Follow Your Passion was Counterproductive Advice for Me, and Probably is For You Too
+
+On the other end of the perspective, a lot is written about following your passion and doing what you love. It's a great idea on paper. I even took some time off finding a job senior year to do a combined career center/CAPS program to help "find your dream job". My result: I could be happy doing pretty much anything. I wasted 3 months of job hunting time for that insight.
+
+Anyway, this whole philosophy is dangerous for a few reasons.
+
+First, in all likelihood, you **do not** have some innate sense of knowing what your true calling is inside of you. This is perfectly normal and OK. We all have things we like more and less, and those things don't always sum up to a perfect job description. I never really knew what to do next in my career until I just took a leap and tried something different.
+
+Second, even if you know yourself 100% through and through (an extremely high bar), whatever you think might be the perfect work for you... might be something no one pays for. What then? Are you doomed to be jobless forever? That doesn't seem right.
+
+Third, it's selfish. The follow your passion approach leads to only thinking about you and what you want... and that rabbit hole can lead to madness if you're not careful. The world already has unfulfilled needs. You'll naturally be better suited to help people with some needs over others, so start understanding that balance instead. You'll be more satisfied focusing on helping others in the long run anyway.
+
+Fourth, it's not a useful career planning tool. It's a single axis, simple assessment that doesn't take into account realities like making rent and eating and health insurance and a family. It also doesn't account for how you can grow and use influence to get more of what you want in a career, provided you plan correctly. All of those things are real world considerations that this simple version leaves out.
+
+Fifth, and underrated in my opinion, following your passion can kill your joy. You might hope that mixing what you love with a paycheck will make everything wonderful. In my experience, it just turns what you love now into *work*... into a *job*... into a *have to do* instead of a *get to do*. This is not a wise way to live your life. Some passions are meant to just be passions, and that's OK.
+
+## What To Do Instead
+
+### The One Book You Need
+
+Cal Newport's [So Good They Can't Ignore You](https://www.amazon.com/Good-They-Cant-Ignore-You-ebook/dp/B0076DDBJ6/ref=tmm_kin_swatch_0) is basically the one career book you need. It's a practical, straightforward approach of doing something you're good at, building career capital through that skill, and then leveraging that capital into doing more of what you want and less of what you don't. Rinse and repeat. 
+
+The beauty of it is that it doesn't really matter where you start so long as you start somewhere that moderately holds your interest. Invest in yourself and others, grow, and keep an eye out for where you might want to grow into next.
+
+I won't rehash the rest of the book here. Just go read it.
+
+### The Guide Rails Come Off After College
+
+I do want to add something that can be very jarring after college: the guide rails of life come completely off.
+
+It can feel like there's a well-worn and expected path as you move through school and on to college. Get good grades. Get into a good school. Get more good grades. Get a degree. And then... well... 
+
+As soon as you leave the academic bubble that certainty of what the next best thing is just... disappears. You suddenly have to decide for yourself how you'll make your way through life. Will you try to make a lot of money? Become famous? Work somewhere prestigious? Have an impact on a large group of people? Have a personal impact that you can see in someone's eyes when they look at you? Spend time on close relationships?
+
+There is no single, magical choice that will get you all of these things. Broadway stars still couch surf with their friends. There is good money to be made as a faceless cog in a corporate machine. Making a difference in a community comes with attracting attention, both positive and negative. Making a difference in the long term might alienate people from you in the short term. You have to choose the mix of benefits that work for you.
+
+And even if you do have a sense of what balance you want, there is no singular script to get you there.
+
+There is no single way to get into a company you want to work for. There is no single way to get famous, Internet famous or otherwise. There is no single way to succeed in business. There is no single way to "achieve" and "win".
+
+This can be scary, but I want to emphasize that it's also liberating, and worth embracing.
+
+Putting the above another way: There are *multiple* ways to get into a company you want to work for. There are *multiple* ways to get famous. There are *multiple* ways to succeed in business. There are *multiple* ways to "achieve" and "win". With that framing, you have an even better chance to achieve what you want *the way you want to*. 
+
+By a similar token, there will be no one pushing you forward in your career like they did through school. In my own life, I got really good at my job multiple times, only to get stuck because I wasn't leaning forward into the next thing and making it happen myself. Don't make the same mistake I did and always keep in mind any job is just *for now*, and another option should be in mind for you as you go.
+
+## My Career Path, If You're Curious
+
+I graduated from Duke in '08 with a BS in Economics. I took several months off of looking for jobs during senior year to do a CAPS + career center program to figure out my dream job. This led to a completely wasted 3 months because the result was "you could be happy doing pretty much anything". I frequented the career center for counseling and resume help. 
+
+For my first job in '08. None of that mattered. I knew I was going to be in Atlanta, so I applied to several dozen jobs in Atlanta from their websites and did well in the one interview that I got.  That led to a job at UPS headquarters. Most people were impressed that I'd gone to Duke. The rest didn't matter.
+
+Eventually I moved to Palo Alto because my girlfriend got a phd opportunity at Stanford and I decided to come along. Shotgunning the resume didn't really help that time, but surprisingly, walking around the Stanford career fair led to an interesting conversation (most tables were looking for CS majors, but a few weren't). They were looking for "people who could talk to both machines and people." Well I'd dabbled with tech my whole life... so I could probably do that.
+
+I want to add that I didn't even intend to go to that table. I was planning to walk by, but there was a foot traffic slow down in front of it, and the recruiter literally grabbed me on the shoulder, pulled me out of the line, and asked me if I could talk to people and machines. That part was lucky, but showing up to the career fair at all is something you can do. 
+
+That led to a Professional Services role at a tech startup called Intapp. Recruiters in Silicon Valley are constantly pinging tech people on LinkedIn, so when I got burned out at Intapp I started looking around. A recruiter called me one day, asking if I wanted a pre-sales role. I'd never seriously considered that before with a quota and all, but why not give it a shot? That led to a sales engineering role at another startup called SumoLogic.
+
+After a while, I requested to move to bigger accounts. After being declined, I asked around and heard that I essentially needed to have another job offer in hand to get that. I threw in a few resumes at Google on a whim and started shotgunning resumes again. Google Cloud (which was just starting up) invited me for an interview which led to a job. I worked there as a Sales Engineer, Sales Engineer Manager, and Head of Solutions Consulting until the big layoffs of 2023. 
+
+Then I joined up with some former colleagues from SumoLogic at another startup called EdgeDelta. My title is Principal Sales Engineer, but knowing a lot of the leadership team, I wear a bunch more hats than that. As of this writing I'm just getting started, but I'm genuinely looking forward to what needs to be done there.
+
+If I don't update this for a while, check my LinkedIn to see what happened next. Otherwise I'll update this when I can.

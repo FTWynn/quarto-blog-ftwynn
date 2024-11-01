@@ -1,0 +1,26 @@
+---
+title: Cisco DevNet 2023-10
+slug: cisco-devnet-2023-10
+date: 2023-10-11
+categories:
+  - Technology
+  - Recordings
+description: ""
+summary: "A quick chat with Mel Delgado from Cisco DevNet about optimizing data with Observability Pipelines"
+---
+
+{{< video https://www.youtube.com/embed/XzcpxOOqXfU>}}
+
+## Episode Description
+More data does not mean better observability! Mel Delgado (Developer Advocate, DevNet) and David Wynn of EdgeDelta explore how to optimize, transform and customize MELT data at the edge before sending it to your observability platform such as AppDynamics, and many more.
+
+0:00 Introduction
+0:36 Learn more about EdgeDelta and it’s capabilities
+1:39 Customize and transform data in flight before sending it to your observability platform
+2:10 Demo of EdgeDelta agent on Kubernetes
+2:30 Demo of EdgeDelta agent on Mac, collecting syslog data from Cisco ISR 1100 and listening to UDP and TCP ports
+3:13 How to prevent the melt down of too much MELT Data
+3:50 Demo of pipelines functionality - providing data plane view or control plane view for agents
+5:28 See how you can extract metrics from devices that are not natively instrumented for it.
+5:40 See how you can convert log-based data into metrics and just sending that to your FSO platform
+6:25 Leverage the power of support for many different inputs to consistently categorize and label data before sending it to one or many observability destinations

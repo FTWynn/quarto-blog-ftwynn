@@ -1,0 +1,43 @@
+---
+slug: "pocket-vs-instapaper"
+aliases: 
+- /pocket-vs
+date: 2020-05-07T02:27:26Z
+title: "Pocket vs. Instapaper"
+categories:
+- "Personal Knowledge Management"
+---
+
+When I started the [BASB](https://www.buildingasecondbrain.com/) course, I had no strong preference for which read-it-later app to use. I'd put stuff in pocket for years (even before it was baked into Firefox), and I still had an old Instapaper account with some articles I'd saved in 2007.
+
+I've ended up bouncing back and forth between them, and I wanted to document why.
+
+<!--more-->
+
+## Recommendations First: Instapaper
+
+Before I'd even switched from org mode to Evernote, I saw Instapaper was the blessed default in the example library. So... sure?
+
+All my impressions of Instapaper were (and still are) great. It's simple, clean, easy to highlight and take notes on. It's got great colors and the export all highlights in an article function worked well... most of the time.
+
+The big challenge came when I bought a second tablet (a Kindle Fire 10) to read on, because I got **supremely** frustrated trying to type notes on my Kindle. There is no _official_ app for Instapaper. Fire tablets are a lot easier to sideload these days than they used to be, but even then the app detected the OS wasn't well supported, and the highlighting would occasionally come out with the text all mixed together. Very strange, and immediately on my list to de-friction.
+
+## Back to Pocket
+
+So I fired up Pocket, which _does_ have a support app on the Amazon Appstore, and went to town. At first it was nice, but then I noticed a problem...
+
+There appears to be no way to export all the highlights for an article in a sane fashion. You can _display_ them all, but not actually export them. I sent an email to support and confirmed this.
+
+Fortunately, Readwise can do exactly this (even though it's yet another service). So I gave that a shot and it worked perfectly.
+
+.... until I realized Pocket doesn't support _notes_, only highlights.
+
+Welp, that's a deal breaker. So back to Instapaper.
+
+## Back to Instapaper
+
+What I brought with me this time though, was Readwise, which seems to have solved the text problem in whatever fashion they do. So ultimately, I'm getting the best of both worlds now
+
+## One Catch
+
+The only catch with this Instapaper + Readwise combo is that Readwise only scrapes Instapaper once or twice a day, and then exports to Evernote once per day. This makes sense, but it would be nice if it was configurable in some fashion.

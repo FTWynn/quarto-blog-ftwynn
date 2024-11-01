@@ -1,0 +1,96 @@
+---
+title: "VSCode as an MD Editor"
+slug: vscode-as-md-editor
+subtitle: ""
+date: 2023-03-02
+aliases: 
+  - vscode-as-md-editor
+categories:
+  - Technology
+---
+So [Kev](https://fosstodon.org/@kev) [made a post](https://kevquirk.com/my-static-site-workflow/) about how [Typora](https://typora.io/) was the missing UI link in his static site blogging journey. 
+
+https://kevquirk.com/my-static-site-workflow/
+
+It got me thinking... can't [VSCode](https://code.visualstudio.com/) do all that? Is that the linchpin I've been missing in my blogging workflow? Time to see if I can recreate his process and tweak it for myself!
+
+<!--more-->
+
+## Replicating Success
+
+### Inserting links with a Keyboard Shortcut
+
+To quote Kev's steps:
+
+1. Search for the post/page on my live site that I want to link to
+2. Copy the link to the post from the results
+3. Highlight the text I want to link to in Typora
+4. Hit ⌘ + K
+
+Assuming search is the easy part (the fallback is just DuckDuckGo with a `site:` param), the pasting with auto-formatting is the key part.
+
+For VSCode there's a [big extension](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) that does this, and a [small one](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts). I installed the big one because it had more downloads. Looks good so far, even using the normal `ctrl + v` shortcut so I don't have to think when pasting.
+
+I've found, even when just writing this post, this makes me much more generous with linking out to other sites when writing.
+
+### Previewing Posts
+
+This one has two options in VSCode, but first, let's recreate what's working for Kev in Typora.
+
+VSCode allows you to style the built-in Markdown preview with either local css files or ones from any URL. I opted to make a new css file and add it to the repo so I could keep the local preview local.
+
+I discovered, like Kev did, it's not really possible to entirely recreate the website (until I found something I'll mention in a second), so some cherry picking was needed to recreate the style. Sadly, my site uses a bunch of scss, which the VSCode Markdown preview doesn't support. So I went through my live website, inspecting the generated css rules and copying them into the new css file by hand. It only took a handful of stylings for `body`, `p`, `code`, `h2`, `h3`, and `blockquote` before I was basically there.
+
+But then... I found something truly impressive. Something at the bottom of the [Hugo Editors documentation](https://gohugo.io/tools/editors/#visual-studio-code) that I wish I'd had for a while...
+
+https://frontmatter.codes/
+
+Oh. Ooooohhh.....
+
+That's a whole CMS entirely implemented as an extension. It's based on front matter (hence the name) and works with multiple static site generators. That's... exactly what I've wanted but didn't dare to hope for. 
+
+In addition to easy buttons to start the local server, it will display the whole, live website in a VSCode preview window instead of a basic css approximation. 
+
+To be fair, there is a downside. Namely, it doesn't update as you type (only on save), and it remembers your scroll position rather than jumps to where the cursor is, but for all the extra CMS features (I can coherently keep draft posts in the repo now!), it seems like quite a bargain. 
+
+You can also still use the built-in preview window if you prefer. No need to commit to one or the other.
+
+### Drag and Drop an Image to the a Target Folder
+
+I'm afraid I might be stumped on the drag and drop piece in attempting to be 1 for 1 with Typora. No one seems to have made an extension that brings an image file *in* to the current project by dragging it into the editor window. Everything seems to add a link to wherever the file already is, local or URL. In that sense, you'd have to go to his old method of putting the file in the correct folder first.
+
+You can, however, open the media page in Front Matter and drag and drop it there. It'll end up in the right folder, and you can even copy the relative URL from there. So it's close... but not quite the same.
+
+Perhaps more interestingly, you can [run a script on the image folder](https://frontmatter.codes/docs/custom-actions#creating-a-media-script) from Front Matter, potentially removing that optimization step through the context click entirely. The docs [have an example](https://frontmatter.codes/docs/custom-actions#optimize-image-(media-file-script)) for just that.
+
+But rather than set that up, I found [File Converter](https://github.com/Tichau/FileConverter) for doing context menu conversions which I installed with [Chocolatey](https://chocolatey.org/). If I find myself out and about away from my Windows machine, I don't see a reason not to use [CloudConvert](https://cloudconvert.com/webp-converter) on my Chromebook or Mac or otherwise in a pinch.
+
+Frankly, I don't use a lot of images, and if I did I'd want to lean into object storage like Cloudflare's R2 to serve them, which is not nearly so well integrated into VSCode. But that's a project for another day. Maybe when I finally get around to that podcast I've been meaning to do and I don't want 100's of MBs of mp3 sitting in Github. 
+
+There's probably a way to auto-optimize any images dropped into a folder, which then rsync's to the bucket... but no! Another day!
+
+### Publishing with a Single Command
+
+I use Cloudflare Pages to host this website, which is an awesome product. I was on Google Cloud Storage for a while (as the archive shows), but the http serving there is a bit of an afterthought. Pages has a lot of nice quality of life features around https (and CNAME flattening if you use their DNS as well) that you'd have to build yourself on GCP or AWS. It's clear that small, static-style apps is Cloudflare Pages' target... and it works beautifully.
+
+In the case of my blog, it automatically pulls from the Github when I commit a post. So in VSCode I just push sync, and it's done. Couldn't be easier.
+
+Pages also stores several deployments back, so if anything gets broken, I can revert to an old version easily while I dig in and fix it.
+
+## Free Extras from Using VSCode
+
+### Deep Git Integration
+
+VSCode is a programmer's editor, and naturally comes with all the git tools that you would expect tightly integrated into the GUI. Especially as I was selecting and tweaking my theme, I found it incredibly helpful to stage different files in different commits... because rolling back layout-breaking changes to my site shouldn't require losing content commits as well.
+
+### Find Across Files is *Really* Good
+
+I'm constantly looking for something in another file it seems, and VSCode is always there with just what I need. Never mind that it also makes search and replace with regex super easy, which I used to great effect recently when renaming some categories across all my posts.
+
+### It's on All my Platforms
+
+I mentioned it earlier, but I routinely rotate between Windows, Mac, Linux, and Chromebook as I move around... and VSCode is there for me on every platform. Coupled with Git push and pull, I've got a local environment where I can push new content no matter where I am. It's great to be that flexible.
+
+## Conclusion: It's Viable!
+
+I think the biggest weakness with the setup is the spell checking. It's a touch hit or miss, missing some small words like "ot". But overall, I'm more at home in a techy feeling editor anyway, and I hope Front Matter is enough to get Kev to reconsider his setup all over again. ;-)

@@ -1,0 +1,31 @@
+---
+title: The Unofficial Partner Podcast - Episode 288
+slug: unofficial-partner-podcast-episode-288
+date: 2023-01-16
+categories:
+  - Games
+  - Recordings
+description: ""
+summary: "A podcast I did on the commercial side of esports with Ryan Snyder"
+---
+
+https://www.unofficialpartner.com/podcast/episode/79186e46/up288-esport-economics-the-in-game-ad-market
+
+
+```{=html}
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2vmoNf7iq7e7Vkx1lGZjic?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+```
+
+## Episode Description
+
+The market for in-game advertising and sponsorship is valued at around $8billion, and is predicted to more than double by the end of the decade. The audience is young, affluent and increasingly diverse, so it's unsurprising that big brand names are seeking ways in to this world, via the publishers of mobile and big box console game titles such as League of Legends, Call of Duty or FIFA.
+
+Great for brands, but what do gamers think of commercial messages gatecrashing their party?
+
+We asked today's guests, Ryan Snyder and David Wynn. 
+
+David is Head of Solutions Consulting at Google Cloud for Games and Ryan is Head of Esports and Games at Nielsen Sports. 
+
+To help frame the conversation, we asked Ryan to commission a special Unofficial Partner research panel, using Nielsen's Video Game Tracking survey, the premiere source for measuring consumer sentiment towards video game software on PC and console.
+
+Listen to the podcast for analysis of this data and other questions facing the commercial side of esports.

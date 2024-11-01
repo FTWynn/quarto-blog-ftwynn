@@ -1,0 +1,53 @@
+---
+slug: "the-first-bend-it-has-happened"
+aliases: 
+- /the-first-bend-it-has-happened
+date: 2020-08-14T04:29:13Z
+title: "The First Bend: It Has Happened"
+categories:
+- "Music"
+---
+
+Though I have attempted to learn harmonica a handful of times in my life, I've always given up when it was time to learn bending. I can now proudly say, I have _finally_ produced an absolutely terrible, but absolutely undeniable, bend on the harmonica.
+<!--more-->
+I wanted to jot this down not only to mark the historic occasion, but also to list out the tech choices and motivation advice that really helped me break through the resistance this time.
+
+## The Key Tech That Helped Me
+
+Harmonica.com's Bend It Better tool ([Explainer Link](https://www.harmonica.com/bend-it-better-the-free-tool-that-helps-you-bend-harmonica-in-tune-57462.html) || [Direct Link](https://yomed.bitbucket.io/) ) is amazing, and absolutely helped me figure out what I was doing... all for the price of free. 
+
+So many books and descriptions before had talked about tongue placement, but it all seemed so abstract. I could get the gist of what to do, but couldn't actually connect the dots in my head to the harp in my mouth to make the note change. Trying to make my tongue more perfectly like the pictures and drawings wasn't helping. This Bend It Better tool let me keep all that on the mental back burner and just focus on feeling out the right pitch.
+
+I tried some other tuning apps, and they might have worked OK, but it was hard to visualize where I was on the harp as I was stumbling around for a bend. The harp diagram layout of BIB is brilliant, and totally fit my mental model, letting me focus on the hard part in my mouth while getting instant feedback as I went.
+
+The only trouble I had was getting it to work right on my phone (since I practice in my car). On my Android phone it works in Chrome and nothing else. I also have to be mindful about turning the mic on and off and closing the tab when I'm done or it tends to hang on to the mic, messing up other apps. Once I got the routine down though, it's been smooth sailing, and I can't give it enough credit for getting me past the first bend hump.
+
+## Motivational Advice That Helped Me
+
+There is a lot of advice on bending along the lines of "it just takes practice." I absolutely believe this, but I found it a little too vague for me. It didn't help me understand what to do next.
+
+Maybe because I'm used to sports and weight lifting, the way bluesharmonica.com phrased it really resonated with me: you've just got to put in the reps. It'll suck, but do it 100 times and it'll get better.
+
+It reminds me of an old Aikido saying: the way to learn to roll [on the ground] is to roll a thousand times. Then you'll know how to roll. Same with bending.
+
+Focusing on reps let me bite-size any action, and just hit repeat over and over until it starting feeling better (or my mouth got tired) while being confident this is what practice should probably look like. Bend a note. Then bend it 10 times. Then bend it up from the blow and then down from the draw and back again. Bend it smoothly and bend it with a quick snap to the tone. 
+
+Break it down and conquer it a piece at a time, rather than just pulling in your breath funky for a few minutes and giving up.
+
+## A Thinking Framework that Helped Me
+
+**Caveat**: this could be a terrible idea but it seems to have helped me with my minor breakthrough, so I'll share it for others.
+
+I find a lot of the information on bending focuses on tongue position and placement. When I focused on this, I found that the advice didn't really connect, and I wasn't getting the bend I was looking for either.
+
+What _did_ start to work well, was focusing on drawing the air to a particular point on my hard palette (or behind it). Then I found in making that happen my tongue would end up the right shape more often than not.
+
+Hopefully that's not terrible advice for newbies, because it seemed to help me.
+
+## Looking Ahead
+
+I can tell now the next challenge is... my bends are just terrible to listen to. I don't like how they sound, and I kind of can't imagine lying to anyone and calling them "music."
+
+I'm reminded of the amazement I always had watching trombone and violin players find notes seemingly out of nowhere. I never took up those instruments precisely because I thought it would be too hard.
+
+... But the only way to get good is to put in the reps. I am committed for _at least_ a month. So let's see how we fare at the end of it... even if I'm currently dreaming of switching to chromatic harp or trying ocarina instead where I can run from this scary thing I've just started to learn.

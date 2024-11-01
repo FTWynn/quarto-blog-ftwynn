@@ -1,0 +1,74 @@
+---
+title: How My Stoic Practice Paid Off
+slug: how-my-stoic-practice-paid-off
+date: 2023-03-04
+categories:
+  - Philosophy
+description: ""
+summary: ""
+aliases:
+  - /how-my-stoic-practice-paid-off
+---
+
+I find that Stoicism is a great philosophy for times of crisis. 
+
+If you're under pressure, dealing with a lot of expectations from a lot of people, or generally just having a rough go of things, I find the tenets and practices of Stoicism to be empowering, practical, and very useful in moving your life to a better place.
+
+That said, many adopt Stoicism in good times, including me. So I wanted to tell the story of how my Stoic practice really helped in a recent time of crisis, in case others could benefit from it.
+
+<!-- more -->
+
+## A Different Sort of Friday
+
+A few weeks ago, my Friday didn't *start* differently than any other. I got out of bed, downed a glass of water, and opened my Chromebook to start my morning journal.
+
+But something was a bit off.
+
+My work email, the first thing that pops up on my Chromebook, wasn't working.
+
+That wasn't an unprecedented problem. Usually the fix involved a combination of updating ChromeOS and refreshing various certificates. A quick check found no updates available, and I didn't have my security key with me, so I decided to handle it later.
+
+So I opened up Logseq and started journaling.
+
+There's a prompt in my morning journal layout that requires me to flip over to my browser for a daily thought. When I did so, my personal inbox flashed by, and something caught my eye. If I didn't know better, I would've thought it was spam, but GMail is usually pretty good about filtering that out.
+
+> Subject: Notice regarding your employment
+
+Hmm. Hmmmmm...
+
+That... didn't look good.
+
+I was the only East Coast member of my team, and now being entirely cut out from every corporate communication avenue, I had no way official means to reach out to the West Coasters. 
+
+So, I started texting the team's numbers that I had on hand. I shot a LinkedIn message to my boss. I went upstairs to tell my wife. Then... there was nothing to do but wait.
+
+It wasn't long before the news stories started coming across my feed. For the first time, Google was laying off 10% of their workforce. The company had killed and reorganized teams in the past (as well as products, [as everyone knows](https://killedbygoogle.com/)), but this was Google's first blanket layoff. 
+
+... and I had drawn the short straw.
+
+## Stoicism Kicks In
+
+As the reality of the events settled in, I had the distinct thought: "*This is what the practice is for.*" 
+
+I'd seen being laid off in countless negative visualizations. I'd journaled about it in my monthly review over and over. I'd re-enforced the ideas around what is truly important and what I truly control over and over again.
+
+Now if I'm being honest, I hadn't fully committed emotionally in those thought experiments. After all, Google had never done a layoff, and I knew from first-hand experience how hard it was to fire individuals. But even then, there was emotional muscle memory there.
+
+And I felt... much calmer than I expected. More importantly, I could explain why. 
+
+Many of my friends in the same boat got angry for a number of reasons, whether transparency or fairness or abruptness or impersonal-ness... but I found myself focusing back on the things I could control in fairly short order. 
+
+If "the obstacle **is** the way," then there were opportunities to be found even here. I remembered that this situation is pretty similar to how Zeno started his journey in creating Stoicism. This has all happened before, if not specifically to me.
+
+The [words of the Seneca](https://dokumen.pub/nero-emperor-of-rome.html) kept running through my head from when he was ordered to death. His companions wept for his fate, to which he replied, "where is your philosophy now?" 
+
+Mine was right here. Right where I had been building it the whole time.
+
+So as surreal as it felt, once I finished reaching out to people, I went back to finish my journal, and start the day like any other.
+
+## The Takeaway: Practice Makes Permanent
+
+I write this post to say to my fellow Stoics, continue your practice in easier times. Especially by building habits. Especially by journaling. Especially by taking to heart the parts that resonate with you. 
+
+If you do that, then you'll find just like I did, when life takes a negative turn for you, your practice will be there for you. Your routine will be there for you. It will be as solid as you make it, and you can lean on it for support.
+

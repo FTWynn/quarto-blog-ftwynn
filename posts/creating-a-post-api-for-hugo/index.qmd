@@ -1,0 +1,193 @@
+---
+slug: "creating-a-post-api-for-hugo"
+aliases: 
+- /articles/creating-a-post-api-for-hugo
+date: 2017-12-29T14:24:52Z
+title: "Creating a POST API for Hugo"
+categories:
+- "Technology"
+---
+
+As part of my effort to improve the posting flow (and to tinker with GCP tools), I decided to make an api that would allow me to post to Hugo from other clients in the wild. The adventure was... enlightening? Is that what we say at the end of these journeys?
+
+<!--more-->
+
+## Before We Begin
+
+Before anyone jumps in to mention [Staticman](https://staticman.net/), yes, I've heard of it. I know it fills the same niche and has the benefit of already existing. That said, there were two reasons I didn't go that route.
+
+First, I wanted to keep my source code in Cloud Source Repositories... more out of laziness than principle though... and it there doesn't seem to be an api for them the way there is for Github. 
+
+Second, I wanted to build an IndieWeb capable endpoint, and to my knowledge Staticman doesn't fit the case there. So... from scratch we go!
+
+## Sketching It Out
+
+The end state of this seemed pretty clear: I needed an api that would take a post, put a file in the repo, and then commit it, kicking off the build process I [established in a previous post]({{< relref "cicd-on-hugo.md" >}}).
+
+An api on the source control side to add a file to a repo would've been great, but Cloud Source Repositories don't seem to have that. So... dead end there.
+
+Running a server to do a git pull, commit, and push was an option... but it seemed overly cumbersome for the goal. Nevermind that I don't really want to manage a whole server just for this, and the costs would break the current "willing to spend" budget of zero dollars.
+
+[Cloud Functions](https://cloud.google.com/functions/) fit the bill for the front-end API layer (and has a generous free tier), but there's not an easy way to run the hugo or git commands from within node.
+
+A short term managed vm that runs a few command line operations... sounded a lot like Container Builder to me. That said, the operations would change each time depending on the post type and other runtime information, so is there a way to dynamically build the instructions and then send them to Container Builder? [Why yes there is](https://cloud.google.com/container-builder/docs/running-builds/start-build-manually). But the data will probably be on multiple lines... and take it from someone who beat their head against the wall on this for several hours that Container Builder just doesn't play nice with newlines in commands. 
+
+So I opted to [write the payload to Cloud Storage](https://cloud.google.com/functions/docs/tutorials/ocr#saving_the_translations) first. In retrospect, we could've probably used PubSub for this too, but GCS came to my mind first.
+
+I'll also add that [the current nodejs client library](https://github.com/GoogleCloudPlatform/google-cloud-node) doesn't include Container Builder. My initial setup just used raw http requests to the API, but there's [an npm module](https://www.npmjs.com/package/gcp-container-builder) that wraps up the functionality a little more neatly. I'd recommend using it until the offical library catches up, since it handles all the authentication stuff without extra headache.
+
+## Actually Building It
+
+Now I didn't really know anything about node and I had never deployed anything on Cloud Functions or Lambda before... so I leaned pretty heavily on the tutorials to help with the framework of what I was doing. I grasped it shouldn't be *that* hard to take a request, fire a process, and return a reponse... but never underestimate the stupidity of a new user. I did find a few things that I think are worth mentioning:
+
+### Cloud Shell is Really Good for Functions Development
+
+Something that went surprisingly well was doing the development in [Cloud Shell](https://cloud.google.com/shell/docs/). Not only does the Cloud Functions emulator come baked into it without any effort, but the editor also has fairly decent intellisense around Javascript. I wouldn't say it felt like home... but it felt like an office I could be productive in (especially since my home computer was dying a slow death... though that's a story for another day).
+
+### Putting Off Authentication by... Borrowing?... an Auth Token from gcloud
+
+A terrible hack I used before I finally grasped how the authentication strategy worked was to model out the request I wanted to make in [postman](https://www.getpostman.com/), use the command:
+
+```bash
+gcloud config config-helper --format='value(credential.access_token)'
+```
+
+... to get an access token and throw it in the Postman headers like so: 
+
+```http
+Authorization: Bearer bigLONGgobbledygookSTRINGthatWAStheTOKENfromGCLOUD
+```
+
+Was it wise? Was it proper? Did it expire every hour? No, no, and yes... but it was good enough for me to iterate on the build object a few times (the interesting part) while putting off the authentication (*yawn*) until later.
+
+### Container Builder Odditites
+
+I mentioned earlier that newlines and Container Builder don't mix. I cannot emphasize how many ways I tried to avoid the GCS workaround by keeping the content in the buildfile... but I think it ultimately just isn't doable.
+
+On the bright side, `sed`, `awk`, `perl`, and a number of other commands work exactly as you would expect in Container Builder, assuming your Linux fu is up to par. Mine is not, and I found `sed` frustrating, `awk` a bit limited for the free text files hugo generated, and `perl` to be a good balance. `sed` also had trouble with multiline, as did `dd`, which I tried after digging deeper and deeper into Stack Overflow and praying to Linus. My prayers were unheeded, but `perl` worked in the end.
+
+I'll also add that pipes, `>>`'s, and other standard linux redirection tools simply do not work in Container Buidler. I imagine this is by design and makes sense when I think about it, but in practice that means you either need a command that takes those concepts into its api (thanks perl!) or work with a lot of intermediary files (without being able to redirect output on the command line.. and consider how many of those there are). I suppose I could've built containers that had each of these tools individually to use, but I'd already sourced an ubuntu container for hugo... so why make more?
+
+### The Google git Builder Had Commitment Issues
+
+I thought the easy part would be using the git builder provided by Google. It added files to staging brilliantly... but then it choked on commit, saying I needed to specify a user to commit with.
+
+No problem, right? Good 'ole `--author` flag is there for you. Just add that and... it still gave the same error.
+
+A lot of digging later suggests that the author flag was working, but there's a *separate* git config for the commit user, which is **not** set by the author flag. Fortunately, you can set this with the -c flag. So the step looks like this:
+
+```json
+{
+    "name": "gcr.io/cloud-builders/git",
+    "args": ["-c", "user.name=\"David\ \Wynn\"", "-c", "user.email=\"Remixer96@gmail.com\"", "commit", "-m", "Test post"]
+}
+```
+
+### The End Result
+
+All this led to the following object in code, which actually puts together the build object and fires it off. 
+
+```js
+var steps = [{
+		"name": "us.gcr.io/ftwynn-hugo-blog/hugo-builder:v1",
+		"args": ["/usr/local/bin/hugo", "new", short_filepath]
+	},
+	{
+		"name": "gcr.io/cloud-builders/gsutil",
+		"args": ["cp", "gs://ftwynn-temp/content.txt", "tmp.txt"]
+	},
+	{
+		"name": "gcr.io/cloud-builders/gsutil",
+		"args": ["rm", "gs://ftwynn-temp/content.txt"]
+	},
+	{
+		"name": "us.gcr.io/ftwynn-hugo-blog/hugo-builder:v1",
+		"args": ["/usr/bin/perl", "-e","open(OUT, '>>', '" + filepath + "'); print OUT while (<>);" , "tmp.txt"]
+	},
+	{
+		"name": "us.gcr.io/ftwynn-hugo-blog/hugo-builder:v1",
+		"args": ["/bin/rm", "tmp.txt"]
+	},
+	{
+		"name": "us.gcr.io/ftwynn-hugo-blog/hugo-builder:v1",
+		"args": ["/usr/bin/perl", "-pi", "-e", "!$x && s/CHANGEME/" + title + "/ && ($x=1)", filepath]
+	},
+	{
+		"name": "gcr.io/cloud-builders/git",
+		"args": ["add", ".",]
+	},
+	{
+		"name": "gcr.io/cloud-builders/git",
+		"args": ["-c", "user.name=\"David\ \Wynn\"", "-c", "user.email=\"Remixer96@gmail.com\"", "commit", "-m", "Test post"]
+	},
+	{
+		"name": "gcr.io/cloud-builders/git",
+		"args": ["push", "https://source.developers.google.com/p/ftwynn-hugo-blog/r/hugo-blog", "master"]
+	}];
+	
+var buildsteps = {
+	"source": {
+		"repoSource": {
+			"projectId": "ftwynn-hugo-blog",
+			"repoName": "hugo-blog",
+			"branchName": "master"
+		}
+	},
+	"steps": steps
+};
+	
+builder.createBuild(buildsteps);
+```
+
+There's some screener code at the top and debug at the bottom, but that's the good stuff right there. You'll note I changed the hugo archetype title to CHANGEME for easy replacement, and I'll probably clean up some of the containers later since it takes 10 seconds or so to run now which is slower than I'd like, but it's fine for the moment.
+
+## Adding Micropub on Top
+
+So, all of this worked, but then I needed to write a client that used it if I wanted to actually post things easily. The problem then, of course, is that I don't know how to write a browser extension. I also don't really want to write an authentication layer either. Fortunately, the IndieWeb community has come up with [micropub](https://indieweb.org/Micropub).
+
+In short, micropub is a standardized api for creating IndieWeb resources. More importantly, there is an [extension already written](https://omnibear.com/) (among others) that posts to it. Sold. What needed doing?
+
+### Set Up IndieAuth
+
+First, I needed to clean up my IndieAuth markup on my homepage. It was mostly complete in that the `rel=me` links were present and working, but I didn't have an authenticator or token service linked. I feared I would have to set up my own service, before discovering I could just use IndieAuth.com instead. Curiously, the [Develpoer page](https://indieauth.com/developers) of the IndieAuth site wasn't very clear, but the [token site](https://tokens.indieauth.com/#indieauth) definitely was. Add the IndieAuth links to the homepage. Add a link to the cloud function. Three lines.
+
+```css
+<link rel="authorization_endpoint" href="https://indieauth.com/auth">
+<link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+<link rel="micropub" href="https://us-central1-ftwynn-hugo-blog.cloudfunctions.net/function-1">
+```
+
+Done. What next?
+
+### Verify the Auth in the Cloud Function
+
+I was using a secret passphrase until now, so I needed to change the function to call the token service and verify a client's identity. 
+
+```js
+// Verify Authorization
+var options = {
+	url: "https://tokens.indieauth.com/token",
+	mathod: "GET",
+	headers: {
+		"Authorization": bearer,
+		"Accept": "application/json"
+	},
+	json: true
+};
+
+request.get(options, (err, response, body) => {
+	if (err) { return console.log(err); }
+	console.log("Response from IndieAuth Token:");	
+	console.log(body);
+	if (body.me !== "http://www.ftwynn.com/") {
+		res.status(401).send('Please authenticate this client with IndieAuth');
+		return;
+	}
+});
+```
+
+Nothing too bad there either. Change a few names in the function's parsing logic and BAM, Omnibear now lets me post thoughts to my website from any browser. Pretty cool, and more importantly, pretty low effort.
+
+## The Future
+
+I'll be exapnding the capabilties of the micropub Cloud Function in the next few weeks. Not sure how far I'll get, but since I only pass one of the [micropub tests](https://micropub.rocks) so far, I imagine it'll keep me busy for a while.

@@ -1,0 +1,26 @@
+---
+title: TestGuild DevOps Toolchain Podcast 2024-03
+slug: testguild-devops-toolchain-podcast-2024-03
+date: 2024-03-14
+categories:
+  - Technology
+  - Recordings
+description: ""
+summary: "An overview of Data Pipelines and how they can be useful in Observability"
+---
+
+{{< video https://www.youtube.com/embed/TG3brHrLeO0 >}}
+
+## Episode Description
+
+Today, we're diving deep into the world of observability with David Wynn, a solution architect and expert with a 15-year tenure in cloud services and observability, particularly in the gaming industry. In this episode, we're peeling back the layers of observability, differentiating it from traditional monitoring, and exploring the transformative role of AI in DevSecOps.
+
+David will enlighten you on starting with observability by centralizing logs, utilizing tools from Datadog to Edge Delta, and the dynamic need to make sense of complex systems through outputs.
+
+We also delve into how observability is evolving with the rise of microservices and distributed systems, holding an in-depth discussion about the pillars of observability—logs, metrics, and tracing—and the indispensable role of tools like OpenTelemetry.
+
+David shares anecdotes from his time in the gaming industry, shedding light on the nuances of observability infrastructure within different types of games and how it goes beyond keeping tabs on system statuses, aiming for a comprehensive comprehension of system activities.
+
+Furthermore, we'll discuss the 'shift left' approach and the advent of AI in enhancing observability tactics.
+
+So, buckle up for a riveting conversation, whether you're an SRE, a DevOps specialist, or just intrigued by the intersections of AI and system observability.

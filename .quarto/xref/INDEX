@@ -1,0 +1,539 @@
+{
+  "about.qmd": {
+    "about.html": "1dfa9ac9"
+  },
+  "index.qmd": {
+    "index.html": "6e2ce6a5"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "5dd9fe1f"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "6557fe5b"
+  },
+  "me.qmd": {
+    "me.html": "ad212f22"
+  },
+  "posts/abstinence-is-not-the-only-form-of-self-control/index.qmd": {
+    "index.html": "cf5e6b3e"
+  },
+  "posts/advice-for-new-parents/index.qmd": {
+    "index.html": "728ed9d0"
+  },
+  "posts/test/advice-for-new-parents.md": {
+    "advice-for-new-parents.html": "371dec6f"
+  },
+  "posts/test/back-to-iphone-after-12-years/index.qmd": {
+    "index.html": "cdf9aba3"
+  },
+  "posts/test/back-to-iphone-after-12-years.md": {
+    "back-to-iphone-after-12-years.html": "89c26a80"
+  },
+  "posts/test/basb-experiments-better-project-management-in-todoist/index.qmd": {
+    "index.html": "a8893266"
+  },
+  "posts/test/basb-experiments-better-project-management-in-todoist.md": {
+    "basb-experiments-better-project-management-in-todoist.html": "98b00287"
+  },
+  "posts/test/basb-observations-deadlines-for-projects-seem-weirdly-unhelpful/index.qmd": {
+    "index.html": "34a8731d"
+  },
+  "posts/test/basb-observations-deadlines-for-projects-seem-weirdly-unhelpful.md": {
+    "basb-observations-deadlines-for-projects-seem-weirdly-unhelpful.html": "56847e79"
+  },
+  "posts/test/basb-the-story-so-far/index.qmd": {
+    "index.html": "129b75e7"
+  },
+  "posts/test/basb-the-story-so-far.md": {
+    "basb-the-story-so-far.html": "3ab2dc4e"
+  },
+  "posts/test/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/index.qmd": {
+    "index.html": "729929d5"
+  },
+  "posts/test/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been.md": {
+    "being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been.html": "53416994"
+  },
+  "posts/test/can-humanity-change/index.qmd": {
+    "index.html": "eaef9827"
+  },
+  "posts/test/can-humanity-change.md": {
+    "can-humanity-change.html": "457de088"
+  },
+  "posts/test/career-advice-for-students-at-duke/index.qmd": {
+    "index.html": "2394229d"
+  },
+  "posts/test/career-advice-for-students-at-duke.md": {
+    "career-advice-for-students-at-duke.html": "11de61c2"
+  },
+  "posts/test/challenges-showing-text-from-a-simple-js-function-in-logseq/index.qmd": {
+    "index.html": "82ce4c8f"
+  },
+  "posts/test/chromatic-harmonica-first-thoughts/index.qmd": {
+    "index.html": "57874e3d"
+  },
+  "posts/test/cicd-on-hugo/index.qmd": {
+    "index.html": "96e79a4e"
+  },
+  "posts/test/creating-a-post-api-for-hugo/index.qmd": {
+    "index.html": "21496891"
+  },
+  "posts/test/did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed/index.qmd": {
+    "index.html": "296f9cf8"
+  },
+  "posts/test/dimension-20-a-crown-of-candy-episode-6-notes/index.qmd": {
+    "index.html": "0a81aebe"
+  },
+  "posts/test/dimension-20-a-crown-of-candy-finale-part-1/index.qmd": {
+    "index.html": "1fdc48b5"
+  },
+  "posts/test/dimension-20-a-crown-of-candy-finale-pt/index.qmd": {
+    "index.html": "c62c7dfe"
+  },
+  "posts/test/dimension-20-neverafter-first-impressions/index.qmd": {
+    "index.html": "0a5a0098"
+  },
+  "posts/test/first-thoughts-on-pokemon-unite/index.qmd": {
+    "index.html": "aa3636e0"
+  },
+  "posts/test/getting-started-with-zettelkasten/index.qmd": {
+    "index.html": "11c2f251"
+  },
+  "posts/test/harmonica-week-01/index.qmd": {
+    "index.html": "95f5c79a"
+  },
+  "posts/test/harmonica-week-02/index.qmd": {
+    "index.html": "3ed27f36"
+  },
+  "posts/test/hidden-elements-are-bad/index.qmd": {
+    "index.html": "f382fdc2"
+  },
+  "posts/test/how-my-stoic-practice-paid-off/index.qmd": {
+    "index.html": "5c4fece9"
+  },
+  "posts/test/how_to_build_a_solution_in_logseq_et_al/index.qmd": {
+    "index.html": "41873926"
+  },
+  "posts/test/i-love-stylish/index.qmd": {
+    "index.html": "580b6544"
+  },
+  "posts/test/interstitial-journaling-in-obsidian-with-a-stripped-down-quickadd/index.qmd": {
+    "index.html": "bda2de60"
+  },
+  "posts/test/keeping-the-most-important-problems-top-of-mind/index.qmd": {
+    "index.html": "99fe5de2"
+  },
+  "posts/test/magsafe-on-iphone-is-wonderful-and-should-be-a-wider-standard/index.qmd": {
+    "index.html": "cd360d4b"
+  },
+  "posts/test/making-harmonica-tabs-the-easiest-way-ive-found-so-far/index.qmd": {
+    "index.html": "517dc8ec"
+  },
+  "posts/test/moving-to-write-as/index.qmd": {
+    "index.html": "c0f646b1"
+  },
+  "posts/test/my-basb-implementation-in-org-mode-v2023-06/index.qmd": {
+    "index.html": "62ca9936"
+  },
+  "posts/test/my-path-to-org-mode/index.qmd": {
+    "index.html": "8037d1de"
+  },
+  "posts/test/one-of-the-nice-things-about-stoicism/index.qmd": {
+    "index.html": "e67045b1"
+  },
+  "posts/test/pocket-vs-instapaper/index.qmd": {
+    "index.html": "6b279158"
+  },
+  "posts/test/should-you-choose-org-mode/index.qmd": {
+    "index.html": "5e72d850"
+  },
+  "posts/test/the-first-bend-it-has-happened/index.qmd": {
+    "index.html": "8085796d"
+  },
+  "posts/test/the-first-bend-reconsidered-i-dont-think-i-want-this/index.qmd": {
+    "index.html": "09700403"
+  },
+  "posts/test/the-power-of-you-are-here/index.qmd": {
+    "index.html": "aee671a3"
+  },
+  "posts/test/the_seasons_of_TODO_systems/index.qmd": {
+    "index.html": "fb594f94"
+  },
+  "posts/test/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/index.qmd": {
+    "index.html": "b26da102"
+  },
+  "posts/test/thoughts-on-dropouts-a-crown-of-candy/index.qmd": {
+    "index.html": "4bc0f9bd"
+  },
+  "posts/test/vscode-as-md-editor/index.qmd": {
+    "index.html": "9d6c8cd7"
+  },
+  "posts/test/what-makes-a-good-star-wars-movie/index.qmd": {
+    "index.html": "683db88f"
+  },
+  "posts/test/what-makes-org-mode-hard-for-pkm/index.qmd": {
+    "index.html": "479e4609"
+  },
+  "posts/test/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/index.qmd": {
+    "index.html": "fa229476"
+  },
+  "posts/test/you-are-not-your-lowest-point/index.qmd": {
+    "index.html": "6c00bbd6"
+  },
+  "posts/legacy_import/abstinence-is-not-the-only-form-of-self-control.md": {
+    "abstinence-is-not-the-only-form-of-self-control.html": "fd40ce36"
+  },
+  "posts/legacy_import/advice-for-new-parents.md": {
+    "advice-for-new-parents.html": "fd476815"
+  },
+  "posts/legacy_import/back-to-iphone-after-12-years.md": {
+    "back-to-iphone-after-12-years.html": "508998ff"
+  },
+  "posts/legacy_import/basb-experiments-better-project-management-in-todoist.md": {
+    "basb-experiments-better-project-management-in-todoist.html": "6e4ea71d"
+  },
+  "posts/legacy_import/basb-observations-deadlines-for-projects-seem-weirdly-unhelpful.md": {
+    "basb-observations-deadlines-for-projects-seem-weirdly-unhelpful.html": "c30693f4"
+  },
+  "posts/legacy_import/basb-the-story-so-far.md": {
+    "basb-the-story-so-far.html": "02a2741d"
+  },
+  "posts/legacy_import/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been.md": {
+    "being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been.html": "5f4f10d4"
+  },
+  "posts/legacy_import/can-humanity-change.md": {
+    "can-humanity-change.html": "28ab0eeb"
+  },
+  "posts/legacy_import/career-advice-for-students-at-duke.md": {
+    "career-advice-for-students-at-duke.html": "22a89777"
+  },
+  "posts/legacy_import/challenges-showing-text-from-a-simple-js-function-in-logseq.md": {
+    "challenges-showing-text-from-a-simple-js-function-in-logseq.html": "80561b35"
+  },
+  "posts/legacy_import/chromatic-harmonica-first-thoughts.md": {
+    "chromatic-harmonica-first-thoughts.html": "598bdddd"
+  },
+  "posts/legacy_import/cicd-on-hugo.md": {
+    "cicd-on-hugo.html": "bee05336"
+  },
+  "posts/legacy_import/creating-a-post-api-for-hugo.md": {
+    "creating-a-post-api-for-hugo.html": "0cc293cd"
+  },
+  "posts/legacy_import/did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed.md": {
+    "did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed.html": "21b78ddb"
+  },
+  "posts/legacy_import/dimension-20-a-crown-of-candy-episode-6-notes.md": {
+    "dimension-20-a-crown-of-candy-episode-6-notes.html": "2bee482b"
+  },
+  "posts/legacy_import/dimension-20-a-crown-of-candy-finale-part-1.md": {
+    "dimension-20-a-crown-of-candy-finale-part-1.html": "41f48354"
+  },
+  "posts/legacy_import/dimension-20-a-crown-of-candy-finale-pt.md": {
+    "dimension-20-a-crown-of-candy-finale-pt.html": "4488eed1"
+  },
+  "posts/legacy_import/dimension-20-neverafter-first-impressions.md": {
+    "dimension-20-neverafter-first-impressions.html": "2bef6f45"
+  },
+  "posts/legacy_import/first-thoughts-on-pokemon-unite.md": {
+    "first-thoughts-on-pokemon-unite.html": "1b888b5e"
+  },
+  "posts/legacy_import/getting-started-with-zettelkasten.md": {
+    "getting-started-with-zettelkasten.html": "db82ab4a"
+  },
+  "posts/legacy_import/harmonica-week-01.md": {
+    "harmonica-week-01.html": "4c20ea56"
+  },
+  "posts/legacy_import/harmonica-week-02.md": {
+    "harmonica-week-02.html": "6295e7af"
+  },
+  "posts/legacy_import/hidden-elements-are-bad.md": {
+    "hidden-elements-are-bad.html": "33a3d65c"
+  },
+  "posts/legacy_import/how-my-stoic-practice-paid-off.md": {
+    "how-my-stoic-practice-paid-off.html": "42377788"
+  },
+  "posts/legacy_import/how_to_build_a_solution_in_logseq_et_al.md": {
+    "how_to_build_a_solution_in_logseq_et_al.html": "707e20a2"
+  },
+  "posts/legacy_import/i-love-stylish.md": {
+    "i-love-stylish.html": "df70a643"
+  },
+  "posts/legacy_import/interstitial-journaling-in-obsidian-with-a-stripped-down-quickadd.md": {
+    "interstitial-journaling-in-obsidian-with-a-stripped-down-quickadd.html": "1586d3d6"
+  },
+  "posts/legacy_import/keeping-the-most-important-problems-top-of-mind.md": {
+    "keeping-the-most-important-problems-top-of-mind.html": "3b9403af"
+  },
+  "posts/legacy_import/magsafe-on-iphone-is-wonderful-and-should-be-a-wider-standard.md": {
+    "magsafe-on-iphone-is-wonderful-and-should-be-a-wider-standard.html": "88283f4c"
+  },
+  "posts/legacy_import/making-harmonica-tabs-the-easiest-way-ive-found-so-far.md": {
+    "making-harmonica-tabs-the-easiest-way-ive-found-so-far.html": "218aaa3f"
+  },
+  "posts/legacy_import/moving-to-write-as.md": {
+    "moving-to-write-as.html": "d240c17b"
+  },
+  "posts/legacy_import/my-basb-implementation-in-org-mode-v2023-06.md": {
+    "my-basb-implementation-in-org-mode-v2023-06.html": "0b8cf01a"
+  },
+  "posts/legacy_import/my-path-to-org-mode.md": {
+    "my-path-to-org-mode.html": "8f3bf018"
+  },
+  "posts/legacy_import/one-of-the-nice-things-about-stoicism.md": {
+    "one-of-the-nice-things-about-stoicism.html": "9eaf02e0"
+  },
+  "posts/legacy_import/pocket-vs-instapaper.md": {
+    "pocket-vs-instapaper.html": "e973a21c"
+  },
+  "posts/legacy_import/should-you-choose-org-mode.md": {
+    "should-you-choose-org-mode.html": "bbbfed48"
+  },
+  "posts/legacy_import/the-first-bend-it-has-happened.md": {
+    "the-first-bend-it-has-happened.html": "11503d6e"
+  },
+  "posts/legacy_import/the-first-bend-reconsidered-i-dont-think-i-want-this.md": {
+    "the-first-bend-reconsidered-i-dont-think-i-want-this.html": "74452697"
+  },
+  "posts/legacy_import/the-power-of-you-are-here.md": {
+    "the-power-of-you-are-here.html": "a6f35679"
+  },
+  "posts/legacy_import/the_seasons_of_TODO_systems.md": {
+    "the_seasons_of_TODO_systems.html": "a83cb04c"
+  },
+  "posts/legacy_import/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will.md": {
+    "things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will.html": "8160c42c"
+  },
+  "posts/legacy_import/thoughts-on-dropouts-a-crown-of-candy.md": {
+    "thoughts-on-dropouts-a-crown-of-candy.html": "78fbb3e2"
+  },
+  "posts/legacy_import/vscode-as-md-editor.md": {
+    "vscode-as-md-editor.html": "2c162546"
+  },
+  "posts/legacy_import/what-makes-a-good-star-wars-movie.md": {
+    "what-makes-a-good-star-wars-movie.html": "0804370c"
+  },
+  "posts/legacy_import/what-makes-org-mode-hard-for-pkm.md": {
+    "what-makes-org-mode-hard-for-pkm.html": "af62895c"
+  },
+  "posts/legacy_import/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc.md": {
+    "what_the_dnd_community_needs_in_light_of_the_ogl_and_orc.html": "1cab0dd2"
+  },
+  "posts/legacy_import/you-are-not-your-lowest-point.md": {
+    "you-are-not-your-lowest-point.html": "17b9abd0"
+  },
+  "legacy_import/abstinence-is-not-the-only-form-of-self-control.md": {
+    "abstinence-is-not-the-only-form-of-self-control.html": "22530243"
+  },
+  "legacy_import/advice-for-new-parents.md": {
+    "advice-for-new-parents.html": "977fbc4b"
+  },
+  "legacy_import/back-to-iphone-after-12-years.md": {
+    "back-to-iphone-after-12-years.html": "853acced"
+  },
+  "legacy_import/basb-experiments-better-project-management-in-todoist.md": {
+    "basb-experiments-better-project-management-in-todoist.html": "58b7410e"
+  },
+  "legacy_import/basb-observations-deadlines-for-projects-seem-weirdly-unhelpful.md": {
+    "basb-observations-deadlines-for-projects-seem-weirdly-unhelpful.html": "b68cb5d3"
+  },
+  "legacy_import/basb-the-story-so-far.md": {
+    "basb-the-story-so-far.html": "b7d3fbd3"
+  },
+  "legacy_import/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been.md": {
+    "being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been.html": "8bf4f52b"
+  },
+  "legacy_import/can-humanity-change.md": {
+    "can-humanity-change.html": "9258bf8d"
+  },
+  "legacy_import/career-advice-for-students-at-duke.md": {
+    "career-advice-for-students-at-duke.html": "d0e08d10"
+  },
+  "legacy_import/challenges-showing-text-from-a-simple-js-function-in-logseq.md": {
+    "challenges-showing-text-from-a-simple-js-function-in-logseq.html": "d2e15d7e"
+  },
+  "legacy_import/chromatic-harmonica-first-thoughts.md": {
+    "chromatic-harmonica-first-thoughts.html": "19ba3538"
+  },
+  "legacy_import/cicd-on-hugo.md": {
+    "cicd-on-hugo.html": "c9d29cc1"
+  },
+  "legacy_import/creating-a-post-api-for-hugo.md": {
+    "creating-a-post-api-for-hugo.html": "ea59c39d"
+  },
+  "legacy_import/did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed.md": {
+    "did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed.html": "ac1817c8"
+  },
+  "legacy_import/dimension-20-a-crown-of-candy-episode-6-notes.md": {
+    "dimension-20-a-crown-of-candy-episode-6-notes.html": "30a3827e"
+  },
+  "legacy_import/dimension-20-a-crown-of-candy-finale-part-1.md": {
+    "dimension-20-a-crown-of-candy-finale-part-1.html": "5fa270b5"
+  },
+  "legacy_import/dimension-20-a-crown-of-candy-finale-pt.md": {
+    "dimension-20-a-crown-of-candy-finale-pt.html": "2b48afa5"
+  },
+  "legacy_import/dimension-20-neverafter-first-impressions.md": {
+    "dimension-20-neverafter-first-impressions.html": "d7ef688f"
+  },
+  "legacy_import/first-thoughts-on-pokemon-unite.md": {
+    "first-thoughts-on-pokemon-unite.html": "545bff75"
+  },
+  "posts/back-to-iphone-after-12-years/index.qmd": {
+    "index.html": "f7a61d2f"
+  },
+  "posts/basb-experiments-better-project-management-in-todoist/index.qmd": {
+    "index.html": "fbe32a3b"
+  },
+  "posts/basb-observations-deadlines-for-projects-seem-weirdly-unhelpful/index.qmd": {
+    "index.html": "8a237fbb"
+  },
+  "posts/basb-the-story-so-far/index.qmd": {
+    "index.html": "259f73a8"
+  },
+  "posts/being-the-worst-at-obsidian-can-make-you-better-than-youve-ever-been/index.qmd": {
+    "index.html": "fb14e02d"
+  },
+  "posts/can-humanity-change/index.qmd": {
+    "index.html": "276f0e69"
+  },
+  "posts/career-advice-for-students-at-duke/index.qmd": {
+    "index.html": "362ee3cd"
+  },
+  "posts/challenges-showing-text-from-a-simple-js-function-in-logseq/index.qmd": {
+    "index.html": "74b91ed9"
+  },
+  "posts/chromatic-harmonica-first-thoughts/index.qmd": {
+    "index.html": "ea39dc1a"
+  },
+  "posts/cicd-on-hugo/index.qmd": {
+    "index.html": "2864eb05"
+  },
+  "posts/creating-a-post-api-for-hugo/index.qmd": {
+    "index.html": "cec25c9e"
+  },
+  "posts/did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed/index.qmd": {
+    "index.html": "016e2ec4"
+  },
+  "posts/dimension-20-a-crown-of-candy-episode-6-notes/index.qmd": {
+    "index.html": "e31a6239"
+  },
+  "posts/dimension-20-a-crown-of-candy-finale-part-1/index.qmd": {
+    "index.html": "79f0d3db"
+  },
+  "posts/dimension-20-a-crown-of-candy-finale-pt/index.qmd": {
+    "index.html": "466a40f3"
+  },
+  "posts/dimension-20-neverafter-first-impressions/index.qmd": {
+    "index.html": "72069638"
+  },
+  "posts/first-thoughts-on-pokemon-unite/index.qmd": {
+    "index.html": "fadeffec"
+  },
+  "posts/getting-started-with-zettelkasten/index.qmd": {
+    "index.html": "34bec929"
+  },
+  "posts/harmonica-week-01/index.qmd": {
+    "index.html": "e189b3aa"
+  },
+  "posts/harmonica-week-02/index.qmd": {
+    "index.html": "d9d41041"
+  },
+  "posts/hidden-elements-are-bad/index.qmd": {
+    "index.html": "47e1310b"
+  },
+  "posts/how-my-stoic-practice-paid-off/index.qmd": {
+    "index.html": "68127092"
+  },
+  "posts/how_to_build_a_solution_in_logseq_et_al/index.qmd": {
+    "index.html": "107eff49"
+  },
+  "posts/i-love-stylish/index.qmd": {
+    "index.html": "1c877e6c"
+  },
+  "posts/interstitial-journaling-in-obsidian-with-a-stripped-down-quickadd/index.qmd": {
+    "index.html": "9e06634d"
+  },
+  "posts/keeping-the-most-important-problems-top-of-mind/index.qmd": {
+    "index.html": "474d6be3"
+  },
+  "posts/magsafe-on-iphone-is-wonderful-and-should-be-a-wider-standard/index.qmd": {
+    "index.html": "08fb6f92"
+  },
+  "posts/making-harmonica-tabs-the-easiest-way-ive-found-so-far/index.qmd": {
+    "index.html": "c6f999c2"
+  },
+  "posts/moving-to-write-as/index.qmd": {
+    "index.html": "e26a2aa6"
+  },
+  "posts/my-basb-implementation-in-org-mode-v2023-06/index.qmd": {
+    "index.html": "33f45985"
+  },
+  "posts/my-path-to-org-mode/index.qmd": {
+    "index.html": "eedbb262"
+  },
+  "posts/one-of-the-nice-things-about-stoicism/index.qmd": {
+    "index.html": "9732b97d"
+  },
+  "posts/pocket-vs-instapaper/index.qmd": {
+    "index.html": "66ff976a"
+  },
+  "posts/should-you-choose-org-mode/index.qmd": {
+    "index.html": "1d30ccfe"
+  },
+  "posts/the-first-bend-it-has-happened/index.qmd": {
+    "index.html": "3270129e"
+  },
+  "posts/the-first-bend-reconsidered-i-dont-think-i-want-this/index.qmd": {
+    "index.html": "ee420417"
+  },
+  "posts/the-power-of-you-are-here/index.qmd": {
+    "index.html": "fe5722b8"
+  },
+  "posts/the_seasons_of_TODO_systems/index.qmd": {
+    "index.html": "1a2209fb"
+  },
+  "posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/index.qmd": {
+    "index.html": "6a67699a"
+  },
+  "posts/thoughts-on-dropouts-a-crown-of-candy/index.qmd": {
+    "index.html": "912f51b4"
+  },
+  "posts/vscode-as-md-editor/index.qmd": {
+    "index.html": "831707a2"
+  },
+  "posts/what-makes-a-good-star-wars-movie/index.qmd": {
+    "index.html": "6bec19a4"
+  },
+  "posts/what-makes-org-mode-hard-for-pkm/index.qmd": {
+    "index.html": "d9dd52f9"
+  },
+  "posts/what_the_dnd_community_needs_in_light_of_the_ogl_and_orc/index.qmd": {
+    "index.html": "8fa039f5"
+  },
+  "posts/you-are-not-your-lowest-point/index.qmd": {
+    "index.html": "face2e48"
+  },
+  "me/index.qmd": {
+    "index.html": "896c66be"
+  },
+  "now/index.md": {
+    "index.html": "1dc004ae"
+  },
+  "posts/2024-03-27-selling-skepticism-like-it's-your-job-at-skeptrack-2019/index.qmd": {
+    "index.html": "fb254158"
+  },
+  "posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/index.qmd": {
+    "index.html": "a4d6f45b"
+  },
+  "posts/Cisco-DevNet-2023-10/index.qmd": {
+    "index.html": "0a226550"
+  },
+  "posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/index.qmd": {
+    "index.html": "0d31b66a"
+  },
+  "posts/The-Evolution-of-Observability-Practices-2023-10/index.qmd": {
+    "index.html": "79181ba4"
+  },
+  "posts/The-Unofficial-Partner-Podcast---Episode-288/index.qmd": {
+    "index.html": "bbd4728d"
+  }
+}

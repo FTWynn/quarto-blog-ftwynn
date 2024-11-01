@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "For the Wynn"
+  site-url: http://www.ftwynn.com
+  description: "Writing About Things... For the Wynn"
+  navbar:
+    right:
+      - text: About
+        href: /me
+        aria-label: "About Me"
+      - text: Now
+        href: /now
+      - text: Blog
+        href: /
+      - text: Recordings
+        href: /#category=Recordings
+      - icon: rss
+        href: index.xml
+format:
+  html:
+    theme: 
+      - darkly
+      - custom.scss
+    css: styles.css
+
+
+

@@ -1,0 +1,19 @@
+---
+title: "Build Inclusive Online Communities at Scale With Advanced Language AI 2022-12"
+slug: "build-inclusive-online-communities-at-scale-with-advanced-language-ai-2022-12"
+date: 2022-12-14
+categories:
+  - Games
+  - Technology
+  - Recordings
+description: ""
+summary: "To create healthy online communities where people want to spend time, companies need better strategies for weeding out harmful posts. How do you break free of one-size-fits-all moderation techniques to stay ahead of harmful content and evolving language?"
+---
+
+https://www.bigmarker.com/VentureBeat/Build-inclusive-online-communities-at-scale-with-advanced-language-AI
+
+## Description
+
+To create healthy online communities where people want to spend time, companies need better strategies for weeding out harmful posts. How do you break free of one-size-fits-all moderation techniques to stay ahead of harmful content and evolving language?
+
+Don't miss this VB On-Demand event, where AI/ML experts from Cohere and Google Cloud get into the nitty gritty of managing user-generated content, from new innovations in natural language processing (NLP) models to state-of-the-art AI solutions. And you'll learn how to build safer communities that thrive by addressing toxicity, reducing user churn, maintaining a good reputation – and how to scale moderation efforts without hiring more staff.

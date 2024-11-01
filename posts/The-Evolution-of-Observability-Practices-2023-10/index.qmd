@@ -1,0 +1,20 @@
+---
+title: "The Evolution of Observability Practices 2023 10"
+slug: "the-evolution-of-observability-practices-2023-10"
+date: 2023-10-11
+categories:
+  - Technology
+  - Recordings
+description: ""
+summary: "Here I facilitate a discussion of the Open Telemetry working group to explore where o11y comes from and where it should go"
+---
+
+{{< video https://www.youtube.com/embed/zSeKL2-_sVg>}}
+
+## Description
+
+OpenTelemetry has greatly impacted the observability landscape over the past few years. While it introduces an open standard for telemetry generation and collection, what is actually improving the lives of o11y teams?
+
+Join us for an in-depth chat with guests David Wynn, Austin Parker, Vijay Samuel, Nočnica Mellifera, and Iris Dyrmishi on the idea of how we can evolve existing observability practices into something even better than what we have now.
+
+#observability #OTel #o11y #opentelemetry #yttech #otelenduserworkinggroup #otelEUWG

@@ -1,0 +1,42 @@
+---
+title: "Things Left Unimplemented… and I'm Unsure if I Ever Will"
+date: 2023-06-16T13:50:00-04:00
+date-modified: ""
+categories: 
+  - "Personal Knowledge Management"
+  - "Building My BASB in Emacs"
+draft: false
+categories_weight: 4005
+series: ["Building My BASB in Emacs - 2023 Capstone Report"]
+slug: "things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will"
+aliases: 
+  - things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will
+---
+
+Having been around the PKM block a few times, I've gone snipe hunting once or twice in the PKM space. Here are some pitfalls I've found.
+
+
+## Importing Readwise Into BASB {#importing-readwise-into-basb}
+
+In the past, I've included importing Readwise comments in my implementations of BASB.
+
+It was often a pain to set up, created a lot of name conflicts when searching (which might be valuable to some, but wasn't to me), had occasional problems with unsupported characters, and generally just didn't give me anything useful. With Logseq, I actually was running a separate instance of Obsidian because the Readwise plugin there worked and LogSeq's didn't. What a mess.
+
+It did help when I was tinkering with a more formal Zettelkasten implementation, but beyond that... not so much.
+
+Speaking of Zettelkasten...
+
+
+## Implementing Zettelkasten {#implementing-zettelkasten}
+
+I've alluded to this a few times, but I'll be more explicit here.
+
+I'm very intrigued by the Zettelkasten community and approach. It feels like there are some good ideas in there.
+
+However, it also seems very clearly tailored for _jobs where creating new, original knowledge is your goal and the thing that makes you successful_... aka. Academia. For almost every other job in existence, remixing knowledge that already exists, or coming up with better implementations of current approaches, or just driving toward clarity instead of entropy are **FAR** better ways to spend your time and energy.
+
+There is very real overhead in trying to make a Zettelkasten work. And to use it well, it gets _more_ difficult to traverse through as it grows, _by design_. After all, if you're trying to knock a bunch of these notes together to spur new ideas, that's an exponentially growing number of collisions you're aiming for. In creating novel knowledge, you want that. In a world with deadlines, that's friction that just isn't needed.
+
+So, even though org-roam talks a big game about Zettelkasten, I find it much more useful as a general ID linker tool than that.
+
+The one possible personal exception I might tinker with someday is a personal philosophical/religious Zettelkasten. That's a pretty unique domain where thoughts from your own mind disproportionately matter, and connecting them together might yield meaning in and of itself. We'll see if I ever get around to that.

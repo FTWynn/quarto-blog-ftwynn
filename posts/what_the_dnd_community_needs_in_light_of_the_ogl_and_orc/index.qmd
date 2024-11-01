@@ -1,0 +1,74 @@
+---
+aliases:
+  - /what_the_dnd_community_needs_in_light_of_the_ogl_and_orc
+date: 2023-01-13
+description: ""
+publishDate:
+slug: what_the_dnd_community_needs_in_light_of_the_ogl_and_orc
+summary:
+title: "What the DnD Community Needs in Light of the OGL and ORC" 
+categories: ["Tabletop Role Playing Games"]
+---
+
+I've been following with interest all the drama around the leaked [Open Gaming License](https://en.wikipedia.org/wiki/Open_Game_License) revision. Copyright is one of those things you never really shake once it's touched your life, and as one that was deep into the Anime Music Video community around the time of Napster and all those (early?) copyright wars it's interesting to see another round of this.
+
+What I'm struggling with this time, is why the wider DnD community, an incredibly sharp and creative group of people, seem absolutely determined to have a special license for themselves instead of building on the victories we won when [Lawrence Lessig](https://www.ted.com/talks/lawrence_lessig_laws_that_choke_creativity?language=en) and [Cory Doctorow](http://www.locusmag.com/Features/2008/11/cory-doctorow-why-i-copyfight.html) were fighting the good copyfight.
+
+## The Background
+
+For those that need a 30 second primer on the drama, here it is.
+The official publisher of what most people know as `Dungeons and Dragons` is Wizards of the Coast. Fundamentally, they publish books with rules, tables, flavor text, and art that describe how to play a collaborative improv game with dice. It's been a niche hobby for almost 50 years now, but with the rise of Critical Role, Dimension 20, and other shows the game has been slowly creeping toward mainstream adoption.
+
+A big piece of making money in this business is the publishing of extra books that detail adventures *using* those core improv rules. To help facilitate this, with the third edition of the game, Wizards of the Coast (WotC) released the Open Gaming License in 2000. The stated goal was to allow non-WotC creators to write and publish these extra works that built on the rules DnD set forth without legal repurcussion.
+
+And it worked! There is *a lot* of DnD compatible content that has been written in the 20+ years since.
+
+But... a leaked revision of an update to the OGL shows that WotC seems to want to revoke the freedoms of the old license and introduce a new version that severely restricts what people can do with DnD moving forward. That's *in addition* to paying WotC 30% of gross sales on whatever they sell.
+
+## My Confusion
+
+It's not at all unclear to me why WotC would do this. 30% seems to be the magic number that every app store has put into other industry's CEO's heads as a cut they should take, and hiring a non-fan as CEO in an intensely fan-driven business seems to invariably lead to these kinds of conflicts.
+
+It's the community reaction that confuses me.
+
+Doctorow [published](https://pluralistic.net/2023/01/12/beg-forgiveness-ask-permission/#whats-a-copyright-exception) a piece on the OGL recently (linking out to some great EFF writing too) that made, what I thought were incredibly important points. Namely:
+
+- The OGL is not legally phrased to last forever (`perpetual licenses` vs. `irrevocable license`), no matter how much the DnD community (or its original creators) want it to be
+- The OGL only allows for use of things that are not actually copyrightable anyway, and forbids things that are copyrightable... so there isn't really much benefit to it
+- The only exception is a few areas of text that can be copy/pasted that would've been an unclear legal battle at best without the license
+- The community should consider battle tested open licenses like [the GPL](https://www.gnu.org/licenses/gpl-3.0.en.html) and [Creative Commons](https://creativecommons.org/licenses/) rather than remaking their own license *again*
+
+This all makes sense to me. In fact, several game systems such as [Fate Core](https://evilhat.com/product/fate-core-system/) and [Dungeon World](https://dungeon-world.com/) are *already* built on Creative Commons, which seems to prove the validity of the last point.
+
+However, a major publisher in the field, [Paizo](https://paizo.com/) (they make [arguably] the biggest DnD alternative), [announced](https://paizo.com/community/blog/v5748dyo6si7v) that they will invest their resources to make a new open gaming license, ORC.
+
+As much as I like the irreverent style of their announcement, some of their commentary is weird. For example: 
+
+> We believe that any interpretation that the OGL 1.0 or 1.0(a) were intended to be revocable or able to be deauthorized is incorrect, and with good reason. We were there.
+
+That's all well and good... but that's not what got written in the license. And insofar as that's the agreed upon language, the intent doesn't really matter.
+
+The community seems to be really in favor of Paizo's approach, which to me, means the community is probably in need of some other things even more than a new license right now...
+
+## What the DnD Community *Really* Needs Right Now
+
+### A Primer on Copyright Basics in Tabletop Role Playing Games (TTRPGs)
+
+We need an explicit conversation around copyright and trademark as applied to TTRPGs. Most systems and ideas **are not** copyrightable, no matter what anyone claims. The murky parts of the text that's leftover need to be addressed in clear terms, so people understand that you can't copy the spell and feat descriptions, but you can use the same titles (I suspect... but I am not a lawyer).
+
+This all probably needs to be explained in the context of bad actors too, if the foreshadowing from WotC is to be taken seriously. This is *not* unexplored territory in general, but it looks like it will be new to the TTRPG community
+
+### A Centralized Explanation of Licenses in TTRPGs
+
+For software, there are [centralized explainers](https://opensource.org/licenses) of all the different open licenses, explaining the different aspects of them that might not be apparent to a normal person reading them over. Even then, some licenses have more history that would be useful to highlight ("viral" licenses, etc.).
+
+It might be the case that TTRPGs can generally rally behind Creative Commons. It might be the case that certain publishers want to go their own way depending on their plans. Even in software there are multiple perfectly valid licenses, depending on the effect you want to achieve as a creator.
+
+Or maybe there's an opening for dual licensing, which is common in the software world. In that case there's a fairly open license that covers the community editions of projects, but an enterprise license that covers the paid, supported version. Perhaps a model like this would ease hobbyists' worries while still forming good, solid relationships between publishers?
+
+## In Short
+
+If we can level up the community's understanding of the law and make it clear what everyone's options are, then hopefully we can take this bad situation WotC has created and turn it into an even more positive one. As the Stoics would say...
+
+> The obstacle in the path becomes the path. Never forget, within every obstacle is an opportunity to improve our condition.  
+>\- Ryan Holiday

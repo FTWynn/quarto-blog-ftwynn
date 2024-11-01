@@ -1,0 +1,190 @@
+---
+title: "How to Build a Solution in Logseq, Obsidian, etc."
+aliases:   
+  - how_to_build_a_solution_in_logseq_et_al
+date: 2023-01-06
+description: ""
+draft: true
+publishDate:   
+slug: how_to_build_a_solution_in_logseq_et_al
+
+---
+
+> Simple is nearly always better. But if it's going to be complicated, then make sure the problem is worth the complexity. A great deal of time is wasted creating complex solutions to relatively unimportant problems.
+> - James Clear
+
+> A complex system that works is invariably found to have evolved from a simple system that worked. The inverse proposition also appears to be true: A complex system designed from scratch never works and cannot be made to work. You have to start over, beginning with a working simple system.
+> - John Gall
+
+CRM in Tana
+https://www.youtube.com/watch?v=N4YXh0ynmy0
+This seemed insane that he'd gotten an hour into doing this and hadn't saved a single person
+
+Hello fellow PKM user, both new and old alike!
+
+## What is this?
+
+I've been dabbling in PKMs for a few years now, and I've noticed a bit of a pattern in the current wave of PKM content creation that holds regardless of tool, from org mode to Obsidian to Logseq. 
+
+Mainly, there seems to be a fascination with sharing how solutions are built in side of Tools for Thought... but they all focus on the scaffolding and the setup! They're presented as this single point in time of structure formation, and even if they speak to an iterative process, those steps are largely left out of the explanation. 
+
+Well no longer! I'm writing this post (mostly) not to teach you how to handle recpies in a PKM, but instead to teach you how to build *any* solution for yourself in a PKM.
+
+To be clear, this is a **hard** problem. PKM's are so powerful these days that you *could* do almost anything. That makes the paralyzing analysis of what you *should* be doing all the more terrifying. Much easier to copy what seems to be working from someone else.
+
+Fortunately, we deal with this in the tech industry all the time! Computer software is fundamentally a blank canvas, and a literal infinite number of things could be created. As a result, there are some methods from the tech world I'll share with you today on how to build your very own solutions in your PKM of choice.
+
+I'll use LogSeq for my example, but any PKM will work.
+
+To start, the key steps.
+
+## The Key Steps
+
+### 1 - Think of what *you* want
+
+The most important letter in PKM is **P**, because everyone thinks about the world differently in their head. As a result, the problems we face, while probably similar to others, will have their quirks unique to us given our strengths and weaknesses we each bring to the table. So the first step is to think hard very about a given problem.
+
+What are your goals for this thing you're thinking about doing in a PKM? What would it feel like when it's finished and working smoothly? What do you do today for this problem instead that works fairly well? What do you do today that doesn't work well? 
+
+All of this is good information to capture on paper/a screen somewhere so you can keep refining the ideas as you go. Don't assume you just have it all in your head. Write. it. down.
+
+### 2 - Map the goals into user journeys
+
+We have something in software development called user journeys. These are single sentences that tend to be phrased as...
+
+> As a [type of person], I want [to do/to have something]
+
+With your goals above in mind, start crystalizing the things you want your solution to do in these sentences. It'll be a little forced at first, but the whole point is to translate the pieces of your problem you want solved into smaller, discrete features. Building the list this way lets you tackle each thing one by one once you start building.
+
+An interesting thing you may notice after creating a few of these is that you can think of yourself as multiple types of person, creating mini-personalities that your solution needs to cater to. For example, maybe you're a perfectionist, but you're also lazy, and you're also away from a laptop a lot, and you get interrupted pretty regularly... these are all great personas to capture, because they all have different features they want (and sometimes want different ways to solve the same problem).
+
+As such, the user journeys don't have to all be coherent. You're allowed want multiple, contradictory things at once. The point of this exercise is to make explicit the things you want so you can think through what the solution personalized to *you* should look like. Building things is all about trade-offs, and making all the conflicting desires clear makes it much easier to judge trade-offs later.
+
+User journeys should encapsulate something that delivers value to the persona listed. So, "As an organized person, I want to have a schema for my data" isn't good enough. You need something like "As a lazy person, my CRM should prompt me to fill in info I should have even if I don't have it yet." It's a whole feature, not a stepping stone you might need to do to make a feature possible.
+
+Good User Journeys:
+- As a distracted person, I want a way to capture an idea as fast as possible without interrupting what I'm doing
+- As a forgetful person, I want to be reminded when to reach out to friends and say hello
+- As an interative improver, I want to see what I've already tried as I attempt a new thing
+
+Bad User Journeys:
+- As an organizer, I want to define the right schema for my contacts
+- As a developer, I want to build a CRM
+- As a solution designer, I want to finish designing a solution for storing recipes
+
+When you've got a bunch written down, order them from most important to least important. Perfection doesn't matter, just get a rough ordering. This effectively becomes your TODO list.
+
+### 3 - Relentlessly focus on satisfying one user journey after the other until you're through
+
+Now that we've itemized our goals into user journeys, and then prioritized them by importance, was so we could tackle one piece at a time. There's no need to boil the ocean by doing everything from the start. Do something discrete, that solves a problem for a part of yourself, and then add on from there.
+
+Doing one thing at a time is freeing, by eliminating a bunch of extraneous concerns that might pop into your head. If you're anything like me, distractions are always at hand, and this focus brings momentum to the project.
+
+You don't have to complete every User Journey of course. Some may turn out to be impossible. That's OK. Mark it as attempted and abandoned and go to the next one.
+
+Also, don't feel tied to your original ordering. Work on one at a time until a journey done or abandoned, but you can re-arrange the list at any time either according to your need or even just your whims. This is all to help you, not to hurt you.
+
+That's pretty much it for the general steps. That said, there are some things I encourage you to keep in mind as you build things in your CRM...
+
+## Key things to keep in mind
+
+### Do less
+
+This is *extremely* important. The less you do, the less you have to build. The less you build, the less you maintain. 
+
+There are no bugs in things you decide not to build.
+
+So do not presume your solution needs to be complicated. In fact, always to strive to make it as simple and barebones as you can get away with.
+
+Remember, the goal is to *do the stuff your PKM enables*, not to organize your life the "correct" way to be organized.
+
+### Use native tooling whenever possible
+
+Most PKMs support plugins to some degree. Many of these are amazing and borderline magical. 
+
+DO NOT DEPEND ON THEM for your solution if you can possibly avoid it.
+
+You're already depending on a PKM to make your solution, it's not wise to add another dependency on a tool that isn't guaranteed to keep up to date (and is more likely to change) unless you absolutely have to.
+
+And change is a big deal in making a solution in a PKM. The plugin environment everywhere is rapidly evolving at a frankly ludicrous pace. Things that work one way today might work very differently tomorrow.
+
+Be absolutely sure that risk is worth it if you choose to depend on a plugin. Does it really have to be in a Kanban board? Can I add a metadata field or two and achieve the same effect? If I work really hard on a particular query, does it do pretty much the same thing for this specific case?
+
+### It will feel weird, full of warts, and *yours*
+
+Do not be ashamed of it feeling hacked together! This is a *good* thing!
+
+That means it hews as close as possible to your needs, with nothing for anyone else!
+
+Embrace the bad! 
+
+Anything worth doing is worth doing poorly!
+
+### There is no "right" answer
+
+Similar to the above, feel free to get inspiration from others, but be very wary of thinking that anyone else has the *exact* solution to your problem.
+
+Sure, it could happen. But odds are it completely works for them, and will work 90% for you. 
+
+Good artists copy. Great artists steal. Incorporate others' ideas into your own work, but don't overvalue it compared to what you bring to the table.
+
+I love Eleanor Konik in the Obsidian community, because she is extremely open about borrowing ideas from other places (Johnny Decimal, Maps of Content, etc.), and then not following them to perfection because they don't work for this or that thing she needs to do.
+
+### There are some great filler practices for tooling gaps
+
+We're talking a lot about building a solution in a PKM here, which is a form of tool. However, there are some great filler practices that can make up for some tricky tool deficiencies.
+
+For example, I do a morning and evening journal. If I tack on a little checklist to the journal prompt, I now have an escape hatch for any number of processes that are otherwise very tricky to implement in some PKM's.
+
+Do you really need to write a date scoped query to pull the not-so-recently updated contacts in your CRM, or can you just check every night to see if any have fallen too out of date?
+
+
+### Crappily finished is way better than perfect in your head
+
+Ze Frank has an old video about brain crack that still haunts me. The gist is this: an idea in your head can be addictive. It can feel good to think about it, and how perfect it can be, without every actually implementing it. 
+
+But you have to resist that. A bad version that works is infinitely better than a perfect version that's only in your imagination.
+
+### Focus on making small, positive units of value, then grow
+
+You won't stick with pain to eventually get to something that COULD be good.
+
+Starting with the important stuff, finishing a useful unit of work, and then going to the next is the best way to build this up. We're going for an incremental approach... to get better over time.
+
+Start with the simple systems that work. If you're building a CRM, just having a page for each contact with a tag is good enough to start. *Then* you can worry about templates. And then links. And so on. 
+
+### You need to be radically honest and non-judgmental of yourself
+
+You will have things you do and things you don't do
+
+### Listen to, and lean into your idiosyncrasies.
+You're an audience of 1! Use that privileged knowledge!
+
+## An example: Recipes in PKM
+
+### DONE Start doing recipes
+:logbook:
+  CLOCK: [2022-08-17 Wed 07:54:43]--[2022-08-17 Wed 07:54:44] =>  00:00:01
+:END:
+DONE How to handle recipe part?
+I don't think this needs to be super formal
+Some recipes will have a list of ingredients
+Others will just have descriptions like the Scrambled Eggs
+DONE How to handle implementation notes?
+DONE I could make an example iteration template
+DONE Should I link all the ingredients together for recipe discovery?
+:logbook:
+	  CLOCK: [2022-08-12 Fri 19:02:33]--[2022-08-12 Fri 19:02:33] =>  00:00:00
+:END:
+There are probably better apps for this
+The goal of this exercise is mostly to capture my notes on each attempt and tweaks for improvement
+### Start with goals
+What do I want out of keeping recipes in my PKM?
+Personally, I care a lot about iteration
+How do I know it's working?
+How would I know it's broken?
+### Move on to CUJ's, if not interspersing them with goals
+As a ____, I want to blank
+### Then start implementing one at a time
+How should we implement this?
+Tags? Single notes page? Multiple notes pages? Daily Note? Templates?

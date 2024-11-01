@@ -1,0 +1,24 @@
+---
+slug: "did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed"
+aliases: 
+- /did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed
+date: 2021-06-20T17:39:22Z
+title: "Did I Mention the Pace of Development in Obsidian was Ludicrous Speed?"
+categories:
+- "Personal Knowledge Management"
+---
+
+Update: Fixed broken blog link. I'll get good at DNS one of these days...
+
+> First, it's absolutely amazing to me how fast development is going with the Obsidian space. The number of things that are 1-2 weeks old that radically alter my workflow are just mind boggling.
+
+https://www.ftwynn.com/posts/interstitial-journaling-in-obsidian-with-a-stripped-down-quickadd/
+
+I wrote that *less than a week ago*, and now that script is a [proper plugin](https://github.com/chhoumann/quickadd). It's so hot off the press it isn't in the Obsidian UI yet, but I'm looking forward to when it is (which will hopefully resolve some weirdness I had with the script version).
+
+Current Use Cases I'm Investigating for it:
+
+1. Interstitial Journaling (super helpful thus far)
+2. Changelog at the bottom of any notes files (need to toy with it a bit more)
+
+Both are good for the "capturing a quick thought from anywhere in a timely manner" case.

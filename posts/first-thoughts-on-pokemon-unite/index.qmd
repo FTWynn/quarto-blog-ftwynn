@@ -1,0 +1,102 @@
+---
+slug: "first-thoughts-on-pokemon-unite"
+aliases: 
+- /first-thoughts-on-pokemon-unite
+date: 2021-07-24T06:55:48Z
+title: "First Thoughts on Pokemon Unite"
+categories:
+- "Games"
+---
+
+Getting into MOBA style games is a terrible habit, and no one should do it, ever.
+ 
+That said, as one who doesn't take my own advice and who tried out the newly released [Pokemon MOBA](https://unite.pokemon.com/en-us/) for a few hours today, I figured I would share my thoughts here.
+
+<!--more-->
+
+In short, there's a lot that Pokemon Unite (PU) gets right. There's also a lot that may or may not jive with fans of the genre. Let's dive in.
+
+## The Good
+
+### The Matches are Short
+
+No surprise given the intent to port it to mobile and the targeting of a more casual fan base. As a busy dad, I approve of the 10 minute limit. The goal mechanic (as opposed to destroy the core mechanic) also gives some interesting strategic choices for who should dunk when. More on that later.
+
+### The Controller Mapping is Pretty Easy to Grok
+
+As one who has spent more time trying to map a controller to Wild Rift both on an Android device and in BlueStacks than I would care to admit, I have to say PU does a great job of making the controls feel natural. 
+
+That said, I can see some of the trade-offs they've made to get there. Only giving two abilities plus an ult means that a a single side of the controller shoulders handles most of the ability set. I'm sure it also affects ability design, with a preference given to AOE and auto-lock abilities over really tricky to time/aim abilities. I know I've been playing the starter set of pokemon so far, but I can't imagine controller limitations not being a reality as they think through ability design.
+
+### The Cosmetics are Surprisingly Fun
+
+I'm hit or miss when it comes to cosmetics, but the ones in PU are subtle while allowing for a surprisingly wide range of styles. It's still very mapped to the Pokemon Trainer vibe, but you can tweak a lot of elements and have fun toying around with it. I'd be shocked if they didn't enhance this more later.
+
+That said, the skins for the Pokemon themselves are all wonderful and I could see that being a big draw.
+
+### Mid-Game Build Flexibility is Handled Well
+
+While the choices are small, the fact that you can tweak a character's build mid game (especially for the "all-around" class) is a really cool thing. I could imagine this becoming important in climbing the ranked ladder, but more importantly it's implemented in a very simple, clear way. Well done devs!
+
+## The Bad
+### There's a Lot of Button Mashing
+
+Partly as a result of the focus on easy-to-use controller mechanics, the gameplay tends more toward button mashing than most MOBAs. Simply putting abilities on cool-down, instead of tying them to mana, compounds this factor. Now you've got three buttons to mash rapidly whenever a bad guy comes around (attack, ability 1, and ability 2).
+
+I suspect we won't see any ability sets that get really interesting like in other MOBAs (multiple characters, ability modifiers, Abathur, etc) that normally go on the number row because... well... there isn't one. 
+
+It also limits how strategic fights can get, since the auto-targeting is going to be doing a lot of work.
+
+### The Character Set is Small
+
+With only 20 pokemon, and 5 classes (with sub-categories like ranged/melee as well) there is a real feeling of not quite enough variety here at launch. I'm not sure how long it'll take to crank out new characters, but for those who aren't willing to shell out all the money upfront, character acquisition is slow, and makes character selection feel very limited for new players.
+
+That could be good if you're new to the scene. I know I've complained a lot about learning 80+ characters when switching titles. But this roster just felt a little too small, even for me, an older hand at the genre.
+
+### Game Sense is in Short Supply
+
+I know it's day 2 of release, but it's pretty clear that people working their way through the tutorial grind have no sense of MOBA strategy. I've seen tanks steal from carries (which matters a lot with individual leveling in PU). I've seen teammates walk obliviously by easy ganks. I've seen people take stupid goals, mis-understand score mechanics, and ignore group speed effects. The variance is *wide*.
+
+Maybe this will improve in ranked as part of the climb, but it's rough starting out.
+
+### Targeting is Tricky
+
+I mentioned this earlier, but targeting definitely takes some getting used to. It's a bit like a console aim-assist in FPS games. You learn to work with it rather than against it. Because there's a physical controller in my hand (and I'm not at my PC) I don't miss being able to target with my mouse too badly, but I'm actively annoyed at skill shot moves instead of simply planning for them.
+
+## The Ugly
+
+### The Vibe Might be a Little... *Too* Familiar
+
+I've seen this homescreen before. I've seen this daily quest list. It's got more polygons characters and less hand drawn art, but I've seen most of this before.
+
+My biggest concern is that it might get boring a bit quickly because of that. Ranked may prove to be a good experience, but I won't know until I get out of Bronze (which there was *no* placement for... just start from the bottom). 
+
+The tutorial climb to unlock active abilities is also proving to be pretty League-level long, which is weird given the number of games I've already played.
+
+### There is Some Pay to Win
+
+There are caps on stat-enhancing items you can bring in, and at my current ELO jungle pathing is way more important than items, but this could definitely rub some people the wrong way.
+
+
+## Wish List
+
+### I Wish I Could Tel the Game I've Played DOTA/League/HotS/MLBB/Wild Rift Before
+
+I think about this with all the MOBAs, because I know very few players who are into just one. The tutorial phase (which I'm still climbing out of several hours in) is pretty long, and I wish I could give it a frame of reference so it would skip some of the basics and maybe highlight some key differences.
+
+Come from League? We only have one two lanes, one item, two abilities, and everything's on cooldown. Coming from HotS? Levels are trakced per character, there are no creeps, and towers don't shoot at anything.
+
+It boggles my mind that these games wouldn't want to make it easy to switch between them.
+
+### I Wish I Could Buy a Starter Pack
+
+And not just standard mobile currency stuff!
+
+Most MOBAs (admittedly once they have a bit larger roster) allow for purchasing a set of heroes to expand the diversity of the early experience. I like it because it let's me put a little skin in the Free 2 Play game, and also expand the play styles I can tinker with right away. 
+
+No such thing in PU. Hopefully that comes around soon. Even the ability to just buy 5 more Pokemon at a discount would be great.
+
+### I Wish There Were More Maps
+
+They've eschewed the traditional DOTA/League map for one that's much more HotS like. I hope they continue in this vein and really make the map another gameplay element to consider. You can see them starting this with the daily quick games, but even in standard and ranked there's room for diversity among the jungle monsters, map layouts, and goal configurations.
+

@@ -1,0 +1,21 @@
+---
+slug: "getting-started-with-zettelkasten"
+aliases: 
+- /getting-started-with-zettelkasten
+date: 2021-07-12T02:52:30Z
+title: "Getting Started with Zettelkasten"
+categories:
+- "Personal Knowledge Management"
+---
+
+For a number of reasons lately, I've been looking into the [Zettelkasten](https://zettelkasten.de/) method of knowledge management, which I'll talk about at length in a future post.
+
+One thing I want to highlight before I even get there, though, is just how daunting it is to get started.
+
+It's not even that the process of turning more temporary notes into your own synthesized ideas is that difficult to understand. It's that a key step in the process, linking new ideas to previous ones, is frightening when you're staring at a blank page.
+
+Does everything have to be bottom up from new material? I do have some ideas floating around in my head, can I scaffold those first? Do I need to flag them to come back to later?
+
+My inclination so far is to do the crappiest thing possible, and fix it later if I have to. Perfection in PKM is far more the problem than never creating and toying with ideas at all.
+
+So here's to diving into imperfection! After all, anything worth doing is worth doing poorly.

@@ -1,0 +1,70 @@
+---
+title: "Should You Choose Org Mode?"
+date: 2023-06-16T13:35:00-04:00
+categories: 
+  - "Personal Knowledge Management"
+  - "Building My BASB in Emacs"
+draft: false
+categories_weight: 4002
+series: ["Building My BASB in Emacs - 2023 Capstone Report"]
+slug: "should-you-choose-org-mode"
+aliases: 
+  - should-you-choose-org-mode
+---
+
+To those who are emacs and Org mode curious, I'd like to give you a few things to consider about emacs and org mode.
+
+Be mindful, there are some dangerous opinions below. You can reach out on the socials if you want to challenge me on them.
+
+
+## Reasons to Choose Emacs + Org {#reasons-to-choose-emacs-plus-org}
+
+
+### The Basics {#the-basics}
+
+-   It's open source in the truest sense of the word
+-   It works on plain text files, a format you can bet on for the next 50 years
+-   It's flexible enough to handle everything from notes to contacts to recipes to journaling and beyond
+-   It's extensible, in small ways and big ones
+
+For many (especially programmers), this might be enough. For those who know the PKM space, they might point out that LogSeq and Obsidian both fit most of these requirements. And they have mobile apps with sync services on top of that! Why shouldn't you use them instead?
+
+Well... there are a few more reasons unique to org mode to consider.
+
+
+### The Advanced {#the-advanced}
+
+-   You can change how almost _every single keystroke_ in org mode works to suit your workflow best, and make them contextual so you can toggle those changes on and off
+-   New extensions with significant functionality (I use a package called org-roam, for example) are being published all the time. Emacs is a programmer's editor after all, and programmers be promgrammin'. If there is a new paradigm that emerges in the PKM space, you can safely bet that it will make its way to Org mode in some fashion at some point (as with org-roam).
+-   Emacs has been around for 40+ years, and will probably be around for 40+ years more assuming [the Lindy effect](https://en.wikipedia.org/wiki/Lindy_effect) holds. If longevity is important to you, you could do much worse than emacs + org mode
+-   As you understand yourself and how you like to work, emacs will flex with you over time in a way no other tool can. You design it as you go. You sit at the controls. There is no external group that may or may not implement what you want.
+
+You take on more responsibility when you choose emacs, but you take on more potential as well. It's a powerful consideration that no other tool can offer.
+
+
+## Reasons to NOT Choose Emacs + Org {#reasons-to-not-choose-emacs-plus-org}
+
+
+### This is Your First PKM {#this-is-your-first-pkm}
+
+The path to emacs + org mode is one I would suggest almost exclusively to those on their second PKM tool or later. It is indescribably useful to have some first-hand experience of different ways to organize your thoughts, what your preferences are, and what your negotiables and non-negotiables are. Experience will be the best teacher for those things.
+
+Emacs will bend precisely to your will. The clearer your will is, the more you will get out of it.
+
+
+### You Want Something Shiny {#you-want-something-shiny}
+
+There's also a level of disillusionment that is useful for approaching org mode. It is not the shiniest tool. It is not the easiest tool. It is not the tool of the year in 2023 or beyond. The year of the Emacs Desktop is emphatically, _never_ coming.
+
+But if you try a few PKM's you'll see just how much of the glitter fades away and how fast. Emacs will still be here when many have come and gone. If you learn it, so will your system.
+
+
+## The Hidden Benefit of Emacs + Org {#the-hidden-benefit-of-emacs-plus-org}
+
+There's one more thing I want to mention. Emacs is a "better than good enough... but not perfect" solution for the majority of PKM needs.
+
+This is important to take to heart, because once you realize perfecting specific features is not the true goal, you can let go of finding the "perfect" tool for any specific job. You can hack something together that just works for now and then _get back to making valuable stuff_.
+
+Emacs is text buffers all the way down, which is far from a perfect programming construct to work with... but it's good enough to get most anything done. Even if you have to copy and paste something for the last mile instead of doing a fancy API integration, if it gets you back to focusing on what matters, _that's_ the real value of a PKM system.
+
+I don't do everything in Emacs. I don't do email or read news. Heck, I usually open VSCode to do any real programming. But I _love_ that my PKM tool is emacs. Once you taste it's power, I think you might too.

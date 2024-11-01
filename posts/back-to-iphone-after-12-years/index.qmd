@@ -1,0 +1,23 @@
+---
+slug: "back-to-iphone-after-12-years"
+aliases: 
+- /back-to-iphone-after-12-years
+date: 2021-06-07T02:53:36Z
+title: "Back to iPhone After 12 Years"
+categories:
+- "Technology"
+---
+
+This past Memorial Day weekend I woke up to my own Groundhog Day-style disappointment. My Pixel 4 XL's battery had stopped holding a charge... *again*... on a third device.
+
+Working in technology, I'm used to having things break. I've also been a big Android user since the release of the [Motorola Droid](https://en.wikipedia.org/wiki/Motorola_Droid), sticking with the OS through a fair share of warts and growing pains. But when my phone broke last week in the same way as my other two Pixel devices, causing a Monday morning scramble to the store, I decided maybe it was time to be less of a tinkerer and more of a user again. 
+
+... at least when it comes to phones.
+
+To help get used to the publishing flow on my blog, I'm going to note some of my thoughts here for others to chew on (and spit at) if they're so inclined. I'll admit upfront I did fairly minimal homework, thinking my years at big tech companies and affinity for tinkering would get me through any adjustment pains. 
+
+Some things have been smooth. Some have been choppy. Some are mystifyingly difficult. It reminds me a lot of when I had a Mac laptop actually. 
+
+As a general rule, a few weeks in now, I can feel the stability I traded for. I'm still frustrated by some limitations, but I think it's been the right call so far. 
+
+I just have to come to terms with the fact that I'm now just a user... and be OK with that.

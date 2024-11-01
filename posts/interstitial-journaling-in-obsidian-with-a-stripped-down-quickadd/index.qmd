@@ -1,0 +1,21 @@
+---
+slug: "interstitial-journaling-in-obsidian-with-a-stripped-down-quickadd"
+aliases: 
+- /interstitial-journaling-in-obsidian-with-a-stripped-down-quickadd
+date: 2021-06-15T16:56:26Z
+title: "Interstitial Journaling in Obsidian with a Stripped-Down QuickAdd"
+categories:
+- "Personal Knowledge Management"
+---
+
+Update: I moved to [handling this in pure QuickAdd](https://www.ftwynn.com/posts/did-i-mention-the-pace-of-development-in-obsidian-was-ludicrous-speed/) not too long after I sketched this out.
+
+First, it's absolutely amazing to me how fast development is going with the Obsidian space. The number of things that are 1-2 weeks old that radically alter my workflow are just mind boggling.
+
+An example that I started working with is [chhoumman's QuickAdd](https://github.com/chhoumann/Templater_Templates), courtesy of [Eleanor's Round Up](https://obsidianroundup.org/2021-05-22/).
+
+While I had trouble getting the script as written, which is way over-engineered for my needs, I stripped out the basics into a simple "[add this line from a prompt to the Daily Note](https://gist.github.com/FTWynn/1ce114769381d2aed449739bf21c9d47)" tool, which is absolutely perfect for [Interstitial Journaling](https://nesslabs.com/interstitial-journaling), which I stumbled on for the first time the other day.
+
+IJ seems like a great combination of multiple factors to help keep me focused on what I'm doing during the day, and putting it in a templater template means I have access to the same workflow across my Windows Desktop and my Chromebook since they're in sync with Obsidian Sync! 
+
+I'm looking forward to trying this out, particularly with a mix of lighter and heavier workdays ahead.

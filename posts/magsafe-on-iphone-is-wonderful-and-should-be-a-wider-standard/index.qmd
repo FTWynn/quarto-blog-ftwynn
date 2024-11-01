@@ -1,0 +1,21 @@
+---
+slug: "magsafe-on-iphone-is-wonderful-and-should-be-a-wider-standard"
+aliases: 
+- /magsafe-on-iphone-is-wonderful-and-should-be-a-wider-standard
+date: 2021-06-20T05:04:00Z
+title: "MagSafe on iPhone is Wonderful and Should be a Wider Standard"
+categories:
+- "Technology"
+---
+
+When I was first stranded across the country due to COVID, I was sadly without my sunrise alarm clock (which I will probably use forever at this point). The closest thing I could get without buying a whole new clock was the Pixel Stand, which gave the Pixel a sunrise alarm along with it.
+
+The alarm itself was a little finicky, but it took actually putting the device on and off the charger for me to appreciate how nice wireless charging is.
+
+That said... the positioning on the Pixel Stand was always finicky and annoying. My in laws had a different third party wireless charge for their phones, and while it was easier to target, it certainly never felt like I put it in the "perfect" spot.
+
+Switching to iPhone introduces... MagSafe. Finally a nice, clean feedback mechanism for correct positioning in wireless charging. This should be a standard, and it's practically a crime it isn't implemented in all phones. 
+
+The gentle tug to get in line. The snug confirmation you're in the right spot. The moderate but not too much effort it takes to pull off. It's all wonderful, and I very much do not want to go back to being without it.
+
+Shame on Apple for hoarding this one for themselves. Make the world a better place and make the phone version of MagSafe something everyone can have, regardless of phone model.

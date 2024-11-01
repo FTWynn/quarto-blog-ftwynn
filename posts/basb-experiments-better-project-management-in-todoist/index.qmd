@@ -1,0 +1,48 @@
+---
+slug: "basb-experiments-better-project-management-in-todoist"
+aliases: 
+- /basb-experiments-better-project-management-in-todoist
+date: 2020-05-23T15:14:22Z
+title: "BASB Experiments: Better Project Management in Todoist"
+categories:
+- "Personal Knowledge Management"
+---
+
+Because I've been stuck on a Chromebook ever since I started the BASB course, mouse-oriented options for any tools have been particularly annoying to me. One place in particular: project management in Todoist.
+<!--more-->
+I think Todoist is the best todo app given that I live in a Windows/Linux/Android/Chromebook world, but the keyboard options by default are a bit hit and miss. Even with the excellent [enhanced keyboard extension](https://chrome.google.com/webstore/detail/todoist-shortcuts-gmail-v/dehmghpdcahlffompjagejmgbcfahndp?hl=en), there are some particular gaps around project management.
+
+Why? A quick review:
+
+## The Project Management Hierarchy in Todoist
+
+To start, I'm ignoring tags for this analysis. It's possible (and some do recommend) to make a tag based hierarchy for project management, but I find that not a good use case for tags, which are character limited with no spaces.
+
+There are four hierarchical levels of project management in Todoist:
+
+1. Projects
+2. Sub-projects
+3. Sections
+4. Sub-tasks
+
+Projects are obviously the intended abstraction, given that they show up in the UI in various searches and layouts. Sub-projects also do this, with the only difference being the nesting in the project list (and thus making them not totally re-orderable).
+
+The main drawback with Projects is that _there is no keyboard interface for making/editing them_. There is the ability to make a new one in the Quick Add bar with `#`, but then you're limited to no spaces and have to go into the UI to change the color anyway. The enhanced shortcut extension is no help here, I imagine suffering from a lack of any element to plug into.
+
+Sections are interesting alternatives. They are fairly easy to create with the keyboard, and allow for moving around groups of tasks to different projects. However, they have similar no-keyboard drawbacks, and aside from expanding/collapsing they don't provide much else in the UI that's helpful.
+
+Sub-tasks are nested tasks. You can expand/collapse them as well, and are otherwise exactly like normal tasks.
+
+## How I've Been Making Do So Far
+
+So far, I've been using Projects as intended, but the workflow of BASB implies that there should be lots of movement around projects. I noticed that once I built them, I was reluctant to edit them as I probably should have. Using the trackpad and scrolling felt clunky.
+
+I did like my approach to due dates, which was to add a non-checkbox task (end a task with a colon) at the top of every project with the outcome as text and a scheduled due date. That let me set up a separate filter just to see project outcomes and due dates, which was functionally a way to view them all at once.
+
+It wasn't perfect... outcomes aren't project names, which is what I really wanted to see, and the priority still matters for ordering, though it's hidden on non-checkbox tasks, which is annoying... but it was good enough.
+
+## What I'm Experimenting with This Week
+
+This week I'm going to toy with making tasks projects, and sub-tasks the main area of focus. This should give a lot of the keyboard flexibility, allow for clear project name viewing in the overview, and more or less keep all the previous functionality.
+
+An interesting think to consider is: what do `Project`s actually become under this model? There could just be a single `Project` with all the others in it, allowing for moving around. They could turn into areas. Or they could stay as meta-project containers. I'll experiment with it and see how it goes.

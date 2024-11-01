@@ -1,0 +1,53 @@
+---
+slug: "basb-the-story-so-far"
+aliases: 
+- /basb-the-story-so-far
+date: 2020-05-07T02:20:59Z
+title: "BASB: The Story So Far"
+categories:
+- "Personal Knowledge Management"
+---
+
+I thought I'd start putting some of my [BASB](https://www.buildingasecondbrain.com/) experiences back into the wild. I'm aiming for once every two days, since I'm currently trying to interview for a promotion and watch my two year old while staying with my in-laws for an increasingly indefinite period of time.
+
+Where was I? Right! BASB!
+
+<!--more-->
+
+My first post comes on the last day of the course, because I wanted to document how much my attitude and system changed just over a few weeks.
+
+## The Beginning: Org Mode or Die
+
+I started the course fully intending to use org-mode for anything and everything. It's text based, future proof, open source, hackable... it even runs on my Chromebook (which is all I have at my in-laws). What more could you want?
+
+It was easy enough to set up an initial PARA system. Tasshin's blog already had some great ideas I could build on as well. I already had my life organized by Areas a few ways so the transition wasn't too bad. 
+
+However...
+
+A few things started to get tough:
+
+* Moving files around the repo (a big part of flexible project planning) turned out to be tricky
+* Creating directories and files had slightly different, annoying syntax
+* Inserting images was doable, but far from pleasant
+* Syncing between work and home machines was going to be a tricky, manual process with git... and not possible at all really on mobile unless I set up a crazy Dropbox mirror thing... 
+* Just trying to capture notes from a web article created enough friction where I realized, at least while I'm on my Chromebook... this just wouldn't work
+
+Everything was _possible_ but... just so much work.
+
+## Moving onto the Defaults
+
+Thus we started with Evernote, and as soon as I'd made that decision 20 other problems I had with org-mode just vanished. So much is already plugged into Evernote, that friction practically vanished, and I found I had a heightened sensitivity to any that remained.
+
+Though I'd been a longtime Pocket user, I dove into Instapaper at Tiago's recommendation... then I went back to Pocket... then back to Instapaper again. I'll detail why in a future post.
+
+Then I set up Readwise, which in my opinion is a couple dollars too expensive... but it's been so invaluable as a seamless glue layer, letting me bounce between Instapaper and Pocket that it's probably worth me staying with them forever. I also just watched a deep dive on their tagging system (which blew my mind), and might be worth shaping my note taking habits around, at least a bit.
+
+My big holes currently are podcasts and YouTube, where I just mark timestamps and links directly in Evernote. If I come across a better solution I'll note it here.
+
+## I Re-Platformed and So Can You
+
+I'm sure org-mode is the right choice for many people who absolutely live in emacs and breathe around all its power. As a casual scripter, I found the web to be too varied for its limits, and I turned to tools more specialized in capture.
+
+It took about a day... less time than I expected. Laying out PARA beforehand probably helped a good bit.
+
+In the future, I'm wondering how much readwise will fill the role of randomnote as it grows. It clearly wants to, but it doesn't import notes from Evernote... I'm content to leave it as glue (super glue perhaps) for now.

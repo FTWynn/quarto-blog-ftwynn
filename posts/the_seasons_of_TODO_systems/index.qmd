@@ -1,0 +1,21 @@
+---
+aliases:
+  - the_seasons_of_TODO_systems
+date: 2023-01-16
+description: ""
+slug: the_seasons_of_TODO_systems
+title: The Seasons of TODO Systems
+categories: ["Personal Knowledge Management"]
+---
+
+It's funny how some TODO systems are better suited for certain times and situations than others.
+
+Once upon a time I had a TODO system in Todoist with recurring tasks, reminders, views that only showed the shortly upcoming important tasks... a very programmed system. I'd moved away from it because it began to feel stifling, settling on something that was more akin to software development with a backlog and flexible prioritizing based on regular reviews. Foolishly, I thought I'd *evolved* the system to something strictly better for me personally.
+
+But... then that system fell down. My life has been especially hectic lately with kids, holidays, and (I hope) an unusually high amount of illness and hospital visits. On a hunch, I reverted back to my more programmed Todoist approach (which was still there and humming, just a touch neglected), and I found it wonderful to have a system I didn't need to think about, nagging me about doing basic things each day.  
+
+So it has me thinking... maybe TODO systems come in seasons rather than a pure measure of fit to a person. Sometimes you need a more nagging system telling you what to do. Other times you might need to optimize flexibility or ease of idea capture. No system is wrong, just better suited to the situation *and timing* at hand. 
+
+I'm sure it's not a revolutionary insight, but it was a bit of a jarring thing to live through first hand.
+
+Maybe when things calm down a bit I'll change systems again, but as a parent that's putting all my energy into the day to day, a more micro-explicit system is working very well.

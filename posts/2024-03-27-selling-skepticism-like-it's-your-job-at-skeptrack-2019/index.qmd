@@ -1,0 +1,31 @@
+---
+title: "Selling Skepticism Like It's Your Job at DragonCon's 2019's Skeptrack"
+slug: "selling-skepticism-job-skeptrack-2019"
+date: 2019-08-30
+lastmod: 2019-08-30
+description: ""
+categories:
+    - Philosophy
+    - Productivity
+    - Recordings
+summary: "My DragonCon 2019 talk about applying Sales techniques to convincing people to live more skeptically"
+---
+
+Recorded in Atlanta, GA on August 30th, 2019.
+
+{{< video https://www.youtube.com/embed/bDQlV1Aod0w >}}
+
+Recording of my talk at DragonCon 2019 (Thank you Skeptrack A/V Team!) with re-balanced audio. Apologies for the missing first few minutes of the talk. The deck with speaker notes can be found here: 
+
+https://docs.google.com/presentation/d/1KFfi71_CgU5HrihBkV8qqn-TNVFAfZzHaMpxm3FucZo/edit#slide=id.p
+
+## Alternate Recording:
+
+{{< video https://www.youtube.com/embed/6oFmZZmPsgo >}}
+
+
+##  DragonCon Title and Description as Published in the Convention Guide
+
+Selling Skepticism Like It's Your Job: Using a Process to Make Progress
+
+Could we be spreading skepticism more effectively? How do we know where we might be going wrong? Come listen to how professional sales people map out the process of convincing others and how to use it to help spread skepticism in your own life.

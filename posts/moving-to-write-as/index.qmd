@@ -1,0 +1,19 @@
+---
+slug: "moving-to-write-as"
+aliases: 
+- /moving-to-write-as
+date: 2020-04-28T11:46:15Z
+title: "Moving to Write.as"
+categories:
+- "Technology"
+---
+
+I'm beginning the process of moving my blog to write.as.
+<!--more-->
+The reasoning is fairly simple: I don't really have time to tweak the Hugo setup anymore while on COVID lockdown with a toddler, and I'd like to start blogging again. So I choose to move. The writing experience is as simple as can be on this platform, and since I'm trapped away from my desktop during COVID lockdown, I'm looking into web-based platforms to do more and more.
+
+I'm also taking Tiago Forte's [Building a Second Brain](https://www.buildingasecondbrain.com/) course, and trying to take some of the principles to heart. One in particular, is removing friction wherever possible. My hugo setup was fun, but even at that modest complexity I was beginning to fear opening it at all for fear of breaking anything. Write.as simply gives me a blank page to put in some Markdown. Beautiful.
+
+My only concern is making sure a handful of article URLs make it in the transition. Breaking the web is bad, and should be avoided wherever possible. But there are only a handful I care about, along with the about page. It might be doable... but the shift from static site served out of a Google Cloud Storage bucket to a completely managed solution means I would have to handle this in an awkward layer... DNS I suppose? I'll have to see if it's worth the effort and write about it later.
+
+Actually, scratch that, I'll just use a new subdomain for the blog and leave the old site running as is. Produce first, link back later.

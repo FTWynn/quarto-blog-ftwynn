@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2023-06-16">
+
+<title>For the Wynn - My BASB Implementation in Org Mode v2023-06</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">For the Wynn</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../me.html"> 
+<span class="menu-text">David Wynn</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://linkedin.com/DavidBWynn"> <i class="bi bi-linkedin" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/FTWynn"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">My BASB Implementation in Org Mode v2023-06</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Personal Knowledge Management</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 16, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#global-configurations" id="toc-global-configurations" class="nav-link active" data-scroll-target="#global-configurations">Global Configurations</a></li>
+  <li><a href="#basb-beginning-with-the-end-in-mind" id="toc-basb-beginning-with-the-end-in-mind" class="nav-link" data-scroll-target="#basb-beginning-with-the-end-in-mind">BASB: Beginning with the End in Mind</a>
+  <ul class="collapse">
+  <li><a href="#my-target-use-cases" id="toc-my-target-use-cases" class="nav-link" data-scroll-target="#my-target-use-cases">My Target Use Cases</a></li>
+  </ul></li>
+  <li><a href="#code-breakdown" id="toc-code-breakdown" class="nav-link" data-scroll-target="#code-breakdown">CODE Breakdown</a>
+  <ul class="collapse">
+  <li><a href="#capture" id="toc-capture" class="nav-link" data-scroll-target="#capture">Capture</a></li>
+  <li><a href="#organize" id="toc-organize" class="nav-link" data-scroll-target="#organize">Organize</a></li>
+  <li><a href="#distill" id="toc-distill" class="nav-link" data-scroll-target="#distill">Distill</a></li>
+  <li><a href="#express" id="toc-express" class="nav-link" data-scroll-target="#express">Express</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>The meat and potatoes of the series! The stuff you’ve probably been waiting for!</p>
+<p>Rather than dump the entirety of my init folder on you, I’ve opted to give a more narrative explanation of how the system came to be. If you are unclear about anything, please reach out on the socials and I’ll do my best to clarify.</p>
+<blockquote class="blockquote">
+<p>Reminder: I use the term BASB to refer to the solution we’re building in Org.</p>
+</blockquote>
+<p>I’m sure I’ll update this page more than a few times, but expect I’ll write a new version after enough time passes.</p>
+<section id="global-configurations" class="level2">
+<h2 class="anchored" data-anchor-id="global-configurations">Global Configurations</h2>
+<p>There aren’t that many global configurations I want to call out at the top. Generally, I write my init file in org, add packages and comments that I want to try, and add in commands I want to keep handy to my general.el keymap.</p>
+<p>That said, there is one thing I want to encourage anyone considering org to take a look at: you should reverse the insert order of headings so that new entries come in at the top… a “reverse cron” approach to insertion if you will… rather than the default of appending to the bottom.</p>
+<pre class="emacs-lisp"><code>(setq org-reverse-note-order t)</code></pre>
+<p>I’ve found that this approach leverages the fact that we tend to want more recent things more at hand than older things. Plus if you stick wth the system for a while, appending to the bottom often entails a lot of scrolling.</p>
+<p>Your mileage may vary, but worth noting.</p>
+</section>
+<section id="basb-beginning-with-the-end-in-mind" class="level2">
+<h2 class="anchored" data-anchor-id="basb-beginning-with-the-end-in-mind">BASB: Beginning with the End in Mind</h2>
+<p>I find that the nature of BASB creation inclines people to focus <em>on the BASB</em> as the target output. But that’s of course, not the real goal. The <em>real</em> goal is to figure out what <em>other</em> stuff this new tool/practice enables. Keeping that in mind, I find I can’t talk about the thing without talking about what I use it for and want from it first.</p>
+<p>As such, I will walk my setup through each of the target use cases I aim to solve. I’m sure it will evolve as I add more, but the needs here are what drive the system, not the system driving my needs.</p>
+<section id="my-target-use-cases" class="level3">
+<h3 class="anchored" data-anchor-id="my-target-use-cases">My Target Use Cases</h3>
+<section id="journaling-and-regular-reviews" class="level4">
+<h4 class="anchored" data-anchor-id="journaling-and-regular-reviews">Journaling and Regular Reviews</h4>
+<p>This is the number one use case because creating a regular habit that uses the tool multiple times per day is key to really learning it. Journaling isn’t a technically complicated use case, just requiring some templates and a place to journal in the system that doesn’t require thinking about where the entry goes.</p>
+<p>I took a cursory glance through various options inside of org, and opted for using org-roam’s dailies to handle this. I’ve used diary mode in the past, but I liked org-roam’s capture system that was tied to it, so I went that direction. I also use org-roam for other things which I’ll describe later, so that was a reasonable fit.</p>
+<p>This does mean that I break my principal of <strong>a single org file</strong> almost immediately, since org-roam does separate daily files by default. However, experience has taught me that I never mess with these physical files themselves, so I think it’s fine. Putting journals in one file is also a surefire way of eventually causing a performance problem somewhere down the line. Might as well head that one off before we get there.</p>
+<p>Additionally, I keep all my templates as org files in a sub-directory, <code>~/org-roam-repo/templates</code>. I find using full org files much easier to visualize and edit rather than storing them as strings in my init file. I mean, I can only handle so many <code>\n</code>’s before my eyes cross… and I’m a person who <em>likes</em> regular expressions.</p>
+<p>This also shows the first example of my principle for subdirectory use in org:</p>
+<blockquote class="blockquote">
+<p>Prefer a flat, single directory where possible. Use sub-directories for <strong>programmatic</strong> separation of content as needed.</p>
+</blockquote>
+<p>In this case, having a single template directory (no files of which are included in the org-roam index) makes them easier to find, refer to, and keep out of the way of other files in BASB.</p>
+<p>The following templates apply to this use case:</p>
+<ul>
+<li>Morning Journal</li>
+<li>Evening Journal</li>
+<li>Weekly Journal</li>
+<li>Monthly Journal</li>
+<li>Interstitial Journal</li>
+</ul>
+<p>Daily notes themselves go in a special subdirectory, <code>~/org-roam-repo/journals</code>. The same reason as above applies, in that org-roam expects a directory to work with for journals, and I find separating them out is easier for various completion frameworks to handle rather than co-mingling them with other files. After all, today’s journal is very relevant. Tomorrow’s much less so. Even less before that. And on and on… No need to have all the clutter if I don’t need it.</p>
+<p>And with just that, we’ve got a perfectly serviceable digital journal that I can copy, paste, and link into/out of which I interact with each morning and night. Not bad for minimal effort (though I’ve implemented enough PKM’s to know this is an easy case).</p>
+<p>A huge but not-so-obvious reason we tackle this use case first, is that daily journals <em>create space for <strong>process</strong></em> that helps fill any gaps in the rest of our setup. With a simple checklist as part of my evening journal, I can remind myself to do all kinds of things at the end of the day.</p>
+<p>Maybe I need to do something manually for a half-baked process I didn’t finish. Maybe I need to reflect on if a piece of tagging overhead I added is still worth it. Maybe I need to scan Snipd for any useful clips rather than try to figure out a Rube Goldberg integration with it. Whatever the needs are, starting with journaling gives a regular means of repairing or revisiting any issues that might arise as we build out BASB.</p>
+</section>
+<section id="saving-notes-links-and-other-ideas" class="level4">
+<h4 class="anchored" data-anchor-id="saving-notes-links-and-other-ideas">Saving Notes, Links, and Other Ideas</h4>
+<!--list-separator-->
+<ul>
+<li><p>Capturing Notes</p>
+<p>For pretty much anything, from spur of the moment thoughts to taking my own notes on a meeting, I’ll fire up my Interstitial Journaling capture template and throw it in the Daily Note. The idea is to minimize the energy wasted around “where does this go?” Answer: The Daily Note. Done. I can refile it later, and if I don’t I can full-text search the directory.</p>
+<p>In fact, I do refile them later… during my evening journal. There’s a checklist item to review the non-journal entries and refile them to PARA. There aren’t usually very many, and org-refile makes it extremely easy to do.</p>
+<p>From time to time, I’ll take notes directly in a relevant PARA section. But often it Daily Note first, then refile.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Organizing notes</p>
+<p>Now we get back to the principle I mentioned earlier: putting everything in one org file. PARA is a great framework, so I have a file simple named PARA.org with Projects, Areas, Resources, and Archive as the top level headings. There are sub-bullets of all the things you might expect under those headings.</p>
+<p>To be clear, this is not the org-roam way, but it is the <em>org</em> way. This way we get to <em>earn</em> any complexity we add to the system. I keep all my notes for various things in that single file, and if it feels too unwieldy, then I’ll bud it off into it’s own org file.</p>
+<p>Having been through this before, I stubbed my favorite 9 or so Areas and Resources to start, and will let the rest grow over time. I give each heading I want to refile to an ID via a custom function I wrote (timestamp_heading) so I can use <code>org-roam-refile</code> to refile any other notes there. I also add a <code>Thoughts</code> sub-bullet under each and do the same, for any miscellaneous info I want to refile to the right Area without thinking about what subsection it should belong to.</p>
+<p>It might have been possible to use a many-file approach instead. With clever tagging or filing or something, I could have probably used <code>org-ql</code> to compile this PARA view from the bottom up. I opted not to do this because:</p>
+<ol type="1">
+<li>I couldn’t find an easy way to do it with a little Googling. Experience in emacs land tells me if a few Google searches don’t find what you’re after, then it will be much harder (though not impossible) to implement. Most people pick a relatively small number of org files if they aren’t going all in on org-roam or deft, so I think that’s fine to start. Even if I ultimately grow to have an org file per sub-Area, that list probably won’t be more than 20 or 30 files… maybe 100 in the long term.</li>
+<li>Tagging consistency is <em>really</em> hard, and really underestimated. Auto-complete is a huge help, but if I can just file something once, I’d rather do that than remember how to tag stuff over and over, especially in a distributed system. Inheritance with hierarchies is clear and easy to work with.</li>
+<li>Tagging is a great theoretical concept for Information Management, but that’s not what I want to spend time focusing on. If I can get to a 95% good enough solution with 5% of the effort, then I’ll do that. Or in another sense: if I can remove a small mental tax that I would pay every time I made a new note from now into the future, no matter how small, I think that’s probably a good call.</li>
+</ol>
+<p>Now, things do get a little sticky in a few places when we get to parts of this use case outside of text files on a single Linux desktop.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Mobile</p>
+<p>Ah mobile… a top request of many and a bane of many a PKM tool’s existence. I’ve personally used Obsidian and Logseq’s native Sync, as well as Roam when it was web based.</p>
+<p>In pretty much every case the experience is awful. Conflicts happen that you don’t expect, resolution flows are awkward, plugins kept getting weird for me (especially in Obsidian), and on and on…</p>
+<p>Emacs is <strong>not</strong> immune to these issues, but stepping on a few thorns in the past helps clarify exactly my priorities.</p>
+<p>First, I want to be able to capture ideas quickly on mobile, either mine or from another app. The fewer clicks the better, and if it works with the <code>Share with...</code> menu on Android even better.</p>
+<p>Second, I want to be able to <em>view</em> all my notes when I need them on the go.</p>
+<p>Notably, I don’t find editing the bigger system to be very important, because typing on mobile is terrible anyway. I would like to be able to see info about a contact before I jump into a meeting with them when I’m out and about, but I can capture any new info as a new note and refile it later.</p>
+<p>I solve these cases with a three-pronged approach on my Android phone.</p>
+<p>First, I need to get the files on my phone at all. Here, <a href="https://syncthing.net/">SyncThing</a> is the answer. It’s like Dropbox but one you run yourself with no server required. It’s easy enough to install on multiple machines (from Android to Linux to Windows to Mac), and does its job. I sync all of my org notes to the phone, though I have a sub-directory <code>mobile</code> for a few specific files I’ll cover in a second.</p>
+<p>Second, <a href="https://orgzly.com/">Orgzly</a> solves the capture use case wonderfully (along with TODOs, see below). It’s easy to capture notes via the widget, and the app is easy enough to understand. To minimize its impact on the broader PKM system, I only point it to the <code>mobile</code> sub-directory which contains three files: TODOs.org, Keep.org, and Contacts.org. Since I do edit these files on my PC, I have to be mindful about giving some sync time before jumping back onto my phone. My typical flow is to jot down things on mobile, then refile them at night. Very little goes the other way (except for TODOs). Keeping Orgzly’s impact to a few files also keeps it from overwriting files where I care about whitespace formatting, which I hear is a problem for others that have tried to be all in on Orgzly.</p>
+<p>I want to add, my first iteration of capture was to just <code>Share with...</code> to Google Keep and then copy those into BASB each night during the evening journal as a checklist item. The copying and pasting back and forth got annoying, and I find capturing straight to an org file from Orgzly lets me use one refile command at night to get it where it needs to go. So I switched… but that’s where the Keep.org namesake comes from.</p>
+<p>Third, for viewing all of my notes, I use <a href="https://orgro.org/">Orgro</a>, which is a much cleaner viewing experience than Orgzly since that’s all it does. This I can point to the whole org directory, find what I know is there, and get out again.</p>
+<p>This setup works most of the time, and it’s fairly straightforward for me to resolve conflicts when the arise via ediff (which is worth learning if you haven’t used it before). But, mobile is a pain point for everyone, and I personally believe the “need” for it is significantly overblown.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Pictures and Other Attachments</p>
+<p>While most of what I capture and deal with is text, I do keep a running doc of how I want to improve my dress style, with visual inspiration I pull from around the web. So I do need to meaningfully handle pictures. There are two options I see mentioned a lot around the web.</p>
+<p>The first is org-attach. There are a lot of cool things about org-attach. It isolates files in note specific directories. It has a link inference mechanism so your URI’s don’t get too long. It encourages using the <code>id</code> property, which we’re already using for org-roam.</p>
+<p>But…</p>
+<p>A big use case for BASB is the ability to pull together old work and remix it into something new. The actual link in the text, if copied, will change context when pulled into a project with a different ID. There are workarounds, but for my simple case, I think I’ll just link to the files in a directory outside the org folder on disk.</p>
+<p>I specifically have a different folder <em>outside</em> the org directory because I <em>don’t</em> want to sync a bunch of binary blobs to my phone. I suspect that folder could get large much faster than the org directory itself with modest use.</p>
+<p>As such, <code>org-download</code> is a good enough helper for the time being, with a prefix to the folder outside my main org folder. That directory is relative to $HOME, just like my main org folder, so as long as I can set $HOME (even on Windows), everything will find it just fine, and moving links around in org won’t matter.</p></li>
+</ul>
+<!--list-separator-->
+<ul>
+<li><p>Possible Enhancements</p>
+<p>To walk the path of emacs is to always be looking for things to be better. I have my eye on a few things for the future that I haven’t bothered to implement yet.</p>
+<ul>
+<li>Move the Archive to a separate file, for all the things that fall out of scope and shouldn’t show up as refile targets. I don’t imagine this would be necessary unless there are either a huge number of name conflicts, or if size really gets out of hand.</li>
+<li>I’m thinking about pulling Contacts out of the mobile folder and putting it in the root directory, as I put it in there before I found Orgro. I like that I can add to it in a pinch via Orgzly, but I’m very used to adding a new quick capture and refiling it later these day. I chalk this under “not bothering” for now.</li>
+<li>Try out Voit’s method of being completely filesystem agnostic: <a href="https://karl-voit.at/2022/02/10/lfile/" class="uri">https://karl-voit.at/2022/02/10/lfile/</a>. My concern here is that I regularly shift between all major OS’s, and this might not be so easy to achieve on Windows.</li>
+</ul></li>
+</ul>
+</section>
+<section id="projects" class="level4">
+<h4 class="anchored" data-anchor-id="projects">Projects</h4>
+<p>There are approximately a hundred different ways to model a project in Org mode. I’ve already iterated through a few approaches, but rather than catalog each one, I’ll just detail where I’ve landed for now.:</p>
+<ul>
+<li>A project is a headline with the tag <code>project</code> (set to not inherit in my init)</li>
+<li>The project itself has a deadline on the root node, which is the title of the project</li>
+<li>There are a lot of sub-headers I defined in a capture template to help the project stay contained and on track. I don’t use them every time, but it’s good to see a list on new project creation. Use can insert capture templates at point by preceding them with <code>C-0</code>, even if you’re using general.el</li>
+<li>Notes can be refiled in from elsewhere with org-roam-refile once I add an ID
+<ul>
+<li>For fleeting thoughts that are project specific, I’ll refile them into the project</li>
+<li>For things already in other places in BASB, I lean toward copying into the project, rather than a full refile</li>
+</ul></li>
+<li>Artifacts that live elsewhere like Google Docs and such are linked
+<ul>
+<li>For me, this happens very often, as no one else I work with uses emacs, org, and so on</li>
+<li>I tend to brainstorm in Org and then export out to other systems for collaboration</li>
+</ul></li>
+<li>When finished, the project is refiled to a <code>Completed Projects</code> section in the Area
+<ul>
+<li>I couldn’t figure out a good way to retain the category when Archiving them otherwise</li>
+<li>But also, reporting is a terrible use case to optimize for in general. I strive to <em>optimize for <strong>doing</strong>, not for reviewing</em></li>
+</ul></li>
+</ul>
+<p>This approach distributes all the projects in their various areas, but allows me to see any I’ve committed to through the agenda.</p>
+<p>The challenge I ran into next was what to do about the (rather large) pile of someday/maybe project ideas. Stored in their own Area and Resource sections, they seem too disparate and hard to visualize together. Stored in the projects section they could be prioritized, but would quickly get blurred into mush.</p>
+<p>Surely there was a way to keep the entries nestled in their Areas and to still see them fairly grouped together? Do I turn to alphapapa, his name be praised?</p>
+<p>In short, yes. Enter <code>org-ql</code>. While it seemed like overkill to figure out a view to pull all the projects together, this is a great tool to auto-group by category (which I’ve added to each Area) and see all the relevant info.</p>
+<p>TODOs for each project are kept somewhere under the project header. One section I use a lot that borrows from the BASB course is the <code>Intermedite Packets</code> section. Its headlines are like discrete sub-projects but with a more targeted focus to a discrete, deliverable unit of work. It helps a lot to crystalize a bigger project into smaller chunks. That said, I’ve noticed I have to be careful not to be too beholden to the list. Otherwise the uninformed me of the past might boss around current me into IP’s I discover aren’t the right things to do first once I get going.</p>
+<!--list-separator-->
+<ul>
+<li><p>Possible Enhancements</p>
+<ul>
+<li>Use org-transclude instead of copying in notes
+<ul>
+<li>I hear good things, and I doubt I would need the text directly in any exports, so it seems plausible</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="todos" class="level4">
+<h4 class="anchored" data-anchor-id="todos">TODOs</h4>
+<p>Hand in hand with projects, of course, is TODOs. Org supports these natively, so there isn’t too much to cover given the above, but I’ll call out the interesting pieces.</p>
+<p>The big trick is that TODOs.org is one of the three files I have Orgzly paying attention to on my phone. This lets me use the widget to see upcoming TODOs, capture them on the go, and get alerts on my phone base don the timestamps. I do add to and update TODOs from my desktop as well, so I need to be a little careful when syncing, but Nick Anderson <a href="https://cmdln.org/2023/03/25/how-i-org-in-2023/#fn:31">points to a way to use Tasker to kick off an Orgzly sync on screen wake</a>, and that’s pretty much kept everything running smoothly. Even if issues do pop up, it’s very easy in Orgzly to reset by force pushing or force pulling, depending on which is best.</p>
+<p>I do occasionally forget to save a file (particularly from the agenda), so I’ve added in auto-save for buffers that aren’t saved after 60 seconds.</p>
+<p>Most of my TODOs live in that file. However, I also keep TODOs in my projects as well. The PARA file is already in the org-agenda, so the only drawback is that those don’t sync to mobile. Currently, I’m ok with that, because if I’m being honest with myself, I don’t do that kind of work on my phone when I’m out and about. A key insight of David Allen’s Getting Things Done is that we do some things best at particular times and contexts. I find a lot of people in the PKM space try to stuff everything into mobile when they really won’t get much productive output from it. It’s a classic 80/20 issue. If there is a task I do want to stew on while I’m about, I can either find it in Orgro, or copy it into my TODOs.org file as a one-off, though that case so far has yet to actually happen.</p>
+</section>
+<section id="crm" class="level4">
+<h4 class="anchored" data-anchor-id="crm">CRM</h4>
+<p>Time for contacts!</p>
+<p>Now, unlike most people who get elbow deep in emacs land, I’m not interested in bringing everything under the sun into org mode. It could <em>theoretically</em> be useful to have all my contact data in one place, but Org mode doesn’t plug well into non-emacs systems. My email client is GMail. Google Contacts syncs to my phone without issue, and it’s nice to see names when people text me. I don’t really need to tinker with caldav and vcard import/export because those parts are working fine right now.</p>
+<p>What I do need from a CRM (contact relationship management system), is the following:</p>
+<ul>
+<li>A way to tell who I should reach out to and check in on (I am awful at this)</li>
+<li>A way to pull together notes on a specific person into one place from multiple meetings</li>
+<li>A way to view contact notes before talking to someone, with or without my laptop</li>
+</ul>
+<p>There is a contact management thing for org called <code>org-contacts</code>, but more than being under-documented, it doesn’t seem to help with my core user journeys above. I don’t really care (for now) about storing contact info in different ways. I don’t need it to play nice with mu4e or other emacs email clients. However, the idea of all the contacts in a single file does make sense to me in the vain of being as simple as possible.</p>
+<p>So, my current flow looks like this:</p>
+<ul>
+<li>Create a new entry in the contacts file from a template</li>
+<li>Refile them to a Tier in the Contacts.org file (some people should be contacted every 3 weeks, some every year, some in between)</li>
+<li>Reschedule the recurring TODO to follow up based on the Tier they’re in</li>
+<li>Watch the org agenda for when to follow up</li>
+<li>Take notes on meetings and communications as Interstitial Journal entries when they happen</li>
+<li>Refile those entries to the subheading <code>Timeline</code> in the contact and update the follow up TODO</li>
+</ul>
+<p>A lot of those edges are a bit manual and could go wrong, but for the contacts I care most about right now it’s working well enough.</p>
+<!--list-separator-->
+<ul>
+<li><p>Possible Enhancements</p>
+<ul>
+<li>Have the recurring timestamps be derived from the Tier the contacts are in, rather than setting them up manually
+<ul>
+<li>I go back and forth on this, as it’s also useful to set the follow up to a shorter period of time if needed. So I’ll leave it as is for now.</li>
+</ul></li>
+<li>Have the last touch timestamp update when I refile a note to its Timeline
+<ul>
+<li>The last touched timestamp is a holdover from Obsidian</li>
+<li>I haven’t written a report to see when I last talked to all my contacts, but when I do I’ll judge if this approach is better or if I can find the most recent inactive timestamp under a contact easily enough</li>
+</ul></li>
+<li>Have a way to surface contacts I’m meeting with next in a buffer of some kind
+<ul>
+<li>This involves bringing more scheduling info into Org, which I’m not inclined to do since Google Calendar is good enough for now</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="recipes" class="level4">
+<h4 class="anchored" data-anchor-id="recipes">Recipes</h4>
+<p>One of the things I’m working on in my life right now is cooking. I’m trying to get good at it both for fun and for feeding my family. The big key seems to be iteration, and iteration is best done with notes!</p>
+<p>I broke out recipes into its own file from the start, because I sensed it would be big and unwieldy from the start. The Top level headings are:</p>
+<ul>
+<li>Ideas to Try</li>
+<li>Breakfast</li>
+<li>Snacks</li>
+<li>Prep Staples</li>
+<li>Main Dishes</li>
+<li>Side Dishes</li>
+<li>Desserts</li>
+</ul>
+<p>Each Recipe is a heading in one of those groups with notes on the background and research, my own shorthand for the recipe, and a section for Experiments which are all preceded by a timestamp. Experiments all have sections for Notable changes, Results, and Things to Try Next Time.</p>
+</section>
+<section id="style-inspiration-and-thoughts" class="level4">
+<h4 class="anchored" data-anchor-id="style-inspiration-and-thoughts">Style Inspiration and Thoughts</h4>
+</section>
+<section id="stoicism" class="level4">
+<h4 class="anchored" data-anchor-id="stoicism">Stoicism</h4>
+<p>This is possibly the most undefined use case thus far.</p>
+</section>
+</section>
+</section>
+<section id="code-breakdown" class="level2">
+<h2 class="anchored" data-anchor-id="code-breakdown">CODE Breakdown</h2>
+<p>While I think the use case by use case breakdown is a better framing and more informative than purely looking at the CODE framework, I thought I would run through it here should there be any interest from the BASB community.</p>
+<section id="capture" class="level3">
+<h3 class="anchored" data-anchor-id="capture">Capture</h3>
+<p>Breaking down capture by type of information source:</p>
+<ul>
+<li>Books
+<ul>
+<li>Read on Kindle if possible and capture via Readwise</li>
+</ul></li>
+<li>Articles
+<ul>
+<li>Read through Readwise Reader and capture there</li>
+</ul></li>
+<li>Twitter/Mastodon
+<ul>
+<li>Usually capture a link on mobile via <code>Share with...</code> to Orgzly</li>
+<li>Refile and take notes as needed after Evening Journal</li>
+</ul></li>
+<li>YouTube Videos
+<ul>
+<li>I’ll generally take notes directly in emacs in an Interstitial Journal entry</li>
+<li>Then I’ll refile it where it should go</li>
+</ul></li>
+<li>Podcasts
+<ul>
+<li>Snipd is my podcast player, which allows for clipping</li>
+<li>I DO NOT use the Readwise export, because I find it too noisy</li>
+<li>Instead when I’m done with an episode, I’ll share the notes via Orgzly and think through those notes later in BASB</li>
+</ul></li>
+<li>Meeting Notes
+<ul>
+<li>Capture in an Interstitial Journal</li>
+<li>If part of a work meeting, refile to the right section there</li>
+<li>If part of a 1:1 personal contact meeting, refile to their Timeline section</li>
+</ul></li>
+<li>My Own Thoughts
+<ul>
+<li>Interstitial Journal or Orgzly entry, depending on if I’m out or at my desktop</li>
+<li>Refile as needed</li>
+</ul></li>
+</ul>
+</section>
+<section id="organize" class="level3">
+<h3 class="anchored" data-anchor-id="organize">Organize</h3>
+<p>This is mostly covered elsewhere, but I try to stick to one PARA file if possible, and bud off pieces that should be separated for programmatic reasons, or if I know they’ll be really hairy sections (work, Recipes, etc.).</p>
+<p>I do want to add that org-roam is amazing for being ID based, which allows for <em>incremental change</em> when using it. Other similar tools require going a bit more all in on their preferred file structure. I like that org-roam doesn’t.</p>
+</section>
+<section id="distill" class="level3">
+<h3 class="anchored" data-anchor-id="distill">Distill</h3>
+<p>I tend to blend some beliefs from Zettelkasten into this step, rather than adopt Tiago Forte’s approach wholesale.</p>
+<p>I don’t think highlighting is especially valuable as a practice, even when I was using Evernote. Even in an iterative fashion, I just found it didn’t resonate with me.</p>
+<p>That said, I <em>do</em> think that rephrasing in your own words is <strong>super</strong> valuable. The whole idea of fleeting notes &gt; literature notes &gt; permanent notes is leveraging the power of your own interpretation to make the information more yours. I don’t see a reason to put that step off like Tiago does.</p>
+<p>I’ll often use a <code>&lt;&lt;</code> to denote personal thoughts as opposed to a good-faith transcription of ideas when I’m taking notes. I might want to tinker with a personal summary at the top at some point… but in either case I wholly embrace getting to the part where I rephrase things, rather than waiting for multiple passes at the material.</p>
+</section>
+<section id="express" class="level3">
+<h3 class="anchored" data-anchor-id="express">Express</h3>
+<p>This is a tough area for me, but I’m working on a few avenues for it.</p>
+<p>First, there’s this blog! It took a while to get around to setting up ox-hugo, but now that I have I’m very happy with the outcome. I’m hoping more personal blog posts will be on the way.</p>
+<p>Second, part of my Stoic practice is to read r/Stoicism and respond to someone who’s asking a question every morning. I actually use the reddit app to scan the posts, but then I’ll use redigg to pull in the actual text and write a response in org mode. Then I’ll convert via blackfriday and paste it back to reddit. I’m hoping to add these posts to my own blog at some point, since I don’t like how siloed they are in reddit. The recent API fiasco might break this flow soon.</p>
+<p>Third, I’m working on a few work projects that involve research and expression. I won’t go into them much here, except to say I’m using all the techniques I’ve mentioned so far to try and build a better public understanding of Dynamic Observability.</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
