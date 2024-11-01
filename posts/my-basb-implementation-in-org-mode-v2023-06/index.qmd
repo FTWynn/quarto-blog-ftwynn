@@ -11,6 +11,7 @@ slug: "my-basb-implementation-in-org-mode-v2023-06"
 aliases:
   - my-basb-implementation-in-org-mode-v2023-06
 toc: true
+toc-expand: true
 ---
 
 The meat and potatoes of the series! The stuff you've probably been waiting for!

@@ -1,7 +1,11 @@
 ---
 title: "Page Not Found"
+repo-url: https://github.com/quarto-dev/quarto-demo
+repo-actions: [issue]
 ---
 
-The page you requested cannot be found (perhaps it was moved or renamed). I take care to make sure redirects are in place, but if the link you came from is broken, please report an issue via the sidebar to the right.
+The page you requested cannot be found (perhaps it was moved or renamed). 
+
+I take care that redirects are in place when things move, but mistakes do happen. If the link you came from is broken, please [report an issue](https://github.com/FTWynn/quarto-blog-ftwynn/issues) on GitHub.
 
 You may also want to try searching to find the page's new location.

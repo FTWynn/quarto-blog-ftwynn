@@ -5,6 +5,8 @@ website:
   title: "For the Wynn"
   site-url: http://www.ftwynn.com
   description: "Writing About Things... For the Wynn"
+  repo-url: https://github.com/FTWynn/quarto-blog-ftwynn
+  repo-actions: [source, issue]
   navbar:
     right:
       - text: About
