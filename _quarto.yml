@@ -3,10 +3,15 @@ project:
 
 website:
   title: "For the Wynn"
-  site-url: http://www.ftwynn.com
+  site-url: https://www.ftwynn.com
   description: "Writing About Things... For the Wynn"
   repo-url: https://github.com/FTWynn/quarto-blog-ftwynn
   repo-actions: [source, issue]
+  twitter-card: 
+    creator: "@ftwynn"
+    site: "@ftwynn"
+  open-graph:
+    locale: en_US
   navbar:
     right:
       - text: About

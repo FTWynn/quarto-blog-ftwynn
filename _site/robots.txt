@@ -1,1 +1,1 @@
-Sitemap: http://www.ftwynn.com/sitemap.xml
+Sitemap: https://www.ftwynn.com/sitemap.xml
