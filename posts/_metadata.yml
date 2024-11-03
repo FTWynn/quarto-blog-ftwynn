@@ -6,3 +6,7 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+# Table of Contents
+toc: true
+toc-expand: true
