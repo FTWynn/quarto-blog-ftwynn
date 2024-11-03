@@ -14,15 +14,15 @@ website:
     locale: en_US
   navbar:
     right:
+      - text: Now
+        href: /now
+      - text: Recordings
+        href: /#category=Recordings
+      - text: All Posts
+        href: /
       - text: About
         href: /me
         aria-label: "About Me"
-      - text: Now
-        href: /now
-      - text: Blog
-        href: /
-      - text: Recordings
-        href: /#category=Recordings
       - icon: rss
         href: index.xml
 format:
