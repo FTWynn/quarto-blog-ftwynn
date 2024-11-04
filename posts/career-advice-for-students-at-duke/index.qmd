@@ -3,7 +3,7 @@ slug: "career-advice-for-students-at-duke"
 aliases: 
 - /career-advice-for-students-at-duke
 date: 2020-12-30T18:46:24Z
-date-modified: 2023-06-02
+date-modified: 2024-11-04
 title: "Career Advice for Students at Duke"
 ---
 
@@ -21,7 +21,7 @@ This advice is particularly targeted at Duke students, but hopefully there is en
 
 ### Your Major Is NOT Your Destiny... in Most Jobs it Honestly Doesn't Matter
 
-A lot of students I talk to believe that their major dictates which job they can get. Or at least, it influences the choice to such a large degree that the major *essentially* dictates it. In my experience, this is nonsense.
+A lot of students I talk to believe that their major dictates which job they can get. Or at least, it influences the choice to such a large degree that the major *essentially* dictates it (a sneaky mental trap designed to make your brain stop thinking about real alternatives). In my experience, this is nonsense.
 
 Of course, there are a handful of fields where your major does matter. Medicine, some flavors of hardcore engineering, etc... but this is *far more* the exception than the rule.
 
@@ -121,6 +121,8 @@ That led to a Professional Services role at a tech startup called Intapp. Recrui
 
 After a while, I requested to move to bigger accounts. After being declined, I asked around and heard that I essentially needed to have another job offer in hand to get that. I threw in a few resumes at Google on a whim and started shotgunning resumes again. Google Cloud (which was just starting up) invited me for an interview which led to a job. I worked there as a Sales Engineer, Sales Engineer Manager, and Head of Solutions Consulting until the big layoffs of 2023. 
 
-Then I joined up with some former colleagues from SumoLogic at another startup called EdgeDelta. My title is Principal Sales Engineer, but knowing a lot of the leadership team, I wear a bunch more hats than that. As of this writing I'm just getting started, but I'm genuinely looking forward to what needs to be done there.
+Then I joined up with some former colleagues from SumoLogic at another startup called EdgeDelta. My title was Principal Sales Engineer, but knowing a lot of the leadership team, I wore a bunch more hats than that. 
+
+I've currently stubbornly not learned my startup lesson and I'm headed to Antithesis, where I'll be tackling a full Sales Rep role for the first time. It's the only company where I sent them enough emails that they finally relented and hired me, so hopefully that's a good sign.
 
 If I don't update this for a while, check my LinkedIn to see what happened next. Otherwise I'll update this when I can.
