@@ -230,6 +230,11 @@ h6 {
     color: $modus-red-faint;
 }
 
+// Not digging the green on the category listing
+.quarto-listing-category-title {
+    color: $modus-yellow-faint;
+}
+
 /*
 a {
     color: var(--modus-blue-faint);
