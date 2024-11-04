@@ -14,12 +14,12 @@ website:
     locale: en_US
   navbar:
     right:
-      - text: Now
-        href: /now
-      - text: Recordings
-        href: /#category=Recordings
       - text: All Posts
         href: /
+      - text: Recordings
+        href: /#category=Recordings
+      - text: Now
+        href: /now
       - text: About
         href: /me
         aria-label: "About Me"
