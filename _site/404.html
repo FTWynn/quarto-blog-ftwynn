@@ -69,9 +69,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="/styles.css">
+<meta property="og:title" content="For the Wynn - Page Not Found">
+<meta property="og:description" content="Writing About Things… For the Wynn">
+<meta property="og:site_name" content="For the Wynn">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="For the Wynn - Page Not Found">
+<meta name="twitter:description" content="Writing About Things… For the Wynn">
+<meta name="twitter:creator" content="@ftwynn">
+<meta name="twitter:site" content="@ftwynn">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -89,20 +98,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="/me"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="/"> 
+<span class="menu-text">All Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/#category=Recordings"> 
+<span class="menu-text">Recordings</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="/now"> 
 <span class="menu-text">Now</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="/"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="/#category=Recordings"> 
-<span class="menu-text">Recordings</span></a>
+    <a class="nav-link" href="/me"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="/index.xml"> <i class="bi bi-rss" role="img">
@@ -120,7 +129,9 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -231,7 +242,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("http:\/\/www\.ftwynn\.com");
+      var filterRegex = new RegExp("https:\/\/www\.ftwynn\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

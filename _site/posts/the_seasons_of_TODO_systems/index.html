@@ -70,9 +70,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="For the Wynn - The Seasons of TODO Systems">
+<meta property="og:description" content="Writing About Things… For the Wynn">
+<meta property="og:site_name" content="For the Wynn">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:title" content="For the Wynn - The Seasons of TODO Systems">
+<meta name="twitter:description" content="Writing About Things… For the Wynn">
+<meta name="twitter:creator" content="@ftwynn">
+<meta name="twitter:site" content="@ftwynn">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -90,20 +99,20 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../me"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../"> 
+<span class="menu-text">All Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../#category=Recordings"> 
+<span class="menu-text">Recordings</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../now"> 
 <span class="menu-text">Now</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../#category=Recordings"> 
-<span class="menu-text">Recordings</span></a>
+    <a class="nav-link" href="../../me"> 
+<span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
@@ -146,7 +155,9 @@ ul.task-list li input[type="checkbox"] {
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -154,7 +165,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>It’s funny how some TODO systems are better suited for certain times and situations than others.</p>
+<p><img src="todo.png" alt="A TODO document" style="float: left; width: 10em; margin-right: 1em; margin-bottom: 1.5em;"> It’s funny how some TODO systems are better suited for certain times and situations than others.</p>
 <p>Once upon a time I had a TODO system in Todoist with recurring tasks, reminders, views that only showed the shortly upcoming important tasks… a very programmed system. I’d moved away from it because it began to feel stifling, settling on something that was more akin to software development with a backlog and flexible prioritizing based on regular reviews. Foolishly, I thought I’d <em>evolved</em> the system to something strictly better for me personally.</p>
 <p>But… then that system fell down. My life has been especially hectic lately with kids, holidays, and (I hope) an unusually high amount of illness and hospital visits. On a hunch, I reverted back to my more programmed Todoist approach (which was still there and humming, just a touch neglected), and I found it wonderful to have a system I didn’t need to think about, nagging me about doing basic things each day.</p>
 <p>So it has me thinking… maybe TODO systems come in seasons rather than a pure measure of fit to a person. Sometimes you need a more nagging system telling you what to do. Other times you might need to optimize flexibility or ease of idea capture. No system is wrong, just better suited to the situation <em>and timing</em> at hand.</p>
@@ -245,7 +256,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("http:\/\/www\.ftwynn\.com");
+      var filterRegex = new RegExp("https:\/\/www\.ftwynn\.com");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

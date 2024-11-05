@@ -38,6 +38,7 @@
   <category>Recordings</category>
   <guid>https://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/</guid>
   <pubDate>Thu, 14 Mar 2024 00:00:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/posts/TestGuild-DevOps-Toolchain-Podcast-2024-03/testguild-logo.png" medium="image" type="image/png" height="107" width="90"/>
 </item>
 <item>
   <title>Cisco DevNet 2023-10</title>
@@ -62,6 +63,7 @@
   <category>Recordings</category>
   <guid>https://www.ftwynn.com/posts/Cisco-DevNet-2023-10/</guid>
   <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/posts/Cisco-DevNet-2023-10/cisco-logo.png" medium="image" type="image/png" height="77" width="144"/>
 </item>
 <item>
   <title>The Evolution of Observability Practices 2023 10</title>
@@ -87,6 +89,7 @@
   <category>Recordings</category>
   <guid>https://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/</guid>
   <pubDate>Wed, 11 Oct 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/posts/The-Evolution-of-Observability-Practices-2023-10/otel-logo.png" medium="image" type="image/png" height="92" width="144"/>
 </item>
 <item>
   <title>Things Left Unimplemented… and I’m Unsure if I Ever Will</title>
@@ -122,6 +125,7 @@
   <category>Building My BASB in Emacs</category>
   <guid>https://www.ftwynn.com/posts/things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will/</guid>
   <pubDate>Fri, 16 Jun 2023 17:50:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/org-mode-unicorn.png" medium="image" type="image/png" height="159" width="144"/>
 </item>
 <item>
   <title>My BASB Implementation in Org Mode v2023-06</title>
@@ -423,6 +427,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Building My BASB in Emacs</category>
   <guid>https://www.ftwynn.com/posts/my-basb-implementation-in-org-mode-v2023-06/</guid>
   <pubDate>Fri, 16 Jun 2023 17:45:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/org-mode-unicorn.png" medium="image" type="image/png" height="159" width="144"/>
 </item>
 <item>
   <title>What Makes Org Mode Hard for PKM</title>
@@ -469,6 +474,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Building My BASB in Emacs</category>
   <guid>https://www.ftwynn.com/posts/what-makes-org-mode-hard-for-pkm/</guid>
   <pubDate>Fri, 16 Jun 2023 17:40:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/org-mode-unicorn.png" medium="image" type="image/png" height="159" width="144"/>
 </item>
 <item>
   <title>Should You Choose Org Mode?</title>
@@ -533,6 +539,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Building My BASB in Emacs</category>
   <guid>https://www.ftwynn.com/posts/should-you-choose-org-mode/</guid>
   <pubDate>Fri, 16 Jun 2023 17:35:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/org-mode-unicorn.png" medium="image" type="image/png" height="159" width="144"/>
 </item>
 <item>
   <title>My Path to Org Mode</title>
@@ -595,6 +602,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Building My BASB in Emacs</category>
   <guid>https://www.ftwynn.com/posts/my-path-to-org-mode/</guid>
   <pubDate>Fri, 16 Jun 2023 17:30:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/org-mode-unicorn.png" medium="image" type="image/png" height="159" width="144"/>
 </item>
 <item>
   <title>You Are Not Your Lowest Point</title>
@@ -616,6 +624,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Philosophy</category>
   <guid>https://www.ftwynn.com/posts/you-are-not-your-lowest-point/</guid>
   <pubDate>Wed, 08 Mar 2023 14:16:51 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/marcus-bust.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Abstinence is Not the Only Form of Self-Control</title>
@@ -640,6 +649,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Philosophy</category>
   <guid>https://www.ftwynn.com/posts/abstinence-is-not-the-only-form-of-self-control/</guid>
   <pubDate>Mon, 06 Mar 2023 19:09:54 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/marcus-bust.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>How My Stoic Practice Paid Off</title>
@@ -696,6 +706,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Philosophy</category>
   <guid>https://www.ftwynn.com/posts/how-my-stoic-practice-paid-off/</guid>
   <pubDate>Sat, 04 Mar 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/marcus-bust.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Challenges Showing Text From a Simple JS Function in Logseq</title>
@@ -761,6 +772,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Personal Knowledge Management</category>
   <guid>https://www.ftwynn.com/posts/challenges-showing-text-from-a-simple-js-function-in-logseq/</guid>
   <pubDate>Fri, 03 Mar 2023 18:52:04 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/logseq-logo.png" medium="image" type="image/png" height="144" width="144"/>
 </item>
 <item>
   <title>VSCode as an MD Editor</title>
@@ -845,6 +857,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Technology</category>
   <guid>https://www.ftwynn.com/posts/vscode-as-md-editor/</guid>
   <pubDate>Thu, 02 Mar 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/images/commonmark-logo.png" medium="image" type="image/png" height="72" width="144"/>
 </item>
 <item>
   <title>The Unofficial Partner Podcast - Episode 288</title>
@@ -874,6 +887,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Recordings</category>
   <guid>https://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/</guid>
   <pubDate>Mon, 16 Jan 2023 00:00:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/posts/The-Unofficial-Partner-Podcast---Episode-288/up-logo.webp" medium="image" type="image/webp"/>
 </item>
 <item>
   <title>The Seasons of TODO Systems</title>
@@ -884,7 +898,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
 
 
 
-<p>It’s funny how some TODO systems are better suited for certain times and situations than others.</p>
+<p><img src="https://www.ftwynn.com/posts/the_seasons_of_TODO_systems/todo.png" alt="A TODO document" style="float: left; width: 10em; margin-right: 1em; margin-bottom: 1.5em;"> It’s funny how some TODO systems are better suited for certain times and situations than others.</p>
 <p>Once upon a time I had a TODO system in Todoist with recurring tasks, reminders, views that only showed the shortly upcoming important tasks… a very programmed system. I’d moved away from it because it began to feel stifling, settling on something that was more akin to software development with a backlog and flexible prioritizing based on regular reviews. Foolishly, I thought I’d <em>evolved</em> the system to something strictly better for me personally.</p>
 <p>But… then that system fell down. My life has been especially hectic lately with kids, holidays, and (I hope) an unusually high amount of illness and hospital visits. On a hunch, I reverted back to my more programmed Todoist approach (which was still there and humming, just a touch neglected), and I found it wonderful to have a system I didn’t need to think about, nagging me about doing basic things each day.</p>
 <p>So it has me thinking… maybe TODO systems come in seasons rather than a pure measure of fit to a person. Sometimes you need a more nagging system telling you what to do. Other times you might need to optimize flexibility or ease of idea capture. No system is wrong, just better suited to the situation <em>and timing</em> at hand.</p>
@@ -1026,6 +1040,7 @@ font-style: inherit;">t</span>)</span></code></pre></div>
   <category>Recordings</category>
   <guid>https://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/</guid>
   <pubDate>Wed, 14 Dec 2022 00:00:00 GMT</pubDate>
+  <media:content url="https://www.ftwynn.com/posts/Build-inclusive-online-communities-at-scale-with-advanced-language-AI-2022-12/venturebeat-logo_w.png" medium="image" type="image/png" height="108" width="144"/>
 </item>
 <item>
   <title>First Thoughts on Pokemon Unite</title>
