@@ -8,7 +8,7 @@ summary: "A brief summary of David Wynn and what he's capable of discussing."
 
 ## Promise
 
-<img src="David-Wynn_standing.jpg" alt="David Wynn headshot" style="float: left; width: 9em; margin-right: 3em; margin-bottom: 2em;" />
+<img src="David-Wynn_standing.jpg" alt="David Wynn headshot" style="float: left; width: 9em; margin-right: 1.5em; margin-bottom: 1em;" />
 
 I will make a mark on your audience through a combination of wit and wisdom, so that they come away **knowing** that the experience was worthwhile.
 
@@ -18,7 +18,7 @@ From conveying a complex topic clearly, to cutting through the noise to the one 
 
 ## Proof
 
-[//]: # (### Quotes Section)
+[///]: # (### Quotes Section)
 
 ### Work Experience
 
