@@ -1,16 +1,16 @@
 ---
-title: "Recent Posts"
+title: "Everything FTWynn... All at Once"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: grid
+  fields: [date, title, categories, description]
   categories: true
   sort-ui: false
-  filter-ui: false
+  filter-ui: true
   feed: true
 page-layout: full
 title-block-banner: false
 
 ---
-
 
