@@ -7,6 +7,7 @@ categories:
   - Recordings
 description: ""
 summary: "A quick chat with Mel Delgado from Cisco DevNet about optimizing data with Observability Pipelines"
+image: "cisco-logo.png"
 ---
 
 {{< video https://www.youtube.com/embed/XzcpxOOqXfU>}}

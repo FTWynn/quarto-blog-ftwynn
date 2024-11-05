@@ -11,6 +11,7 @@ series: ["Building My BASB in Emacs - 2023 Capstone Report"]
 slug: "what-makes-org-mode-hard-for-pkm"
 aliases: 
   - what-makes-org-mode-hard-for-pkm
+image: "/images/org-mode-unicorn.png"
 ---
 
 Spoiler alert, it's NOT the parentheses.

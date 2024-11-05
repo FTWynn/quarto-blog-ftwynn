@@ -8,6 +8,7 @@ categories:
 preview: ""
 aliases: 
   - /abstinence-is-not-the-only-form-of-self-control
+image: "/images/marcus-bust.jpg"
 ---
 
 When it comes to the Stoic virtue of Self-Control, our minds often turn to its most harsh form.

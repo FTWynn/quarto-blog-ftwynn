@@ -7,7 +7,7 @@ description: ""
 draft: true
 publishDate:   
 slug: how_to_build_a_solution_in_logseq_et_al
-
+image: "/images/logseq-logo.png"
 ---
 
 > Simple is nearly always better. But if it's going to be complicated, then make sure the problem is worth the complexity. A great deal of time is wasted creating complex solutions to relatively unimportant problems.

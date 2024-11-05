@@ -11,6 +11,7 @@ series: ["Building My BASB in Emacs - 2023 Capstone Report"]
 slug: "things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will"
 aliases: 
   - things-left-unimplemented-dot-dot-dot-and-i-m-unsure-if-i-ever-will
+image: "/images/org-mode-unicorn.png"
 ---
 
 Having been around the PKM block a few times, I've gone snipe hunting once or twice in the PKM space. Here are some pitfalls I've found.

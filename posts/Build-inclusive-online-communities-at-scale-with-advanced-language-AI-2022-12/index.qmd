@@ -8,6 +8,7 @@ categories:
   - Recordings
 description: ""
 summary: "To create healthy online communities where people want to spend time, companies need better strategies for weeding out harmful posts. How do you break free of one-size-fits-all moderation techniques to stay ahead of harmful content and evolving language?"
+image: venturebeat-logo_w.png
 ---
 
 https://www.bigmarker.com/VentureBeat/Build-inclusive-online-communities-at-scale-with-advanced-language-AI

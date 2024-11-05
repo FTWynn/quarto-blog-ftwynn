@@ -10,6 +10,7 @@ draft: false
 categories_weight: 4001
 series: ["Building My BASB in Emacs - 2023 Capstone Report"]
 slug: "my-path-to-org-mode"
+image: "/images/org-mode-unicorn.png"
 ---
 
 Since this isn't my first attempt at working with a PKM tool, I thought I would kick off this series by recapping the tools I've used thus far.

@@ -6,6 +6,7 @@ date: 2020-06-01T02:10:32Z
 title: "One of the Nice Things About Stoicism"
 categories:
 - "Philosophy"
+image: "/images/marcus-bust.jpg"
 ---
 
 I've been reading more and more about stoicism lately, and one thing that I really like about it is that you can explain, as well as recall, the basics in about 30 seconds. The four virtues are easy to rattle off, and some of the key lessons boil down to just a couple of phrases (there are some things you can control, and some you can't).

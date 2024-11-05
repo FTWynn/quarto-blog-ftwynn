@@ -6,6 +6,7 @@ date: 2020-07-31T14:40:56Z
 title: "Can Humanity Change?"
 categories:
 - "Philosophy"
+image: "/images/marcus-bust.jpg"
 ---
 
 One of the teachings of Stoicism is that humanity doesn't fundamentally change. The drama and squabbles we see today are fundamentally the same drama and squabbles we see from ancient times. People were kind and people were petty. People focused on acquiring good and gaining status. People shirked those things to try and find meaning. People loved their families and hated their memories.

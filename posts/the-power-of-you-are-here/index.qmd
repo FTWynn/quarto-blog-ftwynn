@@ -6,6 +6,7 @@ date: 2020-08-06T22:16:51Z
 title: "The Power of \"You Are Here\""
 categories:
 - "Philosophy"
+image: "/images/marcus-bust.jpg"
 ---
 
 One of the things I like about Stoicism is that it encourages thinking up new, shorter, pithier phrases for key ideas. More wisdom per word is the name of the game. For example (not all from Stoic writers):

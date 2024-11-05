@@ -8,6 +8,7 @@ description: ""
 summary: ""
 aliases:
   - /how-my-stoic-practice-paid-off
+image: "/images/marcus-bust.jpg"
 ---
 
 I find that Stoicism is a great philosophy for times of crisis. 

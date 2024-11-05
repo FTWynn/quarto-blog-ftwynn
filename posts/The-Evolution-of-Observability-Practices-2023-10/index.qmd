@@ -7,6 +7,7 @@ categories:
   - Recordings
 description: ""
 summary: "Here I facilitate a discussion of the Open Telemetry working group to explore where o11y comes from and where it should go"
+image: otel-logo.png
 ---
 
 {{< video https://www.youtube.com/embed/zSeKL2-_sVg>}}

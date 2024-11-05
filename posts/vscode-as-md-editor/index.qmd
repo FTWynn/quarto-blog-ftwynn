@@ -7,6 +7,7 @@ aliases:
   - vscode-as-md-editor
 categories:
   - Technology
+image: "/images/commonmark-logo.png"
 ---
 So [Kev](https://fosstodon.org/@kev) [made a post](https://kevquirk.com/my-static-site-workflow/) about how [Typora](https://typora.io/) was the missing UI link in his static site blogging journey. 
 

@@ -9,6 +9,7 @@ categories:
     - Productivity
     - Recordings
 summary: "My DragonCon 2019 talk about applying Sales techniques to convincing people to live more skeptically"
+image: "dragon-con-logo.jpg"
 ---
 
 Recorded in Atlanta, GA on August 30th, 2019.

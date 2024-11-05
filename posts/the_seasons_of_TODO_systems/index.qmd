@@ -8,6 +8,8 @@ title: The Seasons of TODO Systems
 categories: ["Personal Knowledge Management"]
 ---
 
+
+<img src="todo.png" alt="A TODO document" style="float: left; width: 10em; margin-right: 1em; margin-bottom: 1.5em;" />
 It's funny how some TODO systems are better suited for certain times and situations than others.
 
 Once upon a time I had a TODO system in Todoist with recurring tasks, reminders, views that only showed the shortly upcoming important tasks... a very programmed system. I'd moved away from it because it began to feel stifling, settling on something that was more akin to software development with a backlog and flexible prioritizing based on regular reviews. Foolishly, I thought I'd *evolved* the system to something strictly better for me personally.

@@ -9,6 +9,7 @@ description: ""
 summary: ""
 aliases:
   - /challenges-showing-text-from-a-simple-js-function-in-logseq
+image: "/images/logseq-logo.png"
 ---
 
 There are some open source projects that are plain, simple, and describe well what they do. `curl` is the classic example (along with most Linux utilities), but [File Converter](https://file-converter.org/) is another. It does what it does, it doesn't do what it doesn't. 
