@@ -1,0 +1,61 @@
+---
+title: "Have David Wynn Speak"
+slug: "speak"
+summary: "A brief summary of David Wynn and what he's capable of discussing."
+---
+
+
+
+## Promise
+
+<img src="David-Wynn_standing.jpg" alt="David Wynn headshot" style="float: left; width: 9em; margin-right: 3em; margin-bottom: 2em;" />
+
+I will make a mark on your audience through a combination of wit and wisdom, so that they come away **knowing** that the experience was worthwhile.
+
+Whether via podcast or on stage, with slides or alone on a stool, I am equally comfortable with audiences from developers to the C-Suite.
+
+From conveying a complex topic clearly, to cutting through the noise to the one big idea, to having an interesting free-form discussion across a wide range of topics, I'm here to bring a unique take on what needs discussing.
+
+## Proof
+
+[//]: # (### Quotes Section)
+
+### Work Experience
+
+#### Companies
+
++:------:+:---------:+:------:+:----------:+:---:+
+| Google | SumoLogic | Intapp | Edge Delta | UPS |
++--------+-----------+--------+------------+-----+
+
+#### Areas
+
++:-----------------:+:-------------------:+:--------------------:+:-----------:+
+| Sales Engineering | Partner Engineering | Solution Engineering | Forecasting |
++-------------------+---------------------+----------------------+-------------+
+
+### Recordings
+
+[All Recordings](/#category=Recordings)
+
+## Plan
+
+1. Send a 1 page summary of the audience, goals, ideas, and any examples to similar works for background to my gmail at DavidBWynn
+2. I'll acknowledge response within 1 business day
+3. I'll give a more formal decision within 3 business days, where we'll set up a time to discuss specifics
+
+## Other Resources
+
+### Headshots
+
+[//]: # (TODO: Convert to Gallery)
+
+:::{.column-body-outset .center}
+<a href="David-Wynn_standing.jpg"><img src="David-Wynn_standing.jpg" alt="David Wynn headshot" style="float: left; width: 10em; margin-right: 1em; margin-bottom: 1.5em;" /></a>
+<a href="David-Wynn_three-quarter.jpg"><img src="David-Wynn_three-quarter.jpg" alt="David Wynn headshot" style="float: left; width: 10em; margin-right: 1.5em; margin-bottom: 1em;" /></a>
+<a href="David-Wynn_sit-smile.jpg"><img src="David-Wynn_sit-smile.jpg" alt="David Wynn headshot" style="float: left; width: 10em; margin-right: 1.5em; margin-bottom: 1em;" /></a>
+<a href="David-Wynn_desk-1.jpg"><img src="David-Wynn_desk-1.jpg" alt="David Wynn headshot" style="float: left; width: 10em; margin-bottom: 1em;" /></a>
+
+:::
+
+[David Wynn - All Headshots.zip](2024-11-05_David-Wynn_All-Headshots.zip)
