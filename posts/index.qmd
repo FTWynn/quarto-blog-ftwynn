@@ -1,0 +1,15 @@
+---
+title: "All Posts"
+listing:
+  sort: "date desc"
+  type: grid
+  fields: [date, title, categories, image]
+  categories: true
+  sort-ui: false
+  filter-ui: true
+  feed: true
+page-layout: full
+title-block-banner: false
+
+---
+
