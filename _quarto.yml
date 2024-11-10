@@ -15,7 +15,7 @@ website:
   navbar:
     right:
       - text: All Posts
-        href: /
+        href: /posts
       - text: Recordings
         href: /#category=Recordings
       - text: Now
